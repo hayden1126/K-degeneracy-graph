@@ -119,11 +119,11 @@ function degenerate(degrees::Vector{Vector{Int32}}, wglinks::Dict{Int32, Vector{
     end
     # println(remove, keep)
 
-    # Checking if remove links' degrees
-    tmpcount = count(x->x[2] < 0, sorteddegrees)
-    if tmpcount < 0
-        println("Error: Number of degree < 0 nodes: $tmpcount")
-    end
+    # # Checking for errors of remove links' degrees
+    # tmpcount = count(x->x[2] < 0, sorteddegrees)
+    # if tmpcount < 0
+    #     println("Error: Number of degree < 0 nodes: $tmpcount")
+    # end
     return remove
 end
 
@@ -165,8 +165,8 @@ function write_edges(wglinks::Dict{Int32, Vector{Int32}}, outputfile::String)
     end
 end
 
+# Iterates entire process once
 function oneiteration(edgesfile::String, outputfile::String)::Bool
-
     (degrees, wglinks) = @time fetch_links(edgesfile)
     (inboundlinks, noOutboundlinks, noOutboundcount) = @time get_inboundlinks(wglinks)
     ogcount = length(wglinks)

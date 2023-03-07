@@ -1,7 +1,7 @@
 using ProgressBars
 
 # Gets array of degrees and dictionary of links
-function fetch_links(edgesfile::String)::Tuple{Vector{Vector{Int32}}, Dict{Int32, Vector{Int32}}}
+function get_links(edgesfile::String)::Tuple{Vector{Vector{Int32}}, Dict{Int32, Vector{Int32}}}
     println("\nFetching links and degrees...")
 
     degrees = Vector{Vector{Int32}}()
@@ -197,7 +197,7 @@ function oneiteration!(degrees::Vector{Vector{Int32}}, wglinks::Dict{Int32, Vect
 end 
 
 function main()
-    (degrees, wglinks) = @time fetch_links(EDGESFILE)
+    (degrees, wglinks) = @time get_links(EDGESFILE)
     
     iterations = 1
     println("\n\nIteration: $iterations")

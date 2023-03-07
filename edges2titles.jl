@@ -70,7 +70,7 @@ function main()
     write_titles(OUTPUTFILE, primes, titles)
 end
 
-if length(ARGS) != 3
+if length(ARGS) != 3 || !isfile(ARGS[1]) || !isfile(ARGS[2])
     println("Usage: julia edges2titles.jl <edgesfile> <titlesfile> <outputfile>")
     exit(1)
 end

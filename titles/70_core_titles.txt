@@ -1,7502 +1,3751 @@
 67532	1492
-
 69729	1503
-
 70219	1515
-
 70323	1519
-
 70515	1521
-
 70670	1526
-
 70700	1527
-
 70928	1530
-
 70993	1532
-
 71019	1533
-
 71048	1534
-
 71105	1536
-
 71164	1538
-
 71359	1540
-
 71429	1542
-
 71454	1543
-
 71506	1545
-
 71534	1546
-
 71566	1547
-
 71613	1549
-
 71759	1550
-
 71834	1552
-
 71869	1553
-
 71892	1554
-
 71916	1555
-
 71948	1556
-
 71980	1557
-
 72006	1558
-
 72030	1559
-
 72243	1560
-
 72277	1561
-
 72304	1562
-
 72336	1563
-
 72365	1564
-
 72389	1565
-
 72419	1566
-
 72443	1567
-
 72473	1568
-
 72496	1569
-
 72615	1570
-
 72656	1571
-
 72684	1572
-
 72716	1573
-
 72750	1574
-
 72782	1575
-
 72814	1576
-
 72850	1577
-
 72873	1578
-
 72898	1579
-
 73025	1580
-
 73068	1581
-
 73097	1582
-
 73125	1583
-
 73152	1584
-
 73181	1585
-
 73217	1586
-
 73251	1587
-
 73283	1588
-
 73309	1589
-
 73429	1590
-
 73484	1591
-
 73519	1592
-
 73560	1593
-
 73588	1594
-
 73617	1595
-
 73644	1596
-
 73680	1597
-
 73711	1598
-
 73739	1599
-
 75668	1600
-
 75778	1601
-
 75823	1602
-
 75863	1603
-
 75892	1604
-
 75922	1605
-
 75962	1606
-
 75988	1607
-
 76021	1608
-
 76049	1609
-
 76194	1610
-
 76241	1611
-
 76277	1612
-
 76318	1613
-
 76348	1614
-
 76374	1615
-
 76410	1616
-
 76443	1617
-
 76470	1618
-
 76497	1619
-
 76668	1620
-
 76719	1621
-
 76759	1622
-
 76790	1623
-
 76824	1624
-
 76857	1625
-
 76892	1626
-
 76928	1627
-
 76956	1628
-
 76982	1629
-
 77112	1630
-
 77147	1631
-
 77172	1632
-
 77213	1633
-
 77243	1634
-
 77274	1635
-
 77313	1636
-
 77367	1637
-
 77398	1638
-
 77432	1639
-
 77571	1640
-
 77618	1641
-
 77651	1642
-
 77686	1643
-
 77714	1644
-
 77748	1645
-
 77788	1646
-
 77814	1647
-
 77842	1648
-
 77868	1649
-
 77967	1650
-
 78017	1651
-
 78050	1652
-
 78079	1653
-
 78110	1654
-
 78138	1655
-
 78178	1656
-
 78207	1657
-
 78233	1658
-
 78262	1659
-
 78378	1660
-
 78434	1661
-
 78462	1662
-
 78493	1663
-
 78521	1664
-
 78550	1665
-
 78580	1666
-
 78615	1667
-
 78655	1668
-
 78686	1669
-
 78804	1670
-
 78850	1671
-
 78881	1672
-
 78911	1673
-
 78940	1674
-
 78974	1675
-
 79006	1676
-
 79036	1677
-
 79070	1678
-
 79099	1679
-
 79212	1680
-
 79266	1681
-
 79299	1682
-
 79330	1683
-
 79360	1684
-
 79388	1685
-
 79418	1686
-
 79453	1687
-
 79484	1688
-
 79523	1689
-
 79676	1690
-
 79722	1691
-
 79753	1692
-
 79785	1693
-
 79820	1694
-
 79852	1695
-
 79890	1696
-
 79922	1697
-
 79955	1698
-
 79985	1699
-
 81446	16th_century
-
 81972	1700
-
 82063	1701
-
 82106	1702
-
 82146	1703
-
 82191	1704
-
 82233	1705
-
 82269	1706
-
 82304	1707
-
 82358	1708
-
 82398	1709
-
 82527	1710
-
 82578	1711
-
 82617	1712
-
 82649	1713
-
 82682	1714
-
 82714	1715
-
 82759	1716
-
 82791	1717
-
 82834	1718
-
 82867	1719
-
 82982	1720
-
 83028	1721
-
 83069	1722
-
 83108	1723
-
 83142	1724
-
 83185	1725
-
 83224	1726
-
 83261	1727
-
 83298	1728
-
 83335	1729
-
 83458	1730
-
 83506	1731
-
 83538	1732
-
 83570	1733
-
 83605	1734
-
 83639	1735
-
 83677	1736
-
 83709	1737
-
 83744	1738
-
 83889	1740
-
 83939	1741
-
 83983	1742
-
 84021	1743
-
 84062	1744
-
 84095	1745
-
 84153	1746
-
 84191	1747
-
 84229	1748
-
 84266	1749
-
 84396	1750
-
 84455	1751
-
 84499	1752
-
 84536	1753
-
 84567	1754
-
 84617	1755
-
 84669	1756
-
 84708	1757
-
 84752	1758
-
 84789	1759
-
 84921	1760
-
 84977	1761
-
 85024	1762
-
 85059	1763
-
 85099	1764
-
 85136	1765
-
 85176	1766
-
 85214	1767
-
 85252	1768
-
 85291	1769
-
 85410	1770
-
 85476	1771
-
 85516	1772
-
 85553	1773
-
 85590	1774
-
 85638	1775
-
 85689	1776
-
 85762	1777
-
 85811	1778
-
 85857	1779
-
 85968	1780
-
 86041	1781
-
 86095	1782
-
 86160	1783
-
 86222	1784
-
 86270	1785
-
 86320	1786
-
 86366	1787
-
 86417	1788
-
 86552	1789
-
 86716	1790
-
 86845	1791
-
 86919	1792
-
 87050	1793
-
 87132	1794
-
 87233	1795
-
 87313	1796
-
 87451	1797
-
 87536	1798
-
 87660	1799
-
 89040	17th_century
-
 89053	17th_century_in_Wales
-
 89696	1800
-
 90819	1809
-
 91059	1810
-
 91211	1811
-
 91308	1812
-
 91491	1813
-
 91593	1814
-
 91720	1815
-
 91836	1816
-
 92009	1817
-
 92102	1818
-
 92234	1819
-
 92434	1820
-
 92630	1820s
-
 93325	1826
-
 93440	1826_in_literature
-
 93950	1830
-
 94112	1830s
-
 94139	1831
-
 94264	1832
-
 94451	1833
-
 94586	1834
-
 94735	1835
-
 94885	1836
-
 95086	1837
-
 95234	1838
-
 95384	1839
-
 95609	1840
-
 95851	1840s
-
 95876	1841
-
 96013	1842
-
 96148	1843
-
 96283	1844
-
 96521	1845
-
 96647	1846
-
 96807	1847
-
 96958	1848
-
 97259	1849
-
 97478	1850
-
 97649	1851
-
 97815	1852
-
 98072	1853
-
 98205	1854
-
 98367	1855
-
 98524	1856
-
 98800	1857
-
 98996	1858
-
 99163	1859
-
 99311	1859_in_music
-
 99435	1860
-
 99759	1861
-
 99937	1862
-
 100138	1863
-
 100337	1864
-
 100600	1865
-
 100752	1865_in_Australia
-
 100807	1866
-
 101035	1867
-
 101253	1868
-
 101593	1869
-
 101882	1870
-
 102214	1871
-
 102463	1872
-
 102891	1873
-
 103192	1874
-
 103556	1875
-
 103841	1876
-
 104303	1877
-
 104607	1878
-
 104994	1879
-
 105410	1880
-
 105887	1880_in_the_United_States
-
 105942	1881
-
 106337	1882
-
 106781	1883
-
 107175	1884
-
 107795	1885
-
 108258	1886
-
 108845	1887
-
 109336	1888
-
 110157	1889
-
 110879	1890
-
 111671	1891
-
 112418	1892
-
 113460	1893
-
 114225	1893_in_Germany
-
 114381	1894
-
 115377	1895
-
 116203	1895_in_literature
-
 116205	1895_in_music
-
 116363	1896
-
 117522	1897
-
 118381	1897_in_music
-
 118525	1898
-
 119636	1899
-
 120516	1899_in_Germany
-
 120552	1899_in_music
-
 122085	18th_century
-
 122335	1900
-
 123477	1900_in_literature
-
 123481	1900_in_music
-
 123710	1901
-
 124716	1901_in_music
-
 124887	1902
-
 125948	1902_in_music
-
 126125	1903
-
 127151	1903_in_music
-
 127333	1904
-
 128469	1904_in_Germany
-
 128508	1904_in_music
-
 128695	1905
-
 129779	1905_in_music
-
 130002	1906
-
 131157	1906_in_music
-
 131380	1907
-
 132467	1907_in_music
-
 132688	1908
-
 134040	1908_in_literature
-
 134044	1908_in_music
-
 134276	1909
-
 135732	1910
-
 137210	1911
-
 138384	1911_in_Australia
-
 138444	1911_in_music
-
 138685	1912
-
 140036	1912_in_literature
-
 140040	1912_in_music
-
 140277	1913
-
 141498	1913_in_music
-
 141727	1914
-
 142975	1914_in_Germany
-
 143015	1914_in_literature
-
 143019	1914_in_music
-
 143260	1915
-
 144333	1915_in_literature
-
 144337	1915_in_music
-
 144357	1915_in_the_United_States
-
 144526	1916
-
 145830	1916_in_literature
-
 145834	1916_in_music
-
 146027	1917
-
 147098	1917_in_music
-
 147303	1918
-
 148497	1918_in_music
-
 148516	1918_in_the_United_States
-
 148709	1919
-
 150038	1919_in_literature
-
 150042	1919_in_music
-
 150391	1920
-
 152083	1920_in_Australia
-
 152144	1920_in_literature
-
 152148	1920_in_music
-
 152496	1921
-
 154034	1921_in_music
-
 154351	1922
-
 156044	1922_in_literature
-
 156048	1922_in_music
-
 156363	1923
-
 157865	1923_in_literature
-
 157869	1923_in_music
-
 158151	1924
-
 159893	1924_in_music
-
 159917	1924_in_the_United_States
-
 160180	1925
-
 161770	1925_in_literature
-
 161774	1925_in_music
-
 161799	1925_in_the_United_States
-
 162066	1926
-
 163759	1926_in_Germany
-
 163804	1926_in_literature
-
 163808	1926_in_music
-
 163831	1926_in_the_United_States
-
 164114	1927
-
 165650	1927_in_literature
-
 165654	1927_in_music
-
 165677	1927_in_the_United_States
-
 165971	1928
-
 167778	1928_in_literature
-
 167782	1928_in_music
-
 167805	1928_in_the_United_States
-
 168097	1929
-
 169669	1929_in_Australia
-
 169737	1929_in_literature
-
 169741	1929_in_music
-
 169765	1929_in_the_United_States
-
 170148	1930
-
 171868	1930_in_Australia
-
 171885	1930_in_Germany
-
 171925	1930_in_art
-
 171937	1930_in_literature
-
 171941	1930_in_music
-
 171965	1930_in_the_United_States
-
 172295	1931
-
 173936	1931_in_literature
-
 173940	1931_in_music
-
 173964	1931_in_the_United_States
-
 174269	1932
-
 176120	1932_in_music
-
 176144	1932_in_the_United_States
-
 176455	1933
-
 178070	1933_in_literature
-
 178074	1933_in_music
-
 178399	1934
-
 180319	1934_in_literature
-
 180323	1934_in_music
-
 180348	1934_in_the_United_States
-
 180651	1935
-
 182305	1935_in_literature
-
 182309	1935_in_music
-
 182333	1935_in_the_United_States
-
 182637	1936
-
 184595	1936_in_literature
-
 184599	1936_in_music
-
 184624	1936_in_the_United_States
-
 184936	1937
-
 186636	1937_in_literature
-
 186640	1937_in_music
-
 186666	1937_in_the_United_States
-
 186989	1938
-
 188909	1938_in_literature
-
 188913	1938_in_music
-
 188938	1938_in_the_United_States
-
 189274	1939
-
 190857	1939_in_Australia
-
 190926	1939_in_literature
-
 190930	1939_in_music
-
 190954	1939_in_the_United_States
-
 191325	1940
-
 193067	1940_in_Germany
-
 193120	1940_in_music
-
 193144	1940_in_the_United_States
-
 193448	1941
-
 194843	1941_in_Wales
-
 194867	1941_in_music
-
 194891	1941_in_the_United_States
-
 195110	1942
-
 196585	1942_in_music
-
 196609	1942_in_the_United_States
-
 196829	1943
-
 197933	1943_in_literature
-
 197937	1943_in_music
-
 197961	1943_in_the_United_States
-
 198177	1944
-
 199630	1944_in_literature
-
 199634	1944_in_music
-
 199659	1944_in_the_United_States
-
 199877	1945
-
 201245	1945_in_Germany
-
 201296	1945_in_literature
-
 201300	1945_in_music
-
 201318	1945_in_the_Philippines
-
 201325	1945_in_the_United_States
-
 201597	1946
-
 204026	1946_in_music
-
 204050	1946_in_the_United_States
-
 204438	1947
-
 206452	1947_in_music
-
 206476	1947_in_the_United_States
-
 206881	1948
-
 209184	1948_in_music
-
 209206	1948_in_the_United_States
-
 209622	1949
-
 211595	1949_in_music
-
 212071	1950
-
 214309	1950_in_literature
-
 214313	1950_in_music
-
 214337	1950_in_the_United_States
-
 214804	1951
-
 216774	1951_in_music
-
 216798	1951_in_the_United_States
-
 217167	1952
-
 219536	1952_in_music
-
 219562	1952_in_the_United_States
-
 219940	1953
-
 221951	1953_in_music
-
 222360	1954
-
 224695	1954_in_music
-
 224718	1954_in_the_United_States
-
 225132	1955
-
 227148	1955_in_music
-
 227171	1955_in_the_United_States
-
 227562	1956
-
 229905	1956_in_music
-
 230329	1957
-
 232454	1957_in_music
-
 232477	1957_in_the_United_States
-
 232883	1958
-
 235296	1958_in_music
-
 235319	1958_in_the_United_States
-
 235726	1959
-
 237848	1959_in_music
-
 238352	1960
-
 240916	1960_in_music
-
 240945	1960_in_the_United_States
-
 241528	1961
-
 243755	1961_in_music
-
 244230	1962
-
 246899	1962_in_music
-
 247400	1963
-
 249749	1963_in_music
-
 250254	1964
-
 252989	1964_in_music
-
 253502	1965
-
 255790	1965_in_Scotland
-
 255829	1965_in_music
-
 256331	1966
-
 259001	1966_in_music
-
 259023	1966_in_the_United_States
-
 259488	1967
-
 262166	1967_in_music
-
 262720	1968
-
 265783	1968_in_music
-
 265805	1968_in_the_United_States
-
 266372	1969
-
 269234	1969_in_music
-
 269256	1969_in_the_United_States
-
 269849	1970
-
 272954	1970_in_music
-
 272970	1970_in_the_Philippines
-
 272977	1970_in_the_United_States
-
 273706	1971
-
 276824	1971_in_music
-
 276848	1971_in_the_United_States
-
 277437	1972
-
 280732	1972_in_music
-
 281375	1973
-
 284617	1973_in_music
-
 285280	1974
-
 288723	1974_in_music
-
 289388	1975
-
 292553	1975_in_music
-
 293233	1976
-
 296727	1976_in_music
-
 297377	1977
-
 300758	1977_in_music
-
 300780	1977_in_the_United_States
-
 301405	1978
-
 305113	1978_in_music
-
 305791	1979
-
 309449	1979_in_music
-
 309476	1979_in_the_United_States
-
 310203	1980
-
 314150	1980_in_music
-
 315017	1981
-
 318739	1981_in_music
-
 319447	1982
-
 323662	1982_in_music
-
 324377	1983
-
 328531	1983_in_music
-
 329241	1984
-
 333370	1984_in_music
-
 333390	1984_in_the_Philippines
-
 334103	1985
-
 338158	1985_in_music
-
 338174	1985_in_the_Philippines
-
 338920	1986
-
 343417	1986_in_music
-
 343433	1986_in_the_Philippines
-
 344209	1987
-
 348657	1987_in_music
-
 348680	1987_in_the_Philippines
-
 349484	1988
-
 354394	1988_in_music
-
 354414	1988_in_the_Philippines
-
 355221	1989
-
 359979	1989_in_music
-
 359999	1989_in_the_Philippines
-
 360922	1990
-
 366242	1990_in_music
-
 366261	1990_in_the_Philippines
-
 367349	1991
-
 372387	1991_in_Australia
-
 372525	1991_in_music
-
 372558	1991_in_the_United_States
-
 373591	1992
-
 378975	1992_in_music
-
 378994	1992_in_the_Philippines
-
 380025	1993
-
 385306	1993_in_music
-
 385326	1993_in_the_Philippines
-
 385338	1993_in_the_United_States
-
 386345	1994
-
 392316	1994_in_music
-
 392337	1994_in_the_Philippines
-
 392349	1994_in_the_United_States
-
 393409	1995
-
 399167	1995_in_music
-
 399191	1995_in_the_Philippines
-
 399202	1995_in_the_United_States
-
 400285	1996
-
 406601	1996_in_music
-
 406626	1996_in_the_Philippines
-
 406637	1996_in_the_United_States
-
 407851	1997
-
 414017	1997_in_music
-
 414041	1997_in_the_Philippines
-
 414051	1997_in_the_United_States
-
 415228	1998
-
 422191	1998_in_music
-
 422217	1998_in_the_Philippines
-
 422228	1998_in_the_United_States
-
 423400	1999
-
 425328	1999_Australian_Open
-
 426908	1999_French_Open_–_Men's_doubles
-
 431078	1999_in_music
-
 431106	1999_in_the_Philippines
-
 431117	1999_in_the_United_States
-
 433745	19th_century
-
 447044	2000
-
 448551	2000_ATP_Tour
-
 453635	2000_Wimbledon_Championships
-
 454247	2000_in_music
-
 454277	2000_in_the_Philippines
-
 454288	2000_in_the_United_States
-
 455806	2001
-
 457270	2001_ATP_Tour
-
 462123	2001_WTA_Tour
-
 462943	2001_in_music
-
 462950	2001_in_politics
-
 462983	2001_in_the_United_States
-
 464313	2002
-
 465820	2002_ATP_Tour
-
 471165	2002_US_Open_–_Men's_singles
-
 471511	2002_WTA_Tour
-
 471629	2002_Wimbledon_Championships
-
 472305	2002_in_music
-
 472346	2002_in_the_United_States
-
 473717	2003
-
 475210	2003_ATP_Challenger_Series
-
 475212	2003_ATP_Tour
-
 475655	2003_Australian_Open
-
 475682	2003_Australian_Open_–_Men's_singles
-
 477342	2003_French_Open_–_Men's_singles
-
 477800	2003_ITF_Men's_Circuit
-
 480698	2003_US_Open_–_Men's_singles
-
 480899	2003_WTA_Tour
-
 481018	2003_Wimbledon_Championships
-
 481059	2003_Wimbledon_Championships_–_Men's_singles
-
 481791	2003_in_music
-
 481830	2003_in_the_United_States
-
 483217	2004
-
 484829	2004_ATP_Challenger_Series
-
 484831	2004_ATP_Tour
-
 485343	2004_Australian_Open_–_Men's_doubles
-
 485344	2004_Australian_Open_–_Men's_singles
-
 486925	2004_French_Open
-
 486960	2004_French_Open_–_Men's_doubles
-
 486961	2004_French_Open_–_Men's_singles
-
 488492	2004_NASDAQ-100_Open_–_Men's_singles
-
 490521	2004_US_Open_–_Men's_doubles
-
 490522	2004_US_Open_–_Men's_singles
-
 491016	2004_WTA_Tour
-
 491154	2004_Wimbledon_Championships
-
 491193	2004_Wimbledon_Championships_–_Men's_doubles
-
 491195	2004_Wimbledon_Championships_–_Men's_singles
-
 491744	2004_in_Wales
-
 491775	2004_in_literature
-
 491784	2004_in_music
-
 491806	2004_in_tennis
-
 491813	2004_in_the_Philippines
-
 491824	2004_in_the_United_States
-
 493313	2005
-
 495064	2005_ATP_Challenger_Series
-
 495066	2005_ATP_Tour
-
 495508	2005_Australian_Open
-
 495542	2005_Australian_Open_–_Men's_doubles
-
 495543	2005_Australian_Open_–_Men's_singles
-
 495551	2005_Australian_Open_–_Women's_singles
-
 497295	2005_French_Open
-
 497331	2005_French_Open_–_Men's_doubles
-
 497332	2005_French_Open_–_Men's_singles
-
 497340	2005_French_Open_–_Women's_singles
-
 497758	2005_ITF_Men's_Circuit
-
 498793	2005_NASDAQ-100_Open_–_Men's_singles
-
 499388	2005_Pacific_Life_Open_–_Men's_singles
-
 499741	2005_Roger_Federer_tennis_season
-
 499768	2005_Rogers_Masters_–_Singles
-
 500732	2005_US_Open_(tennis)
-
 500771	2005_US_Open_–_Men's_doubles
-
 500773	2005_US_Open_–_Men's_singles
-
 500783	2005_US_Open_–_Women's_singles
-
 501024	2005_WTA_Tour
-
 501133	2005_Wimbledon_Championships
-
 501175	2005_Wimbledon_Championships_–_Men's_doubles
-
 501177	2005_Wimbledon_Championships_–_Men's_singles
-
 501187	2005_Wimbledon_Championships_–_Women's_doubles
-
 501189	2005_Wimbledon_Championships_–_Women's_singles
-
 501985	2005_in_literature
-
 501994	2005_in_music
-
 502018	2005_in_tennis
-
 502038	2005_in_the_United_States
-
 503623	2006
-
 505585	2006_ATP_Challenger_Series
-
 505587	2006_ATP_Tour
-
 506074	2006_Australian_Open
-
 506108	2006_Australian_Open_–_Men's_doubles
-
 506109	2006_Australian_Open_–_Men's_singles
-
 506116	2006_Australian_Open_–_Women's_doubles
-
 506117	2006_Australian_Open_–_Women's_singles
-
 508410	2006_French_Open
-
 508446	2006_French_Open_–_Men's_doubles
-
 508447	2006_French_Open_–_Men's_singles
-
 508454	2006_French_Open_–_Women's_doubles
-
 508455	2006_French_Open_–_Women's_singles
-
 509056	2006_ITF_Men's_Circuit
-
 509316	2006_Italian_Open_–_Men's_singles
-
 510346	2006_NASDAQ-100_Open_–_Men's_singles
-
 510350	2006_NASDAQ-100_Open_–_Women's_singles
-
 511074	2006_Pacific_Life_Open_–_Men's_singles
-
 511078	2006_Pacific_Life_Open_–_Women's_singles
-
 511570	2006_Roger_Federer_tennis_season
-
 512841	2006_US_Open_(tennis)
-
 512884	2006_US_Open_–_Men's_doubles
-
 512885	2006_US_Open_–_Men's_singles
-
 512900	2006_US_Open_–_Women's_doubles
-
 512901	2006_US_Open_–_Women's_singles
-
 513295	2006_WTA_Tour
-
 513448	2006_Wimbledon_Championships
-
 513490	2006_Wimbledon_Championships_–_Men's_doubles
-
 513492	2006_Wimbledon_Championships_–_Men's_singles
-
 513495	2006_Wimbledon_Championships_–_Mixed_doubles
-
 513502	2006_Wimbledon_Championships_–_Women's_doubles
-
 513504	2006_Wimbledon_Championships_–_Women's_singles
-
 514320	2006_in_Wales
-
 514357	2006_in_literature
-
 514365	2006_in_music
-
 514387	2006_in_tennis
-
 514396	2006_in_the_Philippines
-
 516255	2007
-
 518441	2007_ATP_Challenger_Series
-
 518442	2007_ATP_Masters_Series
-
 518444	2007_ATP_Tour
-
 518996	2007_Australian_Open
-
 519033	2007_Australian_Open_–_Men's_doubles
-
 519034	2007_Australian_Open_–_Men's_singles
-
 519043	2007_Australian_Open_–_Women's_doubles
-
 519044	2007_Australian_Open_–_Women's_singles
-
 521369	2007_French_Open
-
 521406	2007_French_Open_–_Men's_doubles
-
 521407	2007_French_Open_–_Men's_singles
-
 521414	2007_French_Open_–_Women's_doubles
-
 521415	2007_French_Open_–_Women's_singles
-
 521733	2007_Hamburg_Masters_–_Singles
-
 521994	2007_ITF_Men's_Circuit
-
 522223	2007_Italian_Open_–_Men's_singles
-
 524215	2007_Pacific_Life_Open_–_Men's_singles
-
 524219	2007_Pacific_Life_Open_–_Women's_singles
-
 525153	2007_Sony_Ericsson_Open_–_Men's_singles
-
 525157	2007_Sony_Ericsson_Open_–_Women's_singles
-
 526263	2007_US_Open_(tennis)
-
 526321	2007_US_Open_–_Men's_doubles
-
 526322	2007_US_Open_–_Men's_singles
-
 526343	2007_US_Open_–_Women's_doubles
-
 526344	2007_US_Open_–_Women's_singles
-
 526658	2007_WTA_Tier_I_Series
-
 526659	2007_WTA_Tour
-
 526783	2007_Western_&_Southern_Financial_Group_Masters_–_Singles
-
 526828	2007_Wimbledon_Championships
-
 526872	2007_Wimbledon_Championships_–_Men's_doubles
-
 526874	2007_Wimbledon_Championships_–_Men's_singles
-
 526878	2007_Wimbledon_Championships_–_Mixed_doubles
-
 526885	2007_Wimbledon_Championships_–_Women's_doubles
-
 526887	2007_Wimbledon_Championships_–_Women's_singles
-
 527648	2007_in_Afghanistan
-
 527902	2007_in_music
-
 527932	2007_in_tennis
-
 527940	2007_in_the_Philippines
-
 527952	2007_in_the_United_States
-
 529961	2008
-
 532583	2008_ATP_Challenger_Series
-
 532584	2008_ATP_Masters_Series
-
 532586	2008_ATP_Tour
-
 533134	2008_Australian_Open
-
 533176	2008_Australian_Open_–_Day-by-day_summaries
-
 533184	2008_Australian_Open_–_Men's_doubles
-
 533185	2008_Australian_Open_–_Men's_singles
-
 533204	2008_Australian_Open_–_Women's_doubles
-
 533205	2008_Australian_Open_–_Women's_singles
-
 535592	2008_French_Open
-
 535645	2008_French_Open_–_Men's_doubles
-
 535646	2008_French_Open_–_Men's_singles
-
 535661	2008_French_Open_–_Women's_doubles
-
 535662	2008_French_Open_–_Women's_singles
-
 536358	2008_ITF_Men's_Circuit
-
 536362	2008_ITF_Women's_Circuit_(April–June)
-
 536365	2008_ITF_Women's_Circuit_(January–March)
-
 536368	2008_ITF_Women's_Circuit_(July–September)
-
 536671	2008_Italian_Open_–_Women's_singles
-
 538464	2008_Novak_Djokovic_tennis_season
-
 538757	2008_Pacific_Life_Open_–_Men's_singles
-
 538761	2008_Pacific_Life_Open_–_Women's_singles
-
 539167	2008_Rafael_Nadal_tennis_season
-
 539596	2008_Serena_Williams_tennis_season
-
 539705	2008_Sony_Ericsson_Open_–_Men's_singles
-
 539709	2008_Sony_Ericsson_Open_–_Women's_singles
-
 540241	2008_Tennis_Masters_Cup
-
 540862	2008_US_Open_(tennis)
-
 540899	2008_US_Open_–_Men's_doubles
-
 540900	2008_US_Open_–_Men's_singles
-
 540907	2008_US_Open_–_Women's_doubles
-
 540908	2008_US_Open_–_Women's_singles
-
 541504	2008_WTA_Tier_I_Series
-
 541505	2008_WTA_Tour
-
 541678	2008_Wimbledon_Championships
-
 541730	2008_Wimbledon_Championships_–_Day-by-day_summaries
-
 541747	2008_Wimbledon_Championships_–_Men's_doubles
-
 541749	2008_Wimbledon_Championships_–_Men's_singles
-
 541753	2008_Wimbledon_Championships_–_Mixed_doubles
-
 541762	2008_Wimbledon_Championships_–_Women's_doubles
-
 541764	2008_Wimbledon_Championships_–_Women's_singles
-
 542595	2008_in_literature
-
 542602	2008_in_music
-
 542636	2008_in_tennis
-
 542643	2008_in_the_Philippines
-
 542654	2008_in_the_United_States
-
 545154	2009
-
 548119	2009_ATP_Challenger_Tour
-
 548140	2009_ATP_World_Tour
-
 548851	2009_Australian_Open
-
 548902	2009_Australian_Open_–_Men's_doubles
-
 548903	2009_Australian_Open_–_Men's_singles
-
 548923	2009_Australian_Open_–_Women's_doubles
-
 548924	2009_Australian_Open_–_Women's_singles
-
 549035	2009_BNP_Paribas_Open_–_Men's_singles
-
 549039	2009_BNP_Paribas_Open_–_Women's_singles
-
 549403	2009_Brisbane_International
-
 551615	2009_French_Open
-
 551667	2009_French_Open_–_Men's_doubles
-
 551668	2009_French_Open_–_Men's_singles
-
 551684	2009_French_Open_–_Women's_doubles
-
 551685	2009_French_Open_–_Women's_singles
-
 552415	2009_ITF_Men's_Circuit
-
 552421	2009_ITF_Women's_Circuit
-
 554727	2009_Novak_Djokovic_tennis_season
-
 555419	2009_Rafael_Nadal_tennis_season
-
 555534	2009_Rogers_Cup
-
 555964	2009_Serena_Williams_tennis_season
-
 556080	2009_Sony_Ericsson_Open
-
 556092	2009_Sony_Ericsson_Open_–_Men's_singles
-
 556096	2009_Sony_Ericsson_Open_–_Women's_singles
-
 557266	2009_US_Open_(tennis)
-
 557322	2009_US_Open_Series
-
 557334	2009_US_Open_–_Men's_doubles
-
 557335	2009_US_Open_–_Men's_singles
-
 557354	2009_US_Open_–_Women's_doubles
-
 557355	2009_US_Open_–_Women's_singles
-
 557716	2009_WTA_Premier_tournaments
-
 557717	2009_WTA_Tour
-
 557829	2009_Western_&_Southern_Financial_Group_Masters_–_Singles
-
 557883	2009_Wimbledon_Championships
-
 557931	2009_Wimbledon_Championships_–_Day-by-day_summaries
-
 557945	2009_Wimbledon_Championships_–_Men's_doubles
-
 557947	2009_Wimbledon_Championships_–_Men's_singles
-
 557951	2009_Wimbledon_Championships_–_Mixed_doubles
-
 557962	2009_Wimbledon_Championships_–_Women's_doubles
-
 557964	2009_Wimbledon_Championships_–_Women's_singles
-
 559052	2009_in_literature
-
 559061	2009_in_music
-
 559098	2009_in_tennis
-
 559105	2009_in_the_Philippines
-
 559117	2009_in_the_United_States
-
 562238	2010
-
 565379	2010_ATP_Challenger_Tour
-
 565398	2010_ATP_World_Tour
-
 565399	2010_ATP_World_Tour_Finals
-
 565404	2010_ATP_World_Tour_Masters_1000
-
 566205	2010_Australian_Open
-
 566264	2010_Australian_Open_–_Day-by-day_summaries
-
 566272	2010_Australian_Open_–_Men's_doubles
-
 566273	2010_Australian_Open_–_Men's_singles
-
 566292	2010_Australian_Open_–_Women's_doubles
-
 566293	2010_Australian_Open_–_Women's_singles
-
 566428	2010_BNP_Paribas_Open
-
 566440	2010_BNP_Paribas_Open_–_Men's_singles
-
 566444	2010_BNP_Paribas_Open_–_Women's_singles
-
 569601	2010_French_Open
-
 569646	2010_French_Open_–_Day-by-day_summaries
-
 569658	2010_French_Open_–_Men's_doubles
-
 569659	2010_French_Open_–_Men's_singles
-
 569675	2010_French_Open_–_Women's_doubles
-
 569677	2010_French_Open_–_Women's_singles
-
 570437	2010_ITF_Women's_Circuit
-
 570440	2010_ITF_Women's_Circuit_(April–June)
-
 570442	2010_ITF_Women's_Circuit_(January–March)
-
 570444	2010_ITF_Women's_Circuit_(July–September)
-
 570446	2010_ITF_Women's_Circuit_(October–December)
-
 570778	2010_Italian_Open_(tennis)
-
 572179	2010_Mutua_Madrileña_Madrid_Open
-
 572818	2010_Novak_Djokovic_tennis_season
-
 573827	2010_Rafael_Nadal_tennis_season
-
 574011	2010_Roger_Federer_tennis_season
-
 574447	2010_Serena_Williams_tennis_season
-
 574588	2010_Sony_Ericsson_Open
-
 574600	2010_Sony_Ericsson_Open_–_Men's_singles
-
 574604	2010_Sony_Ericsson_Open_–_Women's_singles
-
 575933	2010_US_Open_(tennis)
-
 575970	2010_US_Open_Series
-
 575976	2010_US_Open_–_Day-by-day_summaries
-
 575984	2010_US_Open_–_Men's_doubles
-
 575985	2010_US_Open_–_Men's_singles
-
 576004	2010_US_Open_–_Women's_doubles
-
 576005	2010_US_Open_–_Women's_singles
-
 576571	2010_WTA_Tour
-
 576694	2010_Western_&_Southern_Financial_Group_Masters_–_Singles
-
 576747	2010_Wimbledon_Championships
-
 576793	2010_Wimbledon_Championships_–_Day-by-day_summaries
-
 576806	2010_Wimbledon_Championships_–_Men's_doubles
-
 576808	2010_Wimbledon_Championships_–_Men's_singles
-
 576811	2010_Wimbledon_Championships_–_Mixed_doubles
-
 576822	2010_Wimbledon_Championships_–_Women's_doubles
-
 576824	2010_Wimbledon_Championships_–_Women's_singles
-
 577779	2010_in_Wales
-
 577824	2010_in_literature
-
 577863	2010_in_tennis
-
 577873	2010_in_the_Philippines
-
 577884	2010_in_the_United_States
-
 580863	2011
-
 584226	2011_ATP_Challenger_Tour
-
 584270	2011_ATP_World_Tour
-
 584271	2011_ATP_World_Tour_Finals
-
 584277	2011_ATP_World_Tour_Masters_1000
-
 585112	2011_Australian_Open
-
 585157	2011_Australian_Open_–_Day-by-day_summaries
-
 585165	2011_Australian_Open_–_Men's_doubles
-
 585166	2011_Australian_Open_–_Men's_singles
-
 585185	2011_Australian_Open_–_Women's_doubles
-
 585186	2011_Australian_Open_–_Women's_singles
-
 585293	2011_BNP_Paribas_Open
-
 585310	2011_BNP_Paribas_Open_–_Men's_singles
-
 585316	2011_BNP_Paribas_Open_–_Women's_singles
-
 588533	2011_French_Open
-
 588579	2011_French_Open_–_Day-by-day_summaries
-
 588591	2011_French_Open_–_Men's_doubles
-
 588592	2011_French_Open_–_Men's_singles
-
 588609	2011_French_Open_–_Women's_doubles
-
 588611	2011_French_Open_–_Women's_singles
-
 589535	2011_ITF_Women's_Circuit
-
 589542	2011_ITF_Women's_Circuit_(April–June)
-
 589544	2011_ITF_Women's_Circuit_(January–March)
-
 589546	2011_ITF_Women's_Circuit_(July–September)
-
 589548	2011_ITF_Women's_Circuit_(October–December)
-
 589942	2011_Italian_Open_(tennis)
-
 591477	2011_Mutua_Madrid_Open
-
 592257	2011_Novak_Djokovic_tennis_season
-
 592898	2011_Petra_Kvitová_tennis_season
-
 593280	2011_Rafael_Nadal_tennis_season
-
 593420	2011_Roger_Federer_tennis_season
-
 594002	2011_Shanghai_Masters
-
 594147	2011_Sony_Ericsson_Open
-
 594164	2011_Sony_Ericsson_Open_–_Men's_singles
-
 594170	2011_Sony_Ericsson_Open_–_Women's_singles
-
 595588	2011_UK_Championship
-
 595683	2011_US_Open_(tennis)
-
 595722	2011_US_Open_Series
-
 595727	2011_US_Open_–_Day-by-day_summaries
-
 595735	2011_US_Open_–_Men's_doubles
-
 595736	2011_US_Open_–_Men's_singles
-
 595755	2011_US_Open_–_Women's_doubles
-
 595756	2011_US_Open_–_Women's_singles
-
 595757	2011_US_Open_–_Women's_singles_qualifying
-
 596149	2011_WTA_Premier_tournaments
-
 596150	2011_WTA_Tour
-
 596151	2011_WTA_Tour_Championships
-
 596275	2011_Western_&_Southern_Open
-
 596338	2011_Wimbledon_Championships
-
 596382	2011_Wimbledon_Championships_–_Day-by-day_summaries
-
 596395	2011_Wimbledon_Championships_–_Men's_doubles
-
 596397	2011_Wimbledon_Championships_–_Men's_singles
-
 596401	2011_Wimbledon_Championships_–_Mixed_doubles
-
 596412	2011_Wimbledon_Championships_–_Women's_doubles
-
 596414	2011_Wimbledon_Championships_–_Women's_singles
-
 597472	2011_in_Canada
-
 597611	2011_in_Scotland
-
 597645	2011_in_Turkey
-
 597697	2011_in_literature
-
 597736	2011_in_tennis
-
 597743	2011_in_the_Philippines
-
 597754	2011_in_the_United_States
-
 600833	2012
-
 604306	2012_ATP_Challenger_Tour
-
 604343	2012_ATP_World_Tour
-
 604344	2012_ATP_World_Tour_Finals
-
 604349	2012_ATP_World_Tour_Masters_1000
-
 604880	2012_Andy_Murray_tennis_season
-
 605198	2012_Australian_Goldfields_Open
-
 605204	2012_Australian_Open
-
 605249	2012_Australian_Open_–_Day-by-day_summaries
-
 605260	2012_Australian_Open_–_Men's_doubles
-
 605261	2012_Australian_Open_–_Men's_singles
-
 605281	2012_Australian_Open_–_Women's_doubles
-
 605282	2012_Australian_Open_–_Women's_singles
-
 605369	2012_BNP_Paribas_Open
-
 605384	2012_BNP_Paribas_Open_–_Men's_singles
-
 605389	2012_BNP_Paribas_Open_–_Women's_singles
-
 606582	2012_China_Open_(snooker)
-
 606583	2012_China_Open_(tennis)
-
 606600	2012_China_Open_–_Women's_singles
-
 608178	2012_Family_Circle_Cup_–_Singles
-
 608423	2012_French_Open
-
 608467	2012_French_Open_–_Day-by-day_summaries
-
 608480	2012_French_Open_–_Men's_doubles
-
 608481	2012_French_Open_–_Men's_singles
-
 608498	2012_French_Open_–_Women's_doubles
-
 608500	2012_French_Open_–_Women's_singles
-
 608652	2012_German_Masters
-
 609326	2012_ITF_Women's_Circuit
-
 609329	2012_ITF_Women's_Circuit_(April–June)
-
 609331	2012_ITF_Women's_Circuit_(January–March)
-
 609333	2012_ITF_Women's_Circuit_(July–September)
-
 609335	2012_ITF_Women's_Circuit_(October–December)
-
 609530	2012_International_Championship
-
 609705	2012_Italian_Open_(tennis)
-
 609717	2012_Italian_Open_–_Men's_singles
-
 609721	2012_Italian_Open_–_Women's_singles
-
 611022	2012_Mutua_Madrid_Open
-
 611038	2012_Mutua_Madrid_Open_–_Women's_singles
-
 611717	2012_Novak_Djokovic_tennis_season
-
 612640	2012_Qatar_Total_Open_–_Singles
-
 612722	2012_Rafael_Nadal_tennis_season
-
 612873	2012_Roger_Federer_tennis_season
-
 612874	2012_Rogers_Cup
-
 612890	2012_Rogers_Cup_–_Women's_singles
-
 613339	2012_Serena_Williams_tennis_season
-
 613355	2012_Shanghai_Masters
-
 613468	2012_Sony_Ericsson_Open
-
 613480	2012_Sony_Ericsson_Open_–_Men's_singles
-
 613484	2012_Sony_Ericsson_Open_–_Women's_singles
-
 614359	2012_Toray_Pan_Pacific_Open_–_Singles
-
 614764	2012_UK_Championship
-
 614841	2012_US_Open_(tennis)
-
 614867	2012_US_Open_Series
-
 614872	2012_US_Open_–_Day-by-day_summaries
-
 614881	2012_US_Open_–_Men's_doubles
-
 614882	2012_US_Open_–_Men's_singles
-
 614890	2012_US_Open_–_Women's_doubles
-
 614891	2012_US_Open_–_Women's_singles
-
 614892	2012_US_Open_–_Women's_singles_qualifying
-
 615579	2012_WTA_Premier_tournaments
-
 615580	2012_WTA_Tour
-
 615581	2012_WTA_Tour_Championships
-
 615723	2012_Western_&_Southern_Open
-
 615735	2012_Western_&_Southern_Open_–_Men's_singles
-
 615739	2012_Western_&_Southern_Open_–_Women's_singles
-
 615781	2012_Wimbledon_Championships
-
 615827	2012_Wimbledon_Championships_–_Day-by-day_summaries
-
 615843	2012_Wimbledon_Championships_–_Men's_doubles
-
 615845	2012_Wimbledon_Championships_–_Men's_singles
-
 615849	2012_Wimbledon_Championships_–_Mixed_doubles
-
 615860	2012_Wimbledon_Championships_–_Women's_doubles
-
 615862	2012_Wimbledon_Championships_–_Women's_singles
-
 616160	2012_World_Open_(snooker)
-
 616251	2012_World_Snooker_Championship
-
 616310	2012_Wuxi_Classic
-
 616682	2012_in_Wales
-
 616693	2012_in_art
-
 616723	2012_in_literature
-
 616763	2012_in_tennis
-
 616771	2012_in_the_Philippines
-
 619806	2012–13_snooker_season
-
 619966	2013
-
 623379	2013_ATP_Challenger_Tour
-
 623405	2013_ATP_World_Tour
-
 623406	2013_ATP_World_Tour_Finals
-
 623411	2013_ATP_World_Tour_Masters_1000
-
 623773	2013_Andy_Murray_tennis_season
-
 624139	2013_Australian_Goldfields_Open
-
 624145	2013_Australian_Open
-
 624199	2013_Australian_Open_–_Day-by-day_summaries
-
 624211	2013_Australian_Open_–_Men's_doubles
-
 624213	2013_Australian_Open_–_Men's_singles
-
 624236	2013_Australian_Open_–_Women's_doubles
-
 624238	2013_Australian_Open_–_Women's_singles
-
 624331	2013_BNP_Paribas_Open
-
 624342	2013_BNP_Paribas_Open_–_Men's_doubles
-
 624343	2013_BNP_Paribas_Open_–_Men's_singles
-
 624347	2013_BNP_Paribas_Open_–_Women's_singles
-
 624741	2013_Bob_and_Mike_Bryan_tennis_season
-
 625557	2013_China_Open_(snooker)
-
 625558	2013_China_Open_(tennis)
-
 625576	2013_China_Open_–_Women's_singles
-
 625638	2013_Citi_Open
-
 627347	2013_French_Open
-
 627390	2013_French_Open_–_Day-by-day_summaries
-
 627402	2013_French_Open_–_Men's_doubles
-
 627403	2013_French_Open_–_Men's_singles
-
 627419	2013_French_Open_–_Women's_doubles
-
 627421	2013_French_Open_–_Women's_singles
-
 627566	2013_German_Masters
-
 628249	2013_ITF_Women's_Circuit
-
 628251	2013_ITF_Women's_Circuit_(April–June)
-
 628253	2013_ITF_Women's_Circuit_(January–March)
-
 628255	2013_ITF_Women's_Circuit_(July–September)
-
 628257	2013_ITF_Women's_Circuit_(October–December)
-
 628346	2013_Indian_Open
-
 628418	2013_International_Championship
-
 628597	2013_Italian_Open_(tennis)
-
 628613	2013_Italian_Open_–_Women's_singles
-
 629889	2013_Monte-Carlo_Rolex_Masters_–_Singles
-
 630003	2013_Mutua_Madrid_Open
-
 630019	2013_Mutua_Madrid_Open_–_Women's_singles
-
 630722	2013_Novak_Djokovic_tennis_season
-
 631622	2013_Rafael_Nadal_tennis_season
-
 631764	2013_Roger_Federer_tennis_season
-
 631765	2013_Rogers_Cup
-
 631779	2013_Rogers_Cup_–_Men's_singles
-
 631783	2013_Rogers_Cup_–_Women's_singles
-
 632220	2013_Serena_Williams_tennis_season
-
 632247	2013_Shanghai_Masters
-
 632369	2013_Sony_Open_Tennis
-
 632381	2013_Sony_Open_Tennis_–_Men's_singles
-
 632385	2013_Sony_Open_Tennis_–_Women's_singles
-
 633294	2013_Toray_Pan_Pacific_Open_–_Singles
-
 633806	2013_UK_Championship
-
 633854	2013_US_Open_(tennis)
-
 633891	2013_US_Open_Series
-
 633896	2013_US_Open_–_Day-by-day_summaries
-
 633904	2013_US_Open_–_Men's_doubles
-
 633905	2013_US_Open_–_Men's_singles
-
 633924	2013_US_Open_–_Women's_doubles
-
 633925	2013_US_Open_–_Women's_singles
-
 634306	2013_WTA_Premier_tournaments
-
 634312	2013_WTA_Tour
-
 634313	2013_WTA_Tour_Championships
-
 634381	2013_Welsh_Open_(snooker)
-
 634404	2013_Western_&_Southern_Open
-
 634416	2013_Western_&_Southern_Open_–_Men's_singles
-
 634420	2013_Western_&_Southern_Open_–_Women's_singles
-
 634475	2013_Wimbledon_Championships
-
 634524	2013_Wimbledon_Championships_–_Day-by-day_summaries
-
 634543	2013_Wimbledon_Championships_–_Men's_doubles
-
 634545	2013_Wimbledon_Championships_–_Men's_singles
-
 634549	2013_Wimbledon_Championships_–_Mixed_doubles
-
 634560	2013_Wimbledon_Championships_–_Women's_doubles
-
 634562	2013_Wimbledon_Championships_–_Women's_singles
-
 634986	2013_World_Open_(snooker)
-
 635055	2013_World_Snooker_Championship
-
 635257	2013_Wuxi_Classic
-
 635635	2013_in_Wales
-
 635678	2013_in_literature
-
 635718	2013_in_tennis
-
 635727	2013_in_the_Philippines
-
 635739	2013_in_the_United_States
-
 638845	2013–14_snooker_season
-
 638936	2014
-
 642522	2014_ATP_Challenger_Tour
-
 642537	2014_ATP_World_Tour
-
 642538	2014_ATP_World_Tour_Finals
-
 642543	2014_ATP_World_Tour_Masters_1000
-
 643053	2014_Ana_Ivanovic_tennis_season
-
 643070	2014_Andy_Murray_tennis_season
-
 643444	2014_Australian_Goldfields_Open
-
 643451	2014_Australian_Open
-
 643508	2014_Australian_Open_–_Day-by-day_summaries
-
 643522	2014_Australian_Open_–_Men's_doubles
-
 643525	2014_Australian_Open_–_Men's_singles
-
 643548	2014_Australian_Open_–_Women's_doubles
-
 643551	2014_Australian_Open_–_Women's_singles
-
 643634	2014_BNP_Paribas_Open
-
 643646	2014_BNP_Paribas_Open_–_Men's_singles
-
 643650	2014_BNP_Paribas_Open_–_Women's_singles
-
 644885	2014_China_Open_(snooker)
-
 644886	2014_China_Open_(tennis)
-
 644905	2014_China_Open_–_Women's_singles
-
 644981	2014_Citi_Open
-
 647049	2014_French_Open
-
 647094	2014_French_Open_–_Day-by-day_summaries
-
 647106	2014_French_Open_–_Men's_doubles
-
 647107	2014_French_Open_–_Men's_singles
-
 647123	2014_French_Open_–_Women's_doubles
-
 647125	2014_French_Open_–_Women's_singles
-
 647311	2014_German_Masters
-
 648167	2014_ITF_Women's_Circuit_(April–June)
-
 648169	2014_ITF_Women's_Circuit_(January–March)
-
 648171	2014_ITF_Women's_Circuit_(July–September)
-
 648173	2014_ITF_Women's_Circuit_(October–December)
-
 648422	2014_International_Championship
-
 648439	2014_International_Premier_Tennis_League_season
-
 648651	2014_Italian_Open_(tennis)
-
 648663	2014_Italian_Open_–_Men's_singles
-
 648667	2014_Italian_Open_–_Women's_singles
-
 649084	2014_Kremlin_Cup
-
 649692	2014_Marin_Čilić_tennis_season
-
 650041	2014_Monte-Carlo_Rolex_Masters_–_Singles
-
 650168	2014_Mutua_Madrid_Open
-
 650180	2014_Mutua_Madrid_Open_–_Men's_singles
-
 650184	2014_Mutua_Madrid_Open_–_Women's_singles
-
 650905	2014_Novak_Djokovic_tennis_season
-
 651799	2014_Portugal_Open
-
 651970	2014_Qatar_Total_Open_–_Singles
-
 652050	2014_Rafael_Nadal_tennis_season
-
 652218	2014_Roger_Federer_tennis_season
-
 652219	2014_Rogers_Cup
-
 652235	2014_Rogers_Cup_–_Women's_singles
-
 652753	2014_Serena_Williams_tennis_season
-
 652774	2014_Shanghai_Masters_(snooker)
-
 652912	2014_Sony_Open_Tennis
-
 652924	2014_Sony_Open_Tennis_–_Men's_singles
-
 652928	2014_Sony_Open_Tennis_–_Women's_singles
-
 653205	2014_Stan_Wawrinka_tennis_season
-
 654297	2014_UK_Championship
-
 654359	2014_US_Open_(tennis)
-
 654403	2014_US_Open_Series
-
 654408	2014_US_Open_–_Day-by-day_summaries
-
 654419	2014_US_Open_–_Men's_doubles
-
 654420	2014_US_Open_–_Men's_singles
-
 654442	2014_US_Open_–_Women's_doubles
-
 654443	2014_US_Open_–_Women's_singles
-
 654444	2014_US_Open_–_Women's_singles_qualifying
-
 655008	2014_WTA_Finals
-
 655016	2014_WTA_Premier_tournaments
-
 655022	2014_WTA_Tour
-
 655114	2014_Welsh_Open_(snooker)
-
 655145	2014_Western_&_Southern_Open
-
 655157	2014_Western_&_Southern_Open_–_Men's_singles
-
 655161	2014_Western_&_Southern_Open_–_Women's_singles
-
 655214	2014_Wimbledon_Championships
-
 655259	2014_Wimbledon_Championships_–_Day-by-day_summaries
-
 655273	2014_Wimbledon_Championships_–_Men's_doubles
-
 655275	2014_Wimbledon_Championships_–_Men's_singles
-
 655279	2014_Wimbledon_Championships_–_Mixed_doubles
-
 655290	2014_Wimbledon_Championships_–_Women's_doubles
-
 655292	2014_Wimbledon_Championships_–_Women's_singles
-
 655664	2014_World_Open_(snooker)
-
 655707	2014_World_Snooker_Championship
-
 655826	2014_Wuhan_Open_–_Singles
-
 655828	2014_Wuxi_Classic
-
 656072	2014_in_Europe
-
 656239	2014_in_art
-
 656273	2014_in_literature
-
 656312	2014_in_sports
-
 656317	2014_in_tennis
-
 656327	2014_in_the_Philippines
-
 656341	2014_in_the_United_States
-
 659809	2015
-
 663363	2015_ATP_Challenger_Tour
-
 663374	2015_ATP_World_Tour
-
 663375	2015_ATP_World_Tour_Finals
-
 663380	2015_ATP_World_Tour_Masters_1000
-
 663476	2015_Aegon_Classic_–_Singles
-
 663824	2015_Andy_Murray_tennis_season
-
 664237	2015_Australian_Goldfields_Open
-
 664247	2015_Australian_Open
-
 664293	2015_Australian_Open_–_Day-by-day_summaries
-
 664304	2015_Australian_Open_–_Men's_doubles
-
 664306	2015_Australian_Open_–_Men's_singles
-
 664326	2015_Australian_Open_–_Women's_doubles
-
 664327	2015_Australian_Open_–_Women's_singles
-
 664418	2015_BNP_Paribas_Open
-
 664430	2015_BNP_Paribas_Open_–_Men's_singles
-
 664434	2015_BNP_Paribas_Open_–_Women's_singles
-
 665798	2015_China_Open_(snooker)
-
 665799	2015_China_Open_(tennis)
-
 665817	2015_China_Open_–_Women's_singles
-
 665894	2015_Citi_Open
-
 666583	2015_Dubai_Tennis_Championships
-
 666599	2015_Dubai_Tennis_Championships_–_Women's_singles
-
 667561	2015_Family_Circle_Cup_–_Singles
-
 667792	2015_French_Open
-
 667836	2015_French_Open_–_Day-by-day_summaries
-
 667848	2015_French_Open_–_Men's_doubles
-
 667849	2015_French_Open_–_Men's_singles
-
 667865	2015_French_Open_–_Women's_doubles
-
 667867	2015_French_Open_–_Women's_singles
-
 668060	2015_German_Masters
-
 668875	2015_ITF_Women's_Circuit_(April–June)
-
 668877	2015_ITF_Women's_Circuit_(January–March)
-
 668879	2015_ITF_Women's_Circuit_(July–September)
-
 668881	2015_ITF_Women's_Circuit_(October–December)
-
 668973	2015_Indian_Open
-
 669053	2015_International_Championship
-
 669223	2015_Italian_Open_(tennis)
-
 669239	2015_Italian_Open_–_Women's_singles
-
 670285	2015_Maria_Sharapova_tennis_season
-
 670485	2015_Miami_Open
-
 670498	2015_Miami_Open_–_Men's_singles
-
 670502	2015_Miami_Open_–_Women's_singles
-
 670805	2015_Mutua_Madrid_Open
-
 670821	2015_Mutua_Madrid_Open_–_Women's_singles
-
 671594	2015_Nottingham_Open
-
 671612	2015_Novak_Djokovic_tennis_season
-
 672514	2015_Rafael_Nadal_tennis_season
-
 672688	2015_Roger_Federer_tennis_season
-
 672689	2015_Rogers_Cup
-
 672701	2015_Rogers_Cup_–_Men's_singles
-
 672705	2015_Rogers_Cup_–_Women's_singles
-
 673204	2015_Serena_Williams_tennis_season
-
 673234	2015_Shanghai_Masters
-
 673702	2015_Stan_Wawrinka_tennis_season
-
 674335	2015_Topshelf_Open
-
 674824	2015_UK_Championship
-
 674888	2015_US_Open_(tennis)
-
 674930	2015_US_Open_Series
-
 674936	2015_US_Open_–_Day-by-day_summaries
-
 674947	2015_US_Open_–_Men's_doubles
-
 674948	2015_US_Open_–_Men's_singles
-
 674969	2015_US_Open_–_Women's_doubles
-
 674970	2015_US_Open_–_Women's_singles
-
 674971	2015_US_Open_–_Women's_singles_qualifying
-
 675364	2015_WTA_Elite_Trophy
-
 675369	2015_WTA_Finals
-
 675381	2015_WTA_Premier_tournaments
-
 675387	2015_WTA_Tour
-
 675478	2015_Welsh_Open_(snooker)
-
 675513	2015_Western_&_Southern_Open
-
 675525	2015_Western_&_Southern_Open_–_Men's_singles
-
 675529	2015_Western_&_Southern_Open_–_Women's_singles
-
 675585	2015_Wimbledon_Championships
-
 675629	2015_Wimbledon_Championships_–_Day-by-day_summaries
-
 675643	2015_Wimbledon_Championships_–_Men's_doubles
-
 675645	2015_Wimbledon_Championships_–_Men's_singles
-
 675649	2015_Wimbledon_Championships_–_Mixed_doubles
-
 675660	2015_Wimbledon_Championships_–_Women's_doubles
-
 675662	2015_Wimbledon_Championships_–_Women's_singles
-
 676192	2015_World_Snooker_Championship
-
 676384	2015_Wuhan_Open_–_Singles
-
 676593	2015_in_British_music
-
 676636	2015_in_Europe
-
 676800	2015_in_Wales
-
 676812	2015_in_art
-
 676890	2015_in_sports
-
 676896	2015_in_tennis
-
 676908	2015_in_the_Philippines
-
 680286	2016
-
 683731	2016_ATP_Challenger_Tour
-
 683738	2016_ATP_World_Tour
-
 683739	2016_ATP_World_Tour_Finals
-
 683744	2016_ATP_World_Tour_Masters_1000
-
 684260	2016_Andy_Murray_tennis_season
-
 684261	2016_Angelique_Kerber_tennis_season
-
 684598	2016_Australian_Open
-
 684655	2016_Australian_Open_–_Day-by-day_summaries
-
 684669	2016_Australian_Open_–_Men's_doubles
-
 684672	2016_Australian_Open_–_Men's_singles
-
 684695	2016_Australian_Open_–_Women's_doubles
-
 684698	2016_Australian_Open_–_Women's_singles
-
 684787	2016_BNP_Paribas_Open
-
 684799	2016_BNP_Paribas_Open_–_Men's_singles
-
 684803	2016_BNP_Paribas_Open_–_Women's_singles
-
 686061	2016_China_Open_(snooker)
-
 686062	2016_China_Open_(tennis)
-
 686079	2016_China_Open_–_Women's_singles
-
 686141	2016_Citi_Open
-
 686807	2016_Dubai_Tennis_Championships
-
 687013	2016_English_Open_(snooker)
-
 687280	2016_European_Masters
-
 688001	2016_French_Open
-
 688053	2016_French_Open_–_Day-by-day_summaries
-
 688066	2016_French_Open_–_Men's_doubles
-
 688067	2016_French_Open_–_Men's_singles
-
 688084	2016_French_Open_–_Women's_doubles
-
 688086	2016_French_Open_–_Women's_singles
-
 688275	2016_German_Masters
-
 689070	2016_ITF_Women's_Circuit_(April–June)
-
 689072	2016_ITF_Women's_Circuit_(January–March)
-
 689074	2016_ITF_Women's_Circuit_(July–September)
-
 689076	2016_ITF_Women's_Circuit_(October–December)
-
 689187	2016_Indian_Open
-
 689272	2016_International_Championship
-
 689461	2016_Italian_Open_(tennis)
-
 689477	2016_Italian_Open_–_Women's_singles
-
 690743	2016_Miami_Open
-
 690756	2016_Miami_Open_–_Men's_singles
-
 690760	2016_Miami_Open_–_Women's_singles
-
 691101	2016_Mutua_Madrid_Open
-
 691113	2016_Mutua_Madrid_Open_–_Men's_singles
-
 691117	2016_Mutua_Madrid_Open_–_Women's_singles
-
 691810	2016_Northern_Ireland_Open
-
 691854	2016_Nottingham_Open
-
 691874	2016_Novak_Djokovic_tennis_season
-
 692403	2016_Paul_Hunter_Classic
-
 692788	2016_Qatar_Total_Open_–_Singles
-
 692874	2016_Rafael_Nadal_tennis_season
-
 693054	2016_Riga_Masters
-
 693116	2016_Rogers_Cup
-
 693132	2016_Rogers_Cup_–_Women's_singles
-
 693478	2016_Scottish_Open_(snooker)
-
 693553	2016_Serena_Williams_tennis_season
-
 693572	2016_Shanghai_Masters
-
 693990	2016_Stan_Wawrinka_tennis_season
-
 695152	2016_UK_Championship
-
 695206	2016_US_Open_(tennis)
-
 695238	2016_US_Open_Series
-
 695245	2016_US_Open_–_Day-by-day_summaries
-
 695256	2016_US_Open_–_Men's_doubles
-
 695257	2016_US_Open_–_Men's_singles
-
 695266	2016_US_Open_–_Women's_doubles
-
 695267	2016_US_Open_–_Women's_singles
-
 695935	2016_WTA_Finals
-
 695941	2016_WTA_Premier_tournaments
-
 695947	2016_WTA_Tour
-
 696054	2016_Welsh_Open_(snooker)
-
 696110	2016_Western_&_Southern_Open
-
 696122	2016_Western_&_Southern_Open_–_Men's_singles
-
 696126	2016_Western_&_Southern_Open_–_Women's_singles
-
 696211	2016_Wimbledon_Championships
-
 696262	2016_Wimbledon_Championships_–_Day-by-day_summaries
-
 696276	2016_Wimbledon_Championships_–_Men's_doubles
-
 696278	2016_Wimbledon_Championships_–_Men's_singles
-
 696281	2016_Wimbledon_Championships_–_Mixed_doubles
-
 696296	2016_Wimbledon_Championships_–_Women's_doubles
-
 696298	2016_Wimbledon_Championships_–_Women's_singles
-
 696565	2016_World_Open_(snooker)
-
 696743	2016_World_Snooker_Championship
-
 696822	2016_Wuhan_Open_–_Singles
-
 697011	2016_in_British_music
-
 697048	2016_in_Europe
-
 697213	2016_in_Wales
-
 697225	2016_in_art
-
 697242	2016_in_classical_music
-
 697308	2016_in_sports
-
 697314	2016_in_tennis
-
 697323	2016_in_the_Philippines
-
 700646	2017
-
 704139	2017_ATP_Challenger_Tour
-
 704140	2017_ATP_Finals
-
 704156	2017_ATP_World_Tour
-
 704160	2017_ATP_World_Tour_Masters_1000
-
 704259	2017_Aegon_International_Eastbourne
-
 704583	2017_Andy_Murray_tennis_season
-
 704612	2017_Apia_International_Sydney
-
 704968	2017_Australian_Open
-
 705020	2017_Australian_Open_–_Day-by-day_summaries
-
 705032	2017_Australian_Open_–_Men's_doubles
-
 705033	2017_Australian_Open_–_Men's_singles
-
 705054	2017_Australian_Open_–_Women's_doubles
-
 705056	2017_Australian_Open_–_Women's_singles
-
 705130	2017_BNP_Paribas_Open
-
 705142	2017_BNP_Paribas_Open_–_Men's_singles
-
 705146	2017_BNP_Paribas_Open_–_Women's_singles
-
 706443	2017_China_Championship
-
 706465	2017_China_Open_(snooker)
-
 706466	2017_China_Open_(tennis)
-
 706483	2017_China_Open_–_Women's_singles
-
 707093	2017_Dubai_Tennis_Championships
-
 707109	2017_Dubai_Tennis_Championships_–_Women's_singles
-
 707314	2017_English_Open_(snooker)
-
 707629	2017_European_Masters_(snooker)
-
 708324	2017_French_Open
-
 708371	2017_French_Open_–_Day-by-day_summaries
-
 708384	2017_French_Open_–_Men's_doubles
-
 708385	2017_French_Open_–_Men's_singles
-
 708401	2017_French_Open_–_Women's_doubles
-
 708403	2017_French_Open_–_Women's_singles
-
 708496	2017_Garbiñe_Muguruza_tennis_season
-
 708584	2017_German_Masters
-
 708606	2017_Gibraltar_Open
-
 709239	2017_ITF_Women's_Circuit_(April–June)
-
 709241	2017_ITF_Women's_Circuit_(January–March)
-
 709243	2017_ITF_Women's_Circuit_(July–September)
-
 709245	2017_ITF_Women's_Circuit_(October–December)
-
 709307	2017_Indian_Open
-
 709378	2017_International_Championship
-
 709586	2017_Italian_Open_(tennis)
-
 709602	2017_Italian_Open_–_Women's_singles
-
 710973	2017_Miami_Open
-
 710986	2017_Miami_Open_–_Men's_singles
-
 710990	2017_Miami_Open_–_Women's_singles
-
 711258	2017_Mutua_Madrid_Open
-
 711270	2017_Mutua_Madrid_Open_–_Men's_singles
-
 711274	2017_Mutua_Madrid_Open_–_Women's_singles
-
 711902	2017_Northern_Ireland_Open
-
 711965	2017_Novak_Djokovic_tennis_season
-
 712425	2017_Paul_Hunter_Classic
-
 712791	2017_Rafael_Nadal_tennis_season
-
 712914	2017_Riga_Masters
-
 712950	2017_Roger_Federer_tennis_season
-
 712951	2017_Rogers_Cup
-
 712967	2017_Rogers_Cup_–_Women's_singles
-
 712977	2017_Rolex_Paris_Masters_–_Singles
-
 713285	2017_Scottish_Open_(snooker)
-
 713356	2017_Shanghai_Masters
-
 713361	2017_Shanghai_Rolex_Masters_–_Singles
-
 713479	2017_Snooker_Shoot_Out
-
 713772	2017_Stan_Wawrinka_tennis_season
-
 714841	2017_UK_Championship
-
 714906	2017_US_Open_(tennis)
-
 714949	2017_US_Open_Series
-
 714955	2017_US_Open_–_Day-by-day_summaries
-
 714966	2017_US_Open_–_Men's_doubles
-
 714967	2017_US_Open_–_Men's_singles
-
 714988	2017_US_Open_–_Women's_doubles
-
 714989	2017_US_Open_–_Women's_singles
-
 715410	2017_WTA_Finals
-
 715416	2017_WTA_Premier_tournaments
-
 715423	2017_WTA_Tour
-
 715506	2017_Welsh_Open_(snooker)
-
 715550	2017_Western_&_Southern_Open
-
 715562	2017_Western_&_Southern_Open_–_Men's_singles
-
 715566	2017_Western_&_Southern_Open_–_Women's_singles
-
 715654	2017_Wimbledon_Championships
-
 715705	2017_Wimbledon_Championships_–_Day-by-day_summaries
-
 715720	2017_Wimbledon_Championships_–_Men's_doubles
-
 715722	2017_Wimbledon_Championships_–_Men's_singles
-
 715726	2017_Wimbledon_Championships_–_Mixed_doubles
-
 715741	2017_Wimbledon_Championships_–_Women's_doubles
-
 715743	2017_Wimbledon_Championships_–_Women's_singles
-
 716191	2017_World_Open_(snooker)
-
 716455	2017_World_Snooker_Championship
-
 716676	2017_Wuhan_Open_–_Singles
-
 716913	2017_in_British_music
-
 716922	2017_in_Canada
-
 716960	2017_in_France
-
 716964	2017_in_Germany
-
 717155	2017_in_art
-
 717166	2017_in_classical_music
-
 717234	2017_in_tennis
-
 717247	2017_in_the_Philippines
-
 720493	2017–18_snooker_season
-
 720605	2018
-
 724102	2018_ATP_Challenger_Tour
-
 724103	2018_ATP_Finals
-
 724119	2018_ATP_World_Tour
-
 724122	2018_ATP_World_Tour_Masters_1000
-
 724598	2018_Angelique_Kerber_tennis_season
-
 724927	2018_Australian_Open
-
 724974	2018_Australian_Open_–_Day-by-day_summaries
-
 724985	2018_Australian_Open_–_Men's_doubles
-
 724986	2018_Australian_Open_–_Men's_singles
-
 725005	2018_Australian_Open_–_Women's_doubles
-
 725006	2018_Australian_Open_–_Women's_singles
-
 725071	2018_BNP_Paribas_Open
-
 725083	2018_BNP_Paribas_Open_–_Men's_singles
-
 725087	2018_BNP_Paribas_Open_–_Women's_singles
-
 726079	2018_Caroline_Wozniacki_tennis_season
-
 726306	2018_China_Championship
-
 726314	2018_China_Open_(snooker)
-
 726316	2018_China_Open_(tennis)
-
 726332	2018_China_Open_–_Women's_singles
-
 726414	2018_Citi_Open
-
 726982	2018_Dubai_Tennis_Championships
-
 727069	2018_Eastbourne_International
-
 727192	2018_English_Open_(snooker)
-
 727458	2018_European_Masters
-
 728327	2018_French_Open
-
 728374	2018_French_Open_–_Day-by-day_summaries
-
 728388	2018_French_Open_–_Men's_doubles
-
 728389	2018_French_Open_–_Men's_singles
-
 728405	2018_French_Open_–_Women's_doubles
-
 728407	2018_French_Open_–_Women's_singles
-
 728631	2018_German_Masters
-
 728652	2018_Gibraltar_Open
-
 729401	2018_ITF_Women's_Circuit_(April–June)
-
 729403	2018_ITF_Women's_Circuit_(January–March)
-
 729405	2018_ITF_Women's_Circuit_(July–September)
-
 729407	2018_ITF_Women's_Circuit_(October–December)
-
 729578	2018_International_Championship
-
 729758	2018_Italian_Open_(tennis)
-
 729770	2018_Italian_Open_–_Men's_singles
-
 729774	2018_Italian_Open_–_Women's_singles
-
 729935	2018_Juan_Martín_del_Potro_tennis_season
-
 731166	2018_Miami_Open_–_Men's_singles
-
 731170	2018_Miami_Open_–_Women's_singles
-
 731465	2018_Mutua_Madrid_Open
-
 731477	2018_Mutua_Madrid_Open_–_Men's_singles
-
 731481	2018_Mutua_Madrid_Open_–_Women's_singles
-
 732131	2018_Northern_Ireland_Open
-
 732185	2018_Novak_Djokovic_tennis_season
-
 733167	2018_Qatar_Total_Open_–_Singles
-
 733255	2018_Rafael_Nadal_tennis_season
-
 733352	2018_Riga_Masters
-
 733385	2018_Roger_Federer_tennis_season
-
 733386	2018_Rogers_Cup
-
 733398	2018_Rogers_Cup_–_Men's_singles
-
 733402	2018_Rogers_Cup_–_Women's_singles
-
 733749	2018_Scottish_Open_(snooker)
-
 733896	2018_Simona_Halep_tennis_season
-
 733944	2018_Snooker_Shoot_Out
-
 735312	2018_UK_Championship
-
 735400	2018_US_Open_(tennis)
-
 735443	2018_US_Open_Series
-
 735450	2018_US_Open_–_Day-by-day_summaries
-
 735460	2018_US_Open_–_Men's_doubles
-
 735461	2018_US_Open_–_Men's_singles
-
 735481	2018_US_Open_–_Women's_doubles
-
 735482	2018_US_Open_–_Women's_singles
-
 735978	2018_WTA_Elite_Trophy
-
 735983	2018_WTA_Finals
-
 735989	2018_WTA_Premier_tournaments
-
 735996	2018_WTA_Tour
-
 736084	2018_Welsh_Open_(snooker)
-
 736127	2018_Western_&_Southern_Open
-
 736139	2018_Western_&_Southern_Open_–_Men's_singles
-
 736143	2018_Western_&_Southern_Open_–_Women's_singles
-
 736196	2018_Wimbledon_Championships
-
 736248	2018_Wimbledon_Championships_–_Day-by-day_summaries
-
 736263	2018_Wimbledon_Championships_–_Men's_doubles
-
 736265	2018_Wimbledon_Championships_–_Men's_singles
-
 736268	2018_Wimbledon_Championships_–_Mixed_doubles
-
 736285	2018_Wimbledon_Championships_–_Women's_doubles
-
 736287	2018_Wimbledon_Championships_–_Women's_singles
-
 736593	2018_World_Open_(snooker)
-
 736837	2018_World_Snooker_Championship
-
 737031	2018_Wuhan_Open_–_Singles
-
 737256	2018_in_British_music
-
 737305	2018_in_Germany
-
 737486	2018_in_art
-
 737498	2018_in_classical_music
-
 737526	2018_in_literature
-
 737593	2018_in_the_Philippines
-
 740947	2019
-
 744666	2019_ATP_Challenger_Tour
-
 744667	2019_ATP_Finals
-
 744677	2019_ATP_Tour
-
 744678	2019_ATP_Tour_Masters_1000
-
 744685	2019_Abierto_Mexicano_Telcel
-
 745123	2019_Ashleigh_Barty_tennis_season
-
 745381	2019_Australian_Open
-
 745434	2019_Australian_Open_–_Day-by-day_summaries
-
 745447	2019_Australian_Open_–_Men's_doubles
-
 745450	2019_Australian_Open_–_Men's_singles
-
 745471	2019_Australian_Open_–_Women's_doubles
-
 745473	2019_Australian_Open_–_Women's_singles
-
 745547	2019_BNP_Paribas_Open
-
 745559	2019_BNP_Paribas_Open_–_Men's_singles
-
 745563	2019_BNP_Paribas_Open_–_Women's_singles
-
 745876	2019_Bianca_Andreescu_tennis_season
-
 746848	2019_China_Championship
-
 746859	2019_China_Open_(snooker)
-
 746860	2019_China_Open_(tennis)
-
 746876	2019_China_Open_–_Women's_singles
-
 746960	2019_Citi_Open
-
 747462	2019_Davis_Cup_Finals_teams
-
 747597	2019_Dubai_Tennis_Championships
-
 747716	2019_Eastbourne_International
-
 747836	2019_English_Open_(snooker)
-
 748918	2019_French_Open
-
 748970	2019_French_Open_–_Day-by-day_summaries
-
 748983	2019_French_Open_–_Men's_doubles
-
 748984	2019_French_Open_–_Men's_singles
-
 749004	2019_French_Open_–_Women's_doubles
-
 749006	2019_French_Open_–_Women's_singles
-
 749174	2019_German_Masters
-
 749190	2019_Gibraltar_Open
-
 749785	2019_ITF_Women's_World_Tennis_Tour_(April–June)
-
 749789	2019_ITF_Women's_World_Tennis_Tour_(July–September)
-
 749791	2019_ITF_Women's_World_Tennis_Tour_(October–December)
-
 749887	2019_Indian_Open
-
 750033	2019_International_Championship
-
 750193	2019_Italian_Open_(tennis)
-
 750205	2019_Italian_Open_–_Men's_singles
-
 750209	2019_Italian_Open_–_Women's_singles
-
 750981	2019_Libéma_Open
-
 751626	2019_Miami_Open
-
 751638	2019_Miami_Open_–_Men's_singles
-
 751642	2019_Miami_Open_–_Women's_singles
-
 751944	2019_Mutua_Madrid_Open
-
 751956	2019_Mutua_Madrid_Open_–_Men's_singles
-
 751960	2019_Mutua_Madrid_Open_–_Women's_singles
-
 752672	2019_Northern_Ireland_Open
-
 752740	2019_Novak_Djokovic_tennis_season
-
 753688	2019_Rafael_Nadal_tennis_season
-
 753770	2019_Riga_Masters
-
 753800	2019_Roger_Federer_tennis_season
-
 753801	2019_Rogers_Cup
-
 753815	2019_Rogers_Cup_–_Men's_singles
-
 753819	2019_Rogers_Cup_–_Women's_singles
-
 754184	2019_Scottish_Open_(snooker)
-
 754336	2019_Simona_Halep_tennis_season
-
 754371	2019_Snooker_Shoot_Out
-
 754940	2019_Sydney_International
-
 755776	2019_UK_Championship
-
 755861	2019_US_Open_(tennis)
-
 755900	2019_US_Open_Series
-
 755906	2019_US_Open_–_Day-by-day_summaries
-
 755915	2019_US_Open_–_Men's_doubles
-
 755916	2019_US_Open_–_Men's_singles
-
 755935	2019_US_Open_–_Women's_doubles
-
 755936	2019_US_Open_–_Women's_singles
-
 756295	2019_WTA_125K_series
-
 756296	2019_WTA_Awards
-
 756302	2019_WTA_Finals
-
 756308	2019_WTA_Premier_tournaments
-
 756315	2019_WTA_Tour
-
 756402	2019_Welsh_Open_(snooker)
-
 756437	2019_Western_&_Southern_Open
-
 756450	2019_Western_&_Southern_Open_–_Men's_singles
-
 756454	2019_Western_&_Southern_Open_–_Women's_singles
-
 756518	2019_Wimbledon_Championships
-
 756571	2019_Wimbledon_Championships_–_Day-by-day_summaries
-
 756585	2019_Wimbledon_Championships_–_Men's_doubles
-
 756586	2019_Wimbledon_Championships_–_Men's_singles
-
 756590	2019_Wimbledon_Championships_–_Mixed_doubles
-
 756608	2019_Wimbledon_Championships_–_Women's_doubles
-
 756609	2019_Wimbledon_Championships_–_Women's_singles
-
 757093	2019_World_Open_(snooker)
-
 757348	2019_World_Snooker_Championship
-
 757558	2019_Wuhan_Open_–_Singles
-
 757711	2019_deaths_in_the_United_States_(January–June)
-
 757713	2019_deaths_in_the_United_States_(July–December)
-
 757772	2019_in_Afghanistan
-
 757789	2019_in_Australia
-
 757813	2019_in_Canada
-
 757843	2019_in_Finland
-
 757909	2019_in_Mexico
-
 758006	2019_in_Wales
-
 758024	2019_in_art
-
 758036	2019_in_classical_music
-
 758062	2019_in_literature
-
 758111	2019_in_tennis
-
 758123	2019_in_the_Philippines
-
 758135	2019_in_the_United_States
-
 761702	2020
-
 764992	2020_ASB_Classic
-
 765018	2020_ATP_Challenger_Tour
-
 765019	2020_ATP_Cup
-
 765020	2020_ATP_Finals
-
 765025	2020_ATP_Tour
-
 765032	2020_Abierto_Mexicano_Telcel
-
 765061	2020_Adelaide_International
-
 765583	2020_Australian_Open
-
 765633	2020_Australian_Open_–_Day-by-day_summaries
-
 765645	2020_Australian_Open_–_Men's_doubles
-
 765647	2020_Australian_Open_–_Men's_singles
-
 765667	2020_Australian_Open_–_Women's_doubles
-
 765669	2020_Australian_Open_–_Women's_singles
-
 765713	2020_BNP_Paribas_Open
-
 766687	2020_Championship_League_(ranking)
-
 767327	2020_Dubai_Tennis_Championships
-
 767479	2020_English_Open_(snooker)
-
 767590	2020_European_Masters_(2019–20_season)
-
 767592	2020_European_Masters_(2020–21_season)
-
 768108	2020_French_Open
-
 768151	2020_French_Open_–_Day-by-day_summaries
-
 768160	2020_French_Open_–_Men's_doubles
-
 768161	2020_French_Open_–_Men's_singles
-
 768181	2020_French_Open_–_Women's_doubles
-
 768182	2020_French_Open_–_Women's_singles
-
 768343	2020_German_Masters
-
 768353	2020_Gibraltar_Open
-
 769121	2020_Italian_Open_(tennis)
-
 769133	2020_Italian_Open_–_Men's_singles
-
 769137	2020_Italian_Open_–_Women's_singles
-
 771036	2020_Northern_Ireland_Open
-
 771088	2020_Novak_Djokovic_tennis_season
-
 771737	2020_Qatar_Total_Open_–_Singles
-
 771902	2020_Rolex_Paris_Masters
-
 772128	2020_Scottish_Open_(snooker)
-
 772245	2020_Snooker_Shoot_Out
-
 773325	2020_UK_Championship
-
 773387	2020_US_Open_(tennis)
-
 773430	2020_US_Open_–_Day-by-day_summaries
-
 773439	2020_US_Open_–_Men's_singles
-
 773459	2020_US_Open_–_Women's_singles
-
 774132	2020_WTA_Tour
-
 774207	2020_Welsh_Open_(snooker)
-
 774243	2020_Western_&_Southern_Open
-
 774255	2020_Western_&_Southern_Open_–_Men's_singles
-
 774259	2020_Western_&_Southern_Open_–_Women's_singles
-
 774671	2020_World_Snooker_Championship
-
 775681	2020_in_Australia
-
 775688	2020_in_Bangladesh
-
 775704	2020_in_British_music
-
 775736	2020_in_East_Africa
-
 775761	2020_in_Germany
-
 775792	2020_in_Japan
-
 775954	2020_in_Wales
-
 775974	2020_in_art
-
 775986	2020_in_classical_music
-
 776072	2020_in_the_Philippines
-
 776088	2020_in_the_United_States
-
 779312	2021
-
 782500	2021_ATP_Challenger_Tour
-
 782532	2021_ATP_Tour
-
 782533	2021_ATP_Tour_Masters_1000
-
 783062	2021_Ashleigh_Barty_tennis_season
-
 783250	2021_Australian_Open
-
 783278	2021_Australian_Open_–_Day-by-day_summaries
-
 783282	2021_Australian_Open_–_Men's_doubles
-
 783283	2021_Australian_Open_–_Men's_singles
-
 783302	2021_Australian_Open_–_Women's_doubles
-
 783303	2021_Australian_Open_–_Women's_singles
-
 783366	2021_BNP_Paribas_Open
-
 783378	2021_BNP_Paribas_Open_–_Men's_singles
-
 783382	2021_BNP_Paribas_Open_–_Women's_singles
-
 783933	2021_British_Open
-
 784442	2021_Championship_League_(ranking)
-
 784580	2021_Citi_Open
-
 785106	2021_Dubai_Tennis_Championships
-
 785122	2021_Dubai_Tennis_Championships_–_Women's_singles
-
 785206	2021_Eastbourne_International
-
 785271	2021_Emilia-Romagna_Open
-
 785327	2021_English_Open_(snooker)
-
 786194	2021_French_Open
-
 786236	2021_French_Open_–_Day-by-day_summaries
-
 786244	2021_French_Open_–_Men's_doubles
-
 786245	2021_French_Open_–_Men's_singles
-
 786265	2021_French_Open_–_Women's_doubles
-
 786266	2021_French_Open_–_Women's_singles
-
 786430	2021_German_Masters
-
 786456	2021_Gibraltar_Open
-
 786623	2021_Hamburg_European_Open
-
 787061	2021_Iga_Świątek_tennis_season
-
 787293	2021_Italian_Open_–_Men's_singles
-
 787297	2021_Italian_Open_–_Women's_singles
-
 787644	2021_Kremlin_Cup
-
 788411	2021_MercedesCup
-
 788464	2021_Miami_Open
-
 788476	2021_Miami_Open_–_Men's_singles
-
 788480	2021_Miami_Open_–_Women's_singles
-
 788736	2021_Mutua_Madrid_Open_–_Men's_singles
-
 788740	2021_Mutua_Madrid_Open_–_Women's_singles
-
 789020	2021_National_Bank_Open
-
 789359	2021_Northern_Ireland_Open
-
 789395	2021_Nottingham_Open
-
 789432	2021_Novak_Djokovic_tennis_season
-
 789952	2021_Phillip_Island_Trophy
-
 790376	2021_Rolex_Paris_Masters
-
 790380	2021_Rolex_Paris_Masters_–_Singles
-
 790712	2021_Scottish_Open_(snooker)
-
 790757	2021_Serbia_Open
-
 790875	2021_Snooker_Shoot_Out
-
 792153	2021_UK_Championship
-
 792198	2021_US_Open_(tennis)
-
 792239	2021_US_Open_–_Day-by-day_summaries
-
 792247	2021_US_Open_–_Men's_doubles
-
 792248	2021_US_Open_–_Men's_singles
-
 792267	2021_US_Open_–_Women's_doubles
-
 792268	2021_US_Open_–_Women's_singles
-
 792542	2021_Volvo_Car_Open
-
 792615	2021_WST_Pro_Series
-
 792617	2021_WTA_1000_tournaments
-
 792647	2021_WTA_Tour
-
 792726	2021_Welsh_Open_(snooker)
-
 792758	2021_Western_&_Southern_Open
-
 792770	2021_Western_&_Southern_Open_–_Men's_singles
-
 792774	2021_Western_&_Southern_Open_–_Women's_singles
-
 792829	2021_Wimbledon_Championships
-
 792869	2021_Wimbledon_Championships_–_Day-by-day_summaries
-
 792877	2021_Wimbledon_Championships_–_Men's_doubles
-
 792878	2021_Wimbledon_Championships_–_Men's_singles
-
 792881	2021_Wimbledon_Championships_–_Mixed_doubles
-
 792897	2021_Wimbledon_Championships_–_Women's_doubles
-
 792898	2021_Wimbledon_Championships_–_Women's_singles
-
 792909	2021_Winston-Salem_Open
-
 793441	2021_World_Snooker_Championship
-
 793804	2021_in_Australia
-
 793824	2021_in_Brazil
-
 793827	2021_in_British_music
-
 793995	2021_in_Romania
-
 794065	2021_in_Wales
-
 794078	2021_in_art
-
 794088	2021_in_classical_music
-
 794141	2021_in_sports
-
 794147	2021_in_tennis
-
 794169	2021_in_the_Philippines
-
 797256	2021–22_snooker_world_rankings
-
 797271	2022
-
 799911	2022_ATP_Challenger_Tour
-
 799928	2022_ATP_Tour
-
 799982	2022_Adelaide_International_1
-
 800003	2022_Adelaide_International_2
-
 800650	2022_Australian_Open
-
 800692	2022_Australian_Open_–_Day-by-day_summaries
-
 800700	2022_Australian_Open_–_Men's_doubles
-
 800701	2022_Australian_Open_–_Men's_singles
-
 800721	2022_Australian_Open_–_Women's_doubles
-
 800722	2022_Australian_Open_–_Women's_singles
-
 800809	2022_BNP_Paribas_Open_–_Men's_singles
-
 800811	2022_BNP_Paribas_Open_–_Women's_singles
-
 801375	2022_British_Open
-
 802001	2022_Championship_League_(ranking)
-
 802136	2022_Citi_Open
-
 802605	2022_Daniil_Medvedev_tennis_season
-
 802628	2022_Davis_Cup_Finals
-
 802737	2022_Dubai_Tennis_Championships
-
 802833	2022_Eastbourne_International
-
 802966	2022_English_Open_(snooker)
-
 803268	2022_European_Masters_(2021–22_season)
-
 803270	2022_European_Masters_(2022–23_season)
-
 804002	2022_French_Open
-
 804027	2022_French_Open_–_Day-by-day_summaries
-
 804031	2022_French_Open_–_Men's_doubles
-
 804032	2022_French_Open_–_Men's_singles
-
 804043	2022_French_Open_–_Women's_doubles
-
 804044	2022_French_Open_–_Women's_singles
-
 804218	2022_German_Masters
-
 804235	2022_Gibraltar_Open
-
 804895	2022_Iga_Świątek_tennis_season
-
 805876	2022_Libéma_Open
-
 806347	2022_Melbourne_Summer_Set_1
-
 806488	2022_Miami_Open_–_Men's_singles
-
 806490	2022_Miami_Open_–_Women's_singles
-
 806762	2022_Mutua_Madrid_Open_–_Men's_singles
-
 806764	2022_Mutua_Madrid_Open_–_Women's_singles
-
 807032	2022_National_Bank_Open_–_Men's_singles
-
 807034	2022_National_Bank_Open_–_Women's_singles
-
 807391	2022_Northern_Ireland_Open
-
 808968	2022_Scottish_Open_(snooker)
-
 809147	2022_Snooker_Shoot_Out
-
 809633	2022_Sydney_Tennis_Classic
-
 810151	2022_Turkish_Masters
-
 810473	2022_UK_Championship
-
 810540	2022_US_Open_(tennis)
-
 810561	2022_US_Open_–_Day-by-day_summaries
-
 810564	2022_US_Open_–_Men's_doubles
-
 810565	2022_US_Open_–_Men's_singles
-
 810574	2022_US_Open_–_Women's_doubles
-
 810575	2022_US_Open_–_Women's_singles
-
 811117	2022_WTA_1000_tournaments
-
 811118	2022_WTA_125_tournaments
-
 811144	2022_WTA_Tour
-
 811218	2022_Welsh_Open_(snooker)
-
 811261	2022_Western_&_Southern_Open_–_Men's_singles
-
 811263	2022_Western_&_Southern_Open_–_Women's_singles
-
 811304	2022_Wimbledon_Championships
-
 811328	2022_Wimbledon_Championships_–_Day-by-day_summaries
-
 811333	2022_Wimbledon_Championships_–_Men's_doubles
-
 811334	2022_Wimbledon_Championships_–_Men's_singles
-
 811344	2022_Wimbledon_Championships_–_Women's_doubles
-
 811345	2022_Wimbledon_Championships_–_Women's_singles
-
 812076	2022_World_Snooker_Championship
-
 812476	2022_in_Australia
-
 812480	2022_in_Azerbaijan
-
 812492	2022_in_Bolivia
-
 812550	2022_in_Germany
-
 812682	2022_in_Somaliland
-
 812718	2022_in_Ukraine
-
 812739	2022_in_art
-
 812749	2022_in_classical_music
-
 812798	2022_in_sports
-
 812805	2022_in_tennis
-
 812826	2022_in_the_Philippines
-
 812837	2022_in_the_United_States
-
 815613	2023_Adelaide_International_1
-
 816253	2023_German_Masters
-
 816994	2023_Snooker_Shoot_Out
-
 817263	2023_Welsh_Open_(snooker)
-
 1036550	ATP_Auckland_Open
-
 1036551	ATP_Awards
-
 1036623	ATP_Finals
-
 1036641	ATP_International_Series
-
 1036642	ATP_International_Series_Gold
-
 1036698	ATP_Qatar_Open
-
 1036750	ATP_Tour_250
-
 1036751	ATP_Tour_500
-
 1036760	ATP_Tour_records
-
 1036890	ATP_rankings
-
 1103677	Abigail_Spears
-
 1139063	Ace_(tennis)
-
 1190781	Adil_Shamasdin
-
 1192098	Aditya_Mehta
-
 1206796	Adrian_Mannarino
-
 1259509	Agnieszka_Radwańska
-
 1259510	Agnieszka_Radwańska_career_statistics
-
 1269185	Agustín_Calleri
-
 1281538	Ai_Sugiyama
-
 1300715	Aisam-ul-Haq_Qureshi
-
 1300716	Aisam-ul-Haq_Qureshi_career_statistics
-
 1305396	Ajla_Tomljanović
-
 1310914	Akgul_Amanmuradova
-
 1348610	Alan_McManus
-
 1365733	Albert_Montañés
-
 1366503	Albert_Ramos_Viñolas
-
 1369010	Alberta_Brianti
-
 1371871	Alberto_Martín
-
 1386071	Alejandro_Davidovich_Fokina
-
 1386153	Alejandro_Falla
-
 1392750	Aleksandra_Krunić
-
 1392940	Aleksandra_Wozniak
-
 1400518	Alex_Bogomolov_Jr.
-
 1400527	Alex_Bolt
-
 1405540	Alex_de_Minaur
-
 1405793	Alexa_Glatch
-
 1405799	Alexa_Guarachi
-
 1408015	Alexander_Bublik
-
 1415406	Alexander_Peya
-
 1417812	Alexander_Ursenbacher
-
 1418892	Alexander_Zverev
-
 1418902	Alexander_Zverev_career_statistics
-
 1419938	Alexandr_Dolgopolov
-
 1420872	Alexandra_Cadanțu-Ignatik
-
 1421015	Alexandra_Dulgheru
-
 1421578	Alexandra_Panova
-
 1426676	Alexei_Popyrin
-
 1432023	Alfie_Burden
-
 1447884	Ali_Carter
-
 1452471	Aliaksandra_Sasnovich
-
 1457391	Alicia_Molik
-
 1457392	Alicia_Molik_career_statistics
-
 1457709	Alicja_Rosolska
-
 1461902	Alisa_Kleybanova
-
 1463151	Alison_Riske-Amritraj
-
 1463153	Alison_Riske_career_statistics
-
 1463306	Alison_Van_Uytvanck
-
 1465157	Alizé_Cornet
-
 1465158	Alizé_Cornet_career_statistics
-
 1465345	Aljaž_Bedene
-
 1478332	Alla_Kudryavtseva
-
 1481659	Allan_Taylor_(snooker_player)
-
 1502393	Alona_Bondarenko
-
 1537431	Amanda_Anisimova
-
 1537432	Amanda_Anisimova_career_statistics
-
 1556460	Amer_Delić
-
 1598540	Amélie_Mauresmo
-
 1598541	Amélie_Mauresmo_career_statistics
-
 1603078	Ana_Bogdan
-
 1603638	Ana_Ivanovic
-
 1603639	Ana_Ivanovic_career_statistics
-
 1603728	Ana_Konjuh
-
 1605335	Anabel_Medina_Garrigues
-
 1614481	Anastasia_Myskina
-
 1614513	Anastasia_Pavlyuchenkova
-
 1614514	Anastasia_Pavlyuchenkova_career_statistics
-
 1614534	Anastasia_Potapova
-
 1614555	Anastasia_Rodionova
-
 1614894	Anastasija_Sevastova
-
 1614895	Anastasija_Sevastova_career_statistics
-
 1615330	Anastasiya_Yakimova
-
 1633798	Andre_Agassi_career_statistics
-
 1633942	Andre_Begemann
-
 1638333	Andrea_Petkovic
-
 1638334	Andrea_Petkovic_career_statistics
-
 1638655	Andrea_Sestini_Hlaváčková
-
 1639466	Andreas_Beck_(tennis)
-
 1640551	Andreas_Mies
-
 1641025	Andreas_Seppi
-
 1641653	Andreea_Mitu
-
 1642908	Andrei_Pavel
-
 1644080	Andreja_Klepač
-
 1649023	Andrew_Higginson
-
 1655952	Andrey_Golubev
-
 1656216	Andrey_Kuznetsov_(tennis)
-
 1656604	Andrey_Rublev
-
 1656607	Andrey_Rublev_career_statistics
-
 1664163	André_Sá
-
 1667989	Andy_Murray
-
 1668001	Andy_Murray_career_statistics
-
 1668328	Andy_Ram
-
 1668441	Andy_Roddick
-
 1668443	Andy_Roddick_career_statistics
-
 1671222	Anett_Kontaveit
-
 1671223	Anett_Kontaveit_career_statistics
-
 1677720	Angelique_Kerber
-
 1677721	Angelique_Kerber_career_statistics
-
 1693280	Anhelina_Kalinina
-
 1707729	Anna-Lena_Friedsam
-
 1707733	Anna-Lena_Grönefeld
-
 1708438	Anna_Blinkova
-
 1708488	Anna_Bondár
-
 1708775	Anna_Chakvetadze
-
 1710266	Anna_Kalinskaya
-
 1710375	Anna_Karolína_Schmiedlová
-
 1713051	Anna_Smith_(tennis)
-
 1713342	Anna_Tatishvili
-
 1719706	Anne_Keothavong
-
 1726009	Annika_Beck
-
 1746120	Anthony_Hamilton_(snooker_player)
-
 1747720	Anthony_McGill
-
 1810571	April_1
-
 1810579	April_10
-
 1810590	April_11
-
 1810601	April_12
-
 1810613	April_13
-
 1810631	April_14
-
 1810645	April_15
-
 1810660	April_16
-
 1810672	April_17
-
 1810684	April_18
-
 1810737	April_19
-
 1810750	April_1904
-
 1810764	April_1914
-
 1810767	April_1917
-
 1810769	April_1918
-
 1810770	April_1919
-
 1810959	April_2
-
 1810969	April_20
-
 1811056	April_2010_in_sports
-
 1811241	April_21
-
 1811250	April_22
-
 1811263	April_23
-
 1811277	April_24
-
 1811286	April_25
-
 1811312	April_26
-
 1811324	April_27
-
 1811348	April_28
-
 1811357	April_29
-
 1811375	April_3
-
 1811381	April_30
-
 1811406	April_4
-
 1811424	April_5
-
 1811437	April_6
-
 1811462	April_7
-
 1811470	April_8
-
 1811487	April_9
-
 1826082	Arantxa_Parra_Santonja
-
 1826085	Arantxa_Rus
-
 1827862	Aravane_Rezaï
-
 1870523	Arina_Rodionova
-
 1897591	Arnaud_Clément
-
 1917220	Artem_Sitak
-
 1928748	Arthur_Rinderknech
-
 1943159	Aryna_Sabalenka
-
 1943160	Aryna_Sabalenka_career_statistics
-
 1958453	Ashleigh_Barty
-
 1958454	Ashleigh_Barty_career_statistics
-
 1958992	Ashley_Fisher
-
 1959116	Ashley_Harkleroad
-
 1963731	Asia_Muhammad
-
 1971111	Aslan_Karatsev
-
 1993231	Astra_Sharma
-
 2039330	Attila_Balázs
-
 2051978	August_1
-
 2051982	August_10
-
 2051994	August_11
-
 2051999	August_12
-
 2052004	August_13
-
 2052012	August_14
-
 2052027	August_15
-
 2052050	August_16
-
 2052055	August_17
-
 2052065	August_18
-
 2052113	August_19
-
 2052139	August_1916
-
 2052142	August_1918
-
 2052143	August_1919
-
 2052299	August_2
-
 2052303	August_20
-
 2052397	August_2011_in_sports
-
 2052561	August_21
-
 2052570	August_22
-
 2052576	August_23
-
 2052587	August_24
-
 2052596	August_25
-
 2052602	August_26
-
 2052610	August_27
-
 2052616	August_28
-
 2052626	August_29
-
 2052640	August_3
-
 2052643	August_30
-
 2052652	August_31
-
 2052661	August_4
-
 2052668	August_5
-
 2052674	August_6
-
 2052682	August_7
-
 2052689	August_8
-
 2052698	August_9
-
 2067728	Austin_Krajicek
-
 2079988	Austrian_Open_Kitzbühel
-
 2119882	Ayumi_Morita
-
 2277433	Barbora_Krejčíková
-
 2277434	Barbora_Krejčíková_career_statistics
-
 2277477	Barbora_Strýcová
-
 2277478	Barbora_Strýcová_career_statistics
-
 2303588	Barry_Hawkins
-
 2304450	Barry_Pinches
-
 2367366	Bavarian_International_Tennis_Championships
-
 2389855	Beatriz_Haddad_Maia
-
 2427035	Belinda_Bencic
-
 2427036	Belinda_Bencic_career_statistics
-
 2445272	Ben_McLachlan
-
 2447115	Ben_Woollaston
-
 2456597	Benjamin_Becker
-
 2456722	Benjamin_Bonzi
-
 2465104	Benoît_Paire
-
 2486197	Bernard_Tomic
-
 2486198	Bernard_Tomic_career_statistics
-
 2486897	Bernarda_Pera
-
 2508858	Bethanie_Mattek-Sands
-
 2534146	Bianca_Andreescu
-
 2534147	Bianca_Andreescu_career_statistics
-
 2551711	Big_Four_career_statistics
-
 2555142	Big_Three_(tennis)
-
 2600802	Birmingham_Classic_(tennis)
-
 2625372	Bjorn_Fratangelo
-
 2658437	Blaž_Kavčič
-
 2694531	Bob_Bryan
-
 2694534	Bob_Bryan_career_statistics
-
 2704532	Bobby_Reynolds
-
 2723474	Bojana_Jovanovski_Petrović
-
 2765285	Borna_Ćorić
-
 2765286	Borna_Ćorić_career_statistics
-
 2779355	Botic_van_de_Zandschulp
-
 2813695	Bradley_Klahn
-
 2824147	Brandon_Nakashima
-
 2853123	Brian_Baker_(tennis)
-
 2873468	Brisbane_International
-
 2924294	Bruno_Soares
-
 2929404	Bryan_brothers
-
 3157206	Cameron_Norrie
-
 3157207	Cameron_Norrie_career_statistics
-
 3158531	Camila_Giorgi
-
 3180022	Canadian_Open_(tennis)
-
 3209446	Cao_Yupeng
-
 3229184	Cara_Black
-
 3229186	Cara_Black_career_statistics
-
 3245623	Carina_Witthöft
-
 3254058	Carla_Suárez_Navarro
-
 3254059	Carla_Suárez_Navarro_career_statistics
-
 3258085	Carlos_Alcaraz
-
 3258088	Carlos_Alcaraz_career_statistics
-
 3258688	Carlos_Berlocq
-
 3262221	Carlos_Moyá
-
 3276512	Caroline_Dolehide
-
 3276699	Caroline_Garcia
-
 3276700	Caroline_Garcia_career_statistics
-
 3277895	Caroline_Wozniacki
-
 3277896	Caroline_Wozniacki_career_statistics
-
 3297720	Casey_Dellacqua
-
 3297721	Casey_Dellacqua_career_statistics
-
 3301316	Casper_Ruud
-
 3301317	Casper_Ruud_career_statistics
-
 3317456	Catalina_Castaño
-
 3337484	Caty_McNally
-
 3355109	Cedrik-Marcel_Stebe
-
 3429177	Chan_Hao-ching
-
 3433745	Chanelle_Scheepers
-
 3434578	Chang_Kai-chen
-
 3485689	Charleston_Open
-
 3521858	Chen_Zifan
-
 3572261	China_Open_(tennis)
-
 3617226	Chris_Guccione_(tennis)
-
 3621877	Chris_Wakelin
-
 3636055	Christina_McHale
-
 3642196	Christophe_Rochus
-
 3645661	Christopher_Kas
-
 3653159	Chronological_list_of_men's_Grand_Slam_tennis_champions
-
 3653222	Chronological_list_of_women's_Grand_Slam_tennis_champions
-
 3658805	Chuang_Chia-jung
-
 3664222	Chung_Hyeon
-
 3684291	CiCi_Bellis
-
 3691862	Cincinnati_Masters
-
 3724376	Claire_Liu
-
 3728292	Clara_Tauson
-
 3790537	CoCo_Vandeweghe
-
 3790538	CoCo_Vandeweghe_career_statistics
-
 3806108	Coco_Gauff
-
 3806109	Coco_Gauff_career_statistics
-
 3830612	Colin_Fleming
-
 3931190	Connecticut_Open_(tennis)
-
 3989086	Corentin_Moutet
-
 4064584	Craig_Steadman
-
 4092054	Cristian_Garín
-
 4098795	Croatia_Open
-
 4152052	Current_tennis_players_rankings
-
 4184859	Cyril_Suk
-
 4254833	Dalila_Jakupović
-
 4257308	Dalma_Gálfi
-
 4263745	Damir_Džumhur
-
 4267542	Dan_Evans_(tennis)
-
 4281887	Daniel_Brands
-
 4284655	Daniel_Gimeno_Traver
-
 4288733	Daniel_Nestor
-
 4292367	Daniel_Wells_(snooker_player)
-
 4293392	Daniela_Hantuchová
-
 4293394	Daniela_Hantuchová_career_statistics
-
 4293788	Daniele_Bracciali
-
 4294399	Danielle_Collins
-
 4294402	Danielle_Collins_career_statistics
-
 4295365	Daniil_Medvedev
-
 4295366	Daniil_Medvedev_career_statistics
-
 4299118	Danka_Kovinić
-
 4312009	Daria_Kasatkina
-
 4312010	Daria_Kasatkina_career_statistics
-
 4312098	Daria_Saville
-
 4312466	Darija_Jurak_Schreiber
-
 4354636	David_Ferrer
-
 4354639	David_Ferrer_career_statistics
-
 4356053	David_Gilbert_(snooker_player)
-
 4356218	David_Goffin
-
 4356219	David_Goffin_career_statistics
-
 4356493	David_Grace_(snooker_player)
-
 4364754	David_Marrero
-
 4367035	David_Nalbandian
-
 4367036	David_Nalbandian_career_statistics
-
 4378824	David_Škoch
-
 4379142	Davide_Sanguinetti
-
 4381040	Davis_Cup_winning_players
-
 4387426	Dayana_Yastremska
-
 4387427	Dayana_Yastremska_career_statistics
-
 4424041	December_1
-
 4424044	December_10
-
 4424048	December_11
-
 4424060	December_12
-
 4424066	December_13
-
 4424073	December_14
-
 4424085	December_15
-
 4424093	December_16
-
 4424097	December_17
-
 4424106	December_18
-
 4424140	December_19
-
 4424145	December_1903
-
 4424165	December_1914
-
 4424166	December_1915
-
 4424168	December_1916
-
 4424169	December_1917
-
 4424171	December_1918
-
 4424321	December_2
-
 4424323	December_20
-
 4424654	December_21
-
 4424664	December_22
-
 4424670	December_23
-
 4424686	December_24
-
 4424690	December_25
-
 4424699	December_26
-
 4424713	December_27
-
 4424717	December_28
-
 4424721	December_29
-
 4424728	December_3
-
 4424732	December_30
-
 4424741	December_31
-
 4424754	December_4
-
 4424760	December_5
-
 4424770	December_6
-
 4424778	December_7
-
 4424792	December_8
-
 4424798	December_9
-
 4425347	Dechawat_Poomjaeng
-
 4457785	Delray_Beach_Open
-
 4462949	Demi_Schuurs
-
 4476785	Denis_Istomin
-
 4476952	Denis_Kudla
-
 4477637	Denis_Shapovalov
-
 4477638	Denis_Shapovalov_career_statistics
-
 4513699	Desirae_Krawczyk
-
 4562048	Dick_Norman
-
 4573507	Diego_Schwartzman
-
 4573508	Diego_Schwartzman_career_statistics
-
 4595582	Dinara_Safina
-
 4595583	Dinara_Safina_career_statistics
-
 4596716	Ding_Junhui
-
 4642009	Divij_Sharan
-
 4652401	Djokovic–Federer_rivalry
-
 4652402	Djokovic–Murray_rivalry
-
 4652403	Djokovic–Nadal_rivalry
-
 4657014	Dmitry_Tursunov
-
 4687558	Dominic_Dale
-
 4687717	Dominic_Inglot
-
 4688111	Dominic_Thiem
-
 4688112	Dominic_Thiem_career_statistics
-
 4689676	Dominik_Hrbatý
-
 4689707	Dominik_Koepfer
-
 4689918	Dominika_Cibulková
-
 4689920	Dominika_Cibulková_career_statistics
-
 4709083	Donald_Young_(tennis)
-
 4716684	Donna_Vekić
-
 4716685	Donna_Vekić_career_statistics
-
 4804981	Duan_Yingying
-
 4805242	Duane_Jones_(snooker_player)
-
 4806338	Dubai_Tennis_Championships
-
 4814108	Dudi_Sela
-
 4843358	Dustin_Brown_(tennis)
-
 4847953	Dušan_Lajović
-
 4848138	Dušan_Vemić
-
 4929941	Eastbourne_International
-
 4974651	Edina_Gallovits-Hall
-
 4988962	Eduardo_Schwank
-
 5039117	Ekaterina_Alexandrova
-
 5039360	Ekaterina_Makarova
-
 5039362	Ekaterina_Makarova_career_statistics
-
 5079643	Elena_Baltacha
-
 5079863	Elena_Dementieva
-
 5079864	Elena_Dementieva_career_statistics
-
 5080295	Elena_Likhovtseva
-
 5080729	Elena_Rybakina
-
 5080730	Elena_Rybakina_career_statistics
-
 5080977	Elena_Vesnina
-
 5080978	Elena_Vesnina_career_statistics
-
 5081227	Eleni_Daniilidou
-
 5090747	Elina_Svitolina
-
 5090748	Elina_Svitolina_career_statistics
-
 5094444	Elise_Mertens
-
 5094445	Elise_Mertens_career_statistics
-
 5108634	Ellen_Perez
-
 5111246	Elliot_Slessor
-
 5138734	Emil_Ruusuvuori
-
 5147457	Emma_Raducanu
-
 5230581	Eri_Hozumi
-
 5231847	Eric_Butorac
-
 5244435	Erin_Routliffe
-
 5254061	Ernests_Gulbis
-
 5314534	Eugenie_Bouchard
-
 5314535	Eugenie_Bouchard_career_statistics
-
 5341390	European_Tour_2012/2013_–_Event_1
-
 5341391	European_Tour_2012/2013_–_Event_2
-
 5341392	European_Tour_2012/2013_–_Event_3
-
 5341393	European_Tour_2012/2013_–_Event_4
-
 5341394	European_Tour_2012/2013_–_Event_5
-
 5341395	European_Tour_2012/2013_–_Event_6
-
 5341404	European_Tour_2013/2014_–_Event_1
-
 5341405	European_Tour_2013/2014_–_Event_2
-
 5341406	European_Tour_2013/2014_–_Event_3
-
 5341407	European_Tour_2013/2014_–_Event_4
-
 5341408	European_Tour_2013/2014_–_Event_5
-
 5341409	European_Tour_2013/2014_–_Event_6
-
 5341410	European_Tour_2013/2014_–_Event_7
-
 5341411	European_Tour_2013/2014_–_Event_8
-
 5341418	European_Tour_2014/2015_–_Event_1
-
 5341419	European_Tour_2014/2015_–_Event_2
-
 5341420	European_Tour_2014/2015_–_Event_3
-
 5341421	European_Tour_2014/2015_–_Event_4
-
 5341422	European_Tour_2014/2015_–_Event_5
-
 5341423	European_Tour_2014/2015_–_Event_6
-
 5341430	European_Tour_2015/2016_–_Event_1
-
 5341431	European_Tour_2015/2016_–_Event_2
-
 5341432	European_Tour_2015/2016_–_Event_3
-
 5341433	European_Tour_2015/2016_–_Event_4
-
 5341434	European_Tour_2015/2016_–_Event_5
-
 5341435	European_Tour_2015/2016_–_Event_6
-
 5351362	Eva_Birnerová
-
 5351874	Eva_Hrdinová
-
 5371145	Evgeniya_Rodina
-
 5371272	Evgeny_Donskoy
-
 5371394	Evgeny_Korolev
-
 5446082	Fabio_Fognini
-
 5446083	Fabio_Fognini_career_statistics
-
 5447740	Fabrice_Martin
-
 5447792	Fabrice_Santoro
-
 5453460	Facundo_Bagnis
-
 5505208	Fastest_recorded_tennis_serves
-
 5521607	February_1
-
 5521611	February_10
-
 5521618	February_11
-
 5521639	February_12
-
 5521649	February_13
-
 5521667	February_14
-
 5521684	February_15
-
 5521708	February_16
-
 5521714	February_17
-
 5521725	February_18
-
 5521771	February_19
-
 5521779	February_1904
-
 5521795	February_1916
-
 5521801	February_1919
-
 5521954	February_2
-
 5521960	February_20
-
 5522081	February_2011_in_sports
-
 5522272	February_21
-
 5522281	February_22
-
 5522288	February_23
-
 5522300	February_24
-
 5522307	February_25
-
 5522317	February_26
-
 5522327	February_27
-
 5522333	February_28
-
 5522358	February_3
-
 5522371	February_4
-
 5522378	February_5
-
 5522389	February_6
-
 5522405	February_7
-
 5522413	February_8
-
 5522423	February_9
-
 5533333	Federer–Nadal_rivalry
-
 5533705	Federico_Delbonis
-
 5540115	Feliciano_López
-
 5540116	Feliciano_López_career_statistics
-
 5558065	Fergal_O'Brien
-
 5562542	Fernando_González
-
 5562570	Fernando_González_career_statistics
-
 5564130	Fernando_Verdasco
-
 5564131	Fernando_Verdasco_career_statistics
-
 5591304	Filip_Krajinović
-
 5591471	Filip_Polášek
-
 5593339	Filippo_Volandri
-
 5610033	Fiona_Ferro
-
 5652145	Flavia_Pennetta
-
 5652146	Flavia_Pennetta_career_statistics
-
 5668008	Florent_Serra
-
 5669044	Florian_Mayer
-
 5673457	Florin_Mergea
-
 5759061	Frances_Tiafoe
-
 5759781	Francesca_Schiavone
-
 5759782	Francesca_Schiavone_career_statistics
-
 5786432	Frank_Dancevic
-
 5791952	Frank_Moser_(tennis)
-
 5802067	Franko_Škugor
-
 5804180	František_Čermák
-
 5810771	Françoise_Abanda
-
 5811695	Fraser_Patrick
-
 5816853	Fred_Gil
-
 5816854	Fred_Gil_career_statistics
-
 5833039	Frederik_Nielsen
-
 5884520	Frédéric_Niemeyer
-
 5916726	Félix_Auger-Aliassime
-
 5916727	Félix_Auger-Aliassime_career_statistics
-
 5951879	Gabriela_Dabrowski
-
 5970018	Galina_Voskoboeva
-
 5992890	Garbiñe_Muguruza
-
 5992892	Garbiñe_Muguruza_career_statistics
-
 6011658	Gary_Wilson_(snooker_player)
-
 6017403	Gastão_Elias
-
 6017457	Gastón_Gaudio
-
 6017458	Gastón_Gaudio_career_statistics
-
 6031312	Gaël_Monfils
-
 6031313	Gaël_Monfils_career_statistics
-
 6135656	Gerard_Greene
-
 6195520	Gilles_Müller
-
 6195604	Gilles_Simon
-
 6215022	Gisela_Dulko
-
 6215023	Gisela_Dulko_career_statistics
-
 6217082	Giuliana_Olmos
-
 6267011	Go_Soeda
-
 6316227	Goran_Ivanišević
-
 6356825	Graeme_Dott
-
 6369856	Grand_Prix_Hassan_II
-
 6370817	Grand_Slam_(tennis)
-
 6424174	Greg_Rusedski
-
 6424853	Grega_Žemlja
-
 6438254	Grigor_Dimitrov
-
 6438258	Grigor_Dimitrov_career_statistics
-
 6460448	Gréta_Arn
-
 6477737	Guido_Pella
-
 6481032	Guillermo_Cañas
-
 6481061	Guillermo_Coria
-
 6481062	Guillermo_Coria_career_statistics
-
 6481249	Guillermo_García_López
-
 6508184	Gustavo_Kuerten_career_statistics
-
 6622693	Halle_Open
-
 6630974	Hamburg_European_Open
-
 6636269	Hammad_Miah
-
 6642637	Han_Xinyun
-
 6681630	Harel_Levy
-
 6697033	Harriet_Dart
-
 6765826	Heather_Watson
-
 6765827	Heather_Watson_career_statistics
-
 6818299	Henri_Kontinen
-
 6818315	Henri_Laaksonen
-
 6983138	History_of_the_Australia_Fed_Cup_team
-
 6998652	Hobart_International
-
 7060389	Horacio_Zeballos
-
 7061965	Horia_Tecău
-
 7074961	Hossein_Vafaei
-
 7107688	Hsieh_Su-wei
-
 7107689	Hsieh_Su-wei_career_statistics
-
 7115977	Hubert_Hurkacz
-
 7115978	Hubert_Hurkacz_career_statistics
-
 7207324	I.ČLTK_Prague_Open
-
 7253995	ITF_World_Champions
-
 7274741	Ian_Burns_(snooker_player)
-
 7305964	Iga_Świątek
-
 7305965	Iga_Świątek_career_statistics
-
 7310304	Igor_Andreev
-
 7311174	Igor_Kunitsyn
-
 7311935	Igor_Sijsling
-
 7312349	Igor_Zelenay
-
 7330727	Illya_Marchenko
-
 7332891	Ilya_Ivashka
-
 7377985	Indian_Wells_Masters
-
 7456493	Internationaux_de_Strasbourg
-
 7499121	Irina-Camelia_Begu
-
 7499122	Irina-Camelia_Begu_career_statistics
-
 7499179	Irina_Bara
-
 7499289	Irina_Falconi
-
 7499410	Irina_Khromacheva
-
 7558823	Italian_Open_(tennis)
-
 7570308	Ivan_Dodig
-
 7571918	Ivan_Ljubičić
-
 7571919	Ivan_Ljubičić_career_statistics
-
 7575804	Ivanovic–Janković_rivalry
-
 7577243	Iveta_Benešová
-
 7577992	Ivo_Karlović
-
 7632525	Jack_Lisowski
-
 7635726	Jack_Sock
-
 7635727	Jack_Sock_career_statistics
-
 7665514	Jak_Jones
-
 7681516	James_Blake_(tennis)
-
 7683639	James_Cahill_(snooker_player)
-
 7684306	James_Cerretani
-
 7687794	James_Duckworth_(tennis)
-
 7714310	James_Ward_(tennis)
-
 7718467	Jamie_Cope
-
 7718547	Jamie_Delgado
-
 7718801	Jamie_Hampton
-
 7718961	Jamie_Jones_(snooker_player)
-
 7719350	Jamie_Murray
-
 7719356	Jamie_Murray_career_statistics
-
 7722300	Jan-Lennard_Struff
-
 7724729	Jan_Hernych
-
 7730426	Jana_Čepelová
-
 7736729	Janette_Husárová
-
 7740375	Janko_Tipsarević
-
 7741339	Jannik_Sinner
-
 7741340	Jannik_Sinner_career_statistics
-
 7743012	January_1
-
 7743021	January_10
-
 7743030	January_11
-
 7743038	January_12
-
 7743049	January_13
-
 7743056	January_14
-
 7743067	January_15
-
 7743078	January_16
-
 7743084	January_17
-
 7743098	January_18
-
 7743147	January_19
-
 7743160	January_1904
-
 7743180	January_1914
-
 7743184	January_1918
-
 7743186	January_1919
-
 7743341	January_2
-
 7743350	January_20
-
 7743397	January_2007_in_sports
-
 7743437	January_2009_in_sports
-
 7743458	January_2010_in_sports
-
 7743469	January_2011_in_sports
-
 7743487	January_2012_in_sports
-
 7743721	January_21
-
 7743739	January_22
-
 7743747	January_23
-
 7743755	January_24
-
 7743763	January_25
-
 7743776	January_26
-
 7743783	January_27
-
 7743797	January_28
-
 7743809	January_29
-
 7743822	January_3
-
 7743826	January_30
-
 7743832	January_31
-
 7743860	January_4
-
 7743874	January_5
-
 7743885	January_6
-
 7743934	January_7
-
 7743941	January_8
-
 7743950	January_9
-
 7746830	Japan_Open_(tennis)
-
 7756907	Jared_Donaldson
-
 7757956	Jarkko_Nieminen
-
 7758306	Jarmila_Wolfe
-
 7759189	Jaroslav_Levinský
-
 7762534	Jasmine_Paolini
-
 7764784	Jason_Kubler
-
 7769525	Jaume_Munar
-
 7785881	Jean-Julien_Rojer
-
 7803832	Jeff_Coetzee
-
 7813103	Jelena_Dokic
-
 7813144	Jelena_Janković
-
 7813145	Jelena_Janković_career_statistics
-
 7817857	Jennifer_Brady
-
 7817861	Jennifer_Brady_career_statistics
-
 7822867	Jenson_Brooksby
-
 7836057	Jerzy_Janowicz
-
 7838996	Jesse_Levine
-
 7841178	Jessica_Pegula
-
 7841179	Jessica_Pegula_career_statistics
-
 7853313	Jeļena_Ostapenko
-
 7853314	Jeļena_Ostapenko_career_statistics
-
 7860792	Jil_Teichmann
-
 7861203	Jill_Craybas
-
 7875060	Jimmy_Robertson_(snooker_player)
-
 7875834	Jimmy_White
-
 7884453	Jiří_Novák
-
 7884633	Jiří_Veselý
-
 7885302	Jo-Wilfried_Tsonga
-
 7885304	Jo-Wilfried_Tsonga_career_statistics
-
 7887439	Joachim_Johansson
-
 7905591	Joe_Perry_(snooker_player)
-
 7906283	Joe_Salisbury
-
 7912934	Johan_Brunström
-
 7920186	Johanna_Konta
-
 7920187	Johanna_Konta_career_statistics
-
 7920203	Johanna_Larsson
-
 7920206	Johanna_Larsson_career_statistics
-
 7924460	John-Patrick_Smith
-
 7929135	John_Astley_(snooker_player)
-
 7965179	John_Higgins
-
 7968645	John_Isner
-
 7968647	John_Isner_career_statistics
-
 7983885	John_Millman
-
 7990845	John_Peers
-
 8033658	Jonas_Björkman
-
 8036184	Jonathan_Erlich
-
 8037697	Jonathan_Marray
-
 8044471	Joran_Vliegen
-
 8045805	Jordan_Kerr
-
 8046693	Jordan_Thompson_(tennis)
-
 8093451	José_Acasuso
-
 8119217	João_Sousa
-
 8119219	João_Sousa_career_statistics
-
 8122666	Juan_Carlos_Ferrero
-
 8122668	Juan_Carlos_Ferrero_career_statistics
-
 8125124	Juan_Ignacio_Chela
-
 8126884	Juan_Martín_del_Potro
-
 8126885	Juan_Martín_del_Potro_career_statistics
-
 8127274	Juan_Mónaco
-
 8128651	Juan_Sebastián_Cabal
-
 8133468	Judd_Trump
-
 8147290	Julia_Glushko
-
 8147364	Julia_Görges
-
 8147365	Julia_Görges_career_statistics
-
 8149810	Julian_Knowle
-
 8153498	Julien_Benneteau
-
 8156266	Julio_Peralta
-
 8159345	July_1
-
 8159351	July_10
-
 8159357	July_11
-
 8159368	July_12
-
 8159382	July_13
-
 8159390	July_14
-
 8159397	July_15
-
 8159410	July_16
-
 8159419	July_17
-
 8159428	July_18
-
 8159470	July_19
-
 8159481	July_1904
-
 8159491	July_1914
-
 8159493	July_1916
-
 8159495	July_1917
-
 8159497	July_1918
-
 8159646	July_2
-
 8159650	July_20
-
 8159742	July_2009_in_sports
-
 8159764	July_2010_in_sports
-
 8159772	July_2011_in_sports
-
 8159940	July_21
-
 8159951	July_22
-
 8159968	July_23
-
 8159978	July_24
-
 8159985	July_25
-
 8159993	July_26
-
 8160004	July_27
-
 8160012	July_28
-
 8160020	July_29
-
 8160032	July_3
-
 8160036	July_30
-
 8160043	July_31
-
 8160053	July_4
-
 8160074	July_5
-
 8160083	July_6
-
 8160088	July_7
-
 8160118	July_8
-
 8160123	July_9
-
 8163957	June_1
-
 8163965	June_10
-
 8163977	June_11
-
 8163990	June_12
-
 8164008	June_13
-
 8164021	June_14
-
 8164030	June_15
-
 8164045	June_16
-
 8164062	June_17
-
 8164075	June_18
-
 8164134	June_19
-
 8164146	June_1904
-
 8164158	June_1915
-
 8164159	June_1916
-
 8164336	June_2
-
 8164343	June_20
-
 8164423	June_2009_in_sports
-
 8164440	June_2010_in_sports
-
 8164457	June_2011_in_sports
-
 8164653	June_21
-
 8164662	June_22
-
 8164672	June_23
-
 8164680	June_24
-
 8164688	June_25
-
 8164702	June_26
-
 8164710	June_27
-
 8164717	June_28
-
 8164729	June_29
-
 8164747	June_3
-
 8164754	June_30
-
 8164777	June_4
-
 8164807	June_5
-
 8164823	June_6
-
 8164838	June_7
-
 8164848	June_8
-
 8164857	June_9
-
 8168258	Junior_Davis_Cup_and_Junior_Billie_Jean_King_Cup
-
 8183020	Justin_Gimelstob
-
 8184699	Justine_Henin
-
 8184702	Justine_Henin_career_statistics
-
 8190132	Jérémy_Chardy
-
 8194444	Jürgen_Melzer
-
 8262804	Kaia_Kanepi
-
 8262805	Kaia_Kanepi_career_statistics
-
 8267111	Kaja_Juvan
-
 8289786	Kamil_Majchrzak
-
 8323447	Karen_Khachanov
-
 8323448	Karen_Khachanov_career_statistics
-
 8327348	Karin_Knapp
-
 8339093	Karol_Beck
-
 8340279	Karolína_Muchová
-
 8340280	Karolína_Muchová_career_statistics
-
 8340284	Karolína_Plíšková
-
 8340285	Karolína_Plíšková_career_statistics
-
 8352126	Katarina_Srebotnik
-
 8352409	Katarzyna_Piter
-
 8355702	Kateryna_Baindl
-
 8355785	Kateryna_Volodko
-
 8355938	Kateřina_Siniaková
-
 8355939	Kateřina_Siniaková_career_statistics
-
 8363131	Katie_Boulter
-
 8363628	Katie_O'Brien
-
 8390165	Kei_Nishikori
-
 8390166	Kei_Nishikori_career_statistics
-
 8405183	Ken_Doherty
-
 8407359	Ken_Skupski
-
 8438655	Kevin_Anderson_(tennis)
-
 8438657	Kevin_Anderson_career_statistics
-
 8441287	Kevin_Kim
-
 8441375	Kevin_Krawietz
-
 8443993	Kevin_Ullyett
-
 8483220	Kiki_Bertens
-
 8483221	Kiki_Bertens_career_statistics
-
 8492825	Kim_Clijsters
-
 8492828	Kim_Clijsters_career_statistics
-
 8502385	Kimiko_Date
-
 8502388	Kimiko_Date_career_statistics
-
 8533705	Kirsten_Flipkens
-
 8533706	Kirsten_Flipkens_career_statistics
-
 8548832	Klaudia_Jans-Ignacik
-
 8556718	Klára_Koukalová
-
 8595934	Konstantin_Kravchuk
-
 8634734	Kremlin_Cup
-
 8641197	Kristina_Barrois
-
 8641439	Kristina_Mladenovic
-
 8641440	Kristina_Mladenovic_career_statistics
-
 8642199	Kristof_Vliegen
-
 8642698	Kristína_Kučová
-
 8642745	Kristýna_Plíšková
-
 8676915	Kurt_Maflin
-
 8678574	Kurumi_Nara
-
 8686842	Květa_Peschke
-
 8686843	Květa_Peschke_career_statistics
-
 8689663	Kwon_Soon-woo
-
 8692153	Kyle_Edmund
-
 8695687	Kyren_Wilson
-
 8843452	Lara_Arruabarrena
-
 8860439	Laslo_Đere
-
 8870828	Latisha_Chan
-
 8870829	Latisha_Chan_career_statistics
-
 8878695	Laura_Robson
-
 8878696	Laura_Robson_career_statistics
-
 8878836	Laura_Siegemund
-
 8878837	Laura_Siegemund_career_statistics
-
 8880857	Lauren_Davis
-
 8917567	Leander_Paes
-
 8931211	Lee_Hyung-taik
-
 8935197	Lee_Walker
-
 8976177	Leonardo_Mayer
-
 8981796	Leoš_Friedl
-
 8995328	Lesia_Tsurenko
-
 8995329	Lesia_Tsurenko_career_statistics
-
 8995960	Lesley_Pattinama_Kerkhove
-
 9024498	Lexington_Challenger
-
 9025666	Leylah_Fernandez
-
 9028920	Li_Hang_(snooker_player)
-
 9029803	Li_Na
-
 9029817	Li_Na_career_statistics
-
 9032086	Liam_Broady
-
 9032396	Liam_Highfield
-
 9033629	Liang_Wenbo
-
 9053002	Liezel_Huber
-
 9088926	Lindsay_Davenport
-
 9088927	Lindsay_Davenport_career_statistics
-
 9101563	Linz_Open
-
 9112140	Lisa_Raymond
-
 9119534	List_of_ATP_Tour_top-level_tournament_doubles_champions
-
 9119535	List_of_ATP_Tour_top-level_tournament_singles_champions
-
 9127640	List_of_Australian_Open_champions
-
 9127646	List_of_Australian_Open_women's_doubles_champions
-
 9155392	List_of_French_Open_champions
-
 9155394	List_of_French_Open_men's_doubles_champions
-
 9155396	List_of_French_Open_mixed_doubles_champions
-
 9155399	List_of_French_Open_women's_doubles_champions
-
 9159309	List_of_Grand_Slam_girls'_doubles_champions
-
 9159310	List_of_Grand_Slam_girls'_singles_champions
-
 9159311	List_of_Grand_Slam_men's_doubles_champions
-
 9159312	List_of_Grand_Slam_men's_singles_champions
-
 9159314	List_of_Grand_Slam_men's_singles_finals
-
 9159315	List_of_Grand_Slam_mixed_doubles_champions
-
 9159320	List_of_Grand_Slam_singles_champions_in_Open_Era_with_age_of_first_title
-
 9159323	List_of_Grand_Slam_women's_doubles_champions
-
 9159324	List_of_Grand_Slam_women's_singles_champions
-
 9159325	List_of_Grand_Slam_women's_singles_finals
-
 9159326	List_of_Grand_Slam–related_tennis_records
-
 9191459	List_of_Nike_sponsorships
-
 9194174	List_of_Olympic_medalists_in_tennis
-
 9194648	List_of_Open_Era_Grand_Slam_champions_by_country
-
 9227145	List_of_US_Open_champions
-
 9227146	List_of_US_Open_men's_doubles_champions
-
 9227152	List_of_US_Open_women's_doubles_champions
-
 9234376	List_of_WTA_Tour_top-level_tournament_doubles_champions
-
 9234377	List_of_WTA_Tour_top-level_tournament_singles_champions
-
 9236104	List_of_Wimbledon_champions
-
 9236106	List_of_Wimbledon_gentlemen's_doubles_champions
-
 9236109	List_of_Wimbledon_ladies'_doubles_champions
-
 9236112	List_of_Wimbledon_mixed_doubles_champions
-
 9277121	List_of_days_of_the_year
-
 9295675	List_of_highest_ranked_tennis_players_per_country
-
 9338095	List_of_operas_by_title
-
 9345390	List_of_players_to_appear_in_the_World_Snooker_Championship
-
 9364625	List_of_snooker_players
-
 9364630	List_of_snooker_ranking_tournaments
-
 9377361	List_of_tennis_code_violations
-
 9377371	List_of_tennis_tournaments
-
 9388914	List_of_years
-
 9413959	Liudmila_Samsonova
-
 9434434	Lleyton_Hewitt
-
 9434435	Lleyton_Hewitt_career_statistics
-
 9435507	Lloyd_Harris_(tennis)
-
 9476660	Longest_tennis_match_records
-
 9476664	Longest_tiebreaker_in_tennis
-
 9497082	Lorenzo_Musetti
-
 9497291	Lorenzo_Sonego
-
 9533477	Lourdes_Domínguez_Lino
-
 9556307	Lu_Ning
-
 9556574	Lu_Yen-hsun
-
 9560296	Luca_Brecel
-
 9561415	Lucas_Arnold_Ker
-
 9562482	Lucas_Pouille
-
 9562483	Lucas_Pouille_career_statistics
-
 9565868	Lucie_Hradecká
-
 9566052	Lucie_Šafářová
-
 9566053	Lucie_Šafářová_career_statistics
-
 9584579	Luis_Horna
-
 9587755	Luisa_Stefani
-
 9590892	Luke_Bambridge
-
 9592157	Luke_Saville
-
 9593443	Lukáš_Dlouhý
-
 9593536	Lukáš_Lacko
-
 9593606	Lukáš_Rosol
-
 9609267	Luxembourg_Open
-
 9630560	Lyu_Haotian
-
 9631358	Lyudmyla_Kichenok
-
 9638194	Līga_Dekmeijere
-
 9708773	Mackenzie_McDonald
-
 9725225	Madison_Brengle
-
 9725582	Madison_Keys
-
 9725583	Madison_Keys_career_statistics
-
 9728916	Madrid_Open_(tennis)
-
 9734623	Magda_Linette
-
 9734999	Magdalena_Fręch
-
 9735681	Magdaléna_Rybáriková
-
 9735682	Magdaléna_Rybáriková_career_statistics
-
 9753304	Mahesh_Bhupathi
-
 9779219	Makoto_Ninomiya
-
 9793557	Malek_Jaziri
-
 9824067	Mandy_Minella
-
 9858316	Mara_Santangelo
-
 9860536	Marat_Safin
-
 9860538	Marat_Safin_career_statistics
-
 9863981	Marc_Gicquel
-
 9864456	Marc_López
-
 9866513	Marcel_Granollers
-
 9868849	Marcelo_Arévalo
-
 9868991	Marcelo_Demoliner
-
 9869258	Marcelo_Melo
-
 9869796	March_1
-
 9869803	March_10
-
 9869809	March_11
-
 9869831	March_12
-
 9869843	March_13
-
 9869850	March_14
-
 9869871	March_15
-
 9869881	March_16
-
 9869893	March_17
-
 9869901	March_18
-
 9869960	March_19
-
 9869976	March_1904
-
 9869989	March_1914
-
 9869992	March_1915
-
 9869993	March_1916
-
 9869997	March_1918
-
 9869998	March_1919
-
 9870167	March_2
-
 9870176	March_20
-
 9870280	March_2011_in_sports
-
 9870444	March_21
-
 9870450	March_22
-
 9870460	March_23
-
 9870472	March_24
-
 9870482	March_25
-
 9870490	March_26
-
 9870499	March_27
-
 9870507	March_28
-
 9870519	March_29
-
 9870536	March_3
-
 9870540	March_30
-
 9870548	March_31
-
 9870563	March_4
-
 9870574	March_5
-
 9870581	March_6
-
 9870596	March_7
-
 9870650	March_8
-
 9870698	March_9
-
 9873168	Marcin_Matkowski
-
 9874455	Marco_Cecchinato
-
 9874469	Marco_Chiudinelli
-
 9874761	Marco_Fu
-
 9876614	Marcos_Baghdatis
-
 9876802	Marcos_Giron
-
 9878222	Marcus_Daniell
-
 9881022	Mardy_Fish
-
 9889322	Margarita_Betova
-
 9897044	Maria_Elena_Camerin
-
 9898887	Maria_Kirilenko
-
 9898888	Maria_Kirilenko_career_statistics
-
 9901190	Maria_Sakkari
-
 9901191	Maria_Sakkari_career_statistics
-
 9901209	Maria_Sanchez
-
 9901360	Maria_Sharapova
-
 9901363	Maria_Sharapova_career_statistics
-
 9905455	Mariana_Duque_Mariño
-
 9907424	Mariano_Hood
-
 9907784	Mariano_Zabaleta
-
 9910511	Marie-Ève_Pelletier
-
 9911030	Marie_Bouzková
-
 9918352	Marin_Čilić
-
 9918353	Marin_Čilić_career_statistics
-
 9918689	Marina_Erakovic
-
 9922528	Marinko_Matosevic
-
 9923505	Mario_Ančić
-
 9927318	Marion_Bartoli
-
 9927319	Marion_Bartoli_career_statistics
-
 9931688	Marius_Copil
-
 9932157	Mariusz_Fyrstenberg
-
 9932486	Mariya_Koryttseva
-
 9935066	Mark_Allen_(snooker_player)
-
 9937162	Mark_Davis_(snooker_player)
-
 9940000	Mark_Joyce
-
 9940236	Mark_King_(snooker_player)
-
 9940308	Mark_Knowles
-
 9942537	Mark_Philippoussis
-
 9943718	Mark_Selby
-
 9945703	Mark_Williams_(snooker_player)
-
 9952176	Markéta_Vondroušová
-
 9952177	Markéta_Vondroušová_career_statistics
-
 9962421	Marsel_İlhan
-
 9966867	Marta_Domachowska
-
 9967011	Marta_Kostyuk
-
 9972892	Martin_Damm
-
 9974032	Martin_Gould
-
 9975379	Martin_Kližan
-
 9975380	Martin_Kližan_career_statistics
-
 9977197	Martin_O'Donnell_(snooker_player)
-
 9980536	Martina_Hingis
-
 9980537	Martina_Hingis_career_statistics
-
 9980772	Martina_Trevisan
-
 9998458	Mary_Pierce
-
 10008719	Maryna_Zanevska
-
 10011150	María_José_Martínez_Sánchez
-
 10012049	María_Teresa_Torró_Flor
-
 10037647	Mate_Pavić
-
 10043853	Mathilde_Johansson
-
 10053246	Matt_Reid_(tennis)
-
 10054990	Matteo_Berrettini
-
 10054991	Matteo_Berrettini_career_statistics
-
 10058507	Matthew_Ebden
-
 10061260	Matthew_Selt
-
 10061509	Matthew_Stevens
-
 10062580	Matthias_Bachinger
-
 10065927	Matwé_Middelkoop
-
 10081382	Max_Mirnyi
-
 10081954	Max_Purcell
-
 10085108	Maxime_Cressy
-
 10085807	Maximilian_Marterer
-
 10087105	Maximum_and_century_breaks_made_by_Judd_Trump
-
 10087106	Maximum_and_century_breaks_made_by_Ronnie_O'Sullivan
-
 10087114	Maximum_break
-
 10089144	May_1
-
 10089156	May_10
-
 10089168	May_11
-
 10089177	May_12
-
 10089188	May_13
-
 10089205	May_14
-
 10089218	May_15
-
 10089238	May_16
-
 10089258	May_17
-
 10089279	May_18
-
 10089337	May_19
-
 10089348	May_1904
-
 10089361	May_1914
-
 10089368	May_1917
-
 10089369	May_1918
-
 10089372	May_1919
-
 10089585	May_2
-
 10089592	May_20
-
 10089677	May_2009_in_sports
-
 10089698	May_2010_in_sports
-
 10089711	May_2011_in_sports
-
 10089735	May_2013_in_sports
-
 10089876	May_21
-
 10089904	May_22
-
 10089921	May_23
-
 10089930	May_24
-
 10089948	May_25
-
 10089958	May_26
-
 10089981	May_27
-
 10089989	May_28
-
 10090010	May_29
-
 10090026	May_3
-
 10090031	May_30
-
 10090047	May_31
-
 10090076	May_4
-
 10090093	May_5
-
 10090111	May_6
-
 10090131	May_7
-
 10090148	May_8
-
 10090168	May_9
-
 10153802	Meghann_Shaughnessy
-
 10164995	Melanie_Oudin
-
 10165096	Melanie_South
-
 10170277	Melinda_Czink
-
 10211358	Mervana_Jugić-Salkić
-
 10241342	Mexican_Open_(tennis)
-
 10250447	Miami_Open_(tennis)
-
 10255490	Michael_Berrer
-
 10261451	Michael_Georgiou
-
 10263269	Michael_Holt_(snooker_player)
-
 10266172	Michael_Kohlmann
-
 10268821	Michael_Mmoh
-
 10272531	Michael_Russell_(tennis)
-
 10275520	Michael_Venus_(tennis)
-
 10276265	Michael_White_(snooker_player)
-
 10278936	Michal_Mertiňák
-
 10279877	Michaël_Llodra
-
 10279913	Michaëlla_Krajicek
-
 10285631	Michelle_Larcher_de_Brito
-
 10322392	Mihaela_Buzărnescu
-
 10326151	Mikael_Ymer
-
 10327816	Mike_Bryan
-
 10329044	Mike_Dunn_(snooker_player)
-
 10337357	Mikhail_Elgin
-
 10337886	Mikhail_Kukushkin
-
 10339049	Mikhail_Youzhny
-
 10339050	Mikhail_Youzhny_career_statistics
-
 10365699	Milos_Raonic
-
 10365700	Milos_Raonic_career_statistics
-
 10409114	Miomir_Kecmanović
-
 10416583	Mirjana_Lučić-Baroni
-
 10421781	Misaki_Doi
-
 10422535	Mischa_Zverev
-
 10443442	Mitchell_Mann
-
 10452778	Miyu_Kato_(tennis)
-
 10502434	Mona_Barthel
-
 10512762	Monica_Niculescu
-
 10512763	Monica_Niculescu_career_statistics
-
 10512818	Monica_Puig
-
 10512819	Monica_Puig_career_statistics
-
 10513887	Monique_Adamczak
-
 10564994	Morocco_Open
-
 10734545	Márton_Fucsovics
-
 10734911	Máximo_González
-
 10799441	Nadia_Petrova
-
 10799442	Nadia_Petrova_career_statistics
-
 10799446	Nadia_Podoroska
-
 10799673	Nadiia_Kichenok
-
 10833985	Nao_Hibino
-
 10834602	Naomi_Broady
-
 10834876	Naomi_Osaka
-
 10834878	Naomi_Osaka_career_statistics
-
 10855122	Natalia_Vikhlyantseva
-
 10855519	Natalie_Grandin
-
 10858793	Natela_Dzalamidze
-
 10859042	Nathalie_Dechy
-
 10928817	Neal_Skupski
-
 10947105	Neil_Robertson
-
 10956733	Nenad_Zimonjić
-
 11061896	Nicholas_Monroe
-
 11066476	Nick_Kyrgios
-
 11066477	Nick_Kyrgios_career_statistics
-
 11074658	Nicolas_Kiefer
-
 11074814	Nicolas_Mahut
-
 11074815	Nicolas_Mahut_career_statistics
-
 11076584	Nicole_Gibbs
-
 11076867	Nicole_Melichar-Martinez
-
 11077232	Nicole_Vaidišová
-
 11077993	Nicolás_Almagro
-
 11078297	Nicolás_Jarry
-
 11078312	Nicolás_Lapentti
-
 11078376	Nicolás_Massú
-
 11085016	Nigel_Bond
-
 11098478	Nikola_Mektić
-
 11102431	Nikolay_Davydenko
-
 11102432	Nikolay_Davydenko_career_statistics
-
 11104197	Nikoloz_Basilashvili
-
 11110188	Nina_Bratchikova
-
 11111164	Nina_Stojanović
-
 11166348	Noppon_Saengkham
-
 11168133	Norbert_Gombos
-
 11232203	Nottingham_Open
-
 11236030	Novak_Djokovic
-
 11236034	Novak_Djokovic_career_statistics
-
 11237566	November_1
-
 11237574	November_10
-
 11237587	November_11
-
 11237598	November_12
-
 11237604	November_13
-
 11237613	November_14
-
 11237625	November_15
-
 11237635	November_16
-
 11237643	November_17
-
 11237658	November_18
-
 11237706	November_19
-
 11237714	November_1903
-
 11237728	November_1915
-
 11237729	November_1916
-
 11237735	November_1918
-
 11237917	November_2
-
 11237920	November_20
-
 11238212	November_21
-
 11238219	November_22
-
 11238228	November_23
-
 11238239	November_24
-
 11238244	November_25
-
 11238249	November_26
-
 11238261	November_27
-
 11238268	November_28
-
 11238273	November_29
-
 11238285	November_3
-
 11238289	November_30
-
 11238300	November_4
-
 11238310	November_5
-
 11238320	November_6
-
 11238326	November_7
-
 11238334	November_8
-
 11238342	November_9
-
 11265544	Nuria_Llagostera_Vives
-
 11322909	October_1
-
 11322912	October_10
-
 11322918	October_11
-
 11322950	October_12
-
 11322956	October_13
-
 11322963	October_14
-
 11322971	October_15
-
 11322979	October_16
-
 11322988	October_17
-
 11323006	October_18
-
 11323046	October_19
-
 11323054	October_1903
-
 11323070	October_1916
-
 11323073	October_1917
-
 11323079	October_1918
-
 11323081	October_1919
-
 11323263	October_2
-
 11323266	October_20
-
 11323370	October_2010_in_sports
-
 11323569	October_21
-
 11323579	October_22
-
 11323589	October_23
-
 11323597	October_24
-
 11323605	October_25
-
 11323612	October_26
-
 11323622	October_27
-
 11323629	October_28
-
 11323636	October_29
-
 11323649	October_3
-
 11323656	October_30
-
 11323661	October_31
-
 11323673	October_4
-
 11323678	October_5
-
 11323702	October_6
-
 11323713	October_7
-
 11323725	October_8
-
 11323732	October_9
-
 11325276	Océane_Dodin
-
 11362158	Oksana_Kalashnikova
-
 11374197	Old_Style_leap_year_starting_on_Friday
-
 11374199	Old_Style_leap_year_starting_on_Saturday
-
 11374200	Old_Style_leap_year_starting_on_Sunday
-
 11374201	Old_Style_leap_year_starting_on_Thursday
-
 11384230	Olga_Danilović
-
 11384418	Olga_Govortsova
-
 11385177	Olga_Savchuk
-
 11390999	Oliver_Lines
-
 11391071	Oliver_Marach
-
 11393108	Olivia_Rogowska
-
 11393876	Olivier_Rochus
-
 11433010	Ons_Jabeur
-
 11433011	Ons_Jabeur_career_statistics
-
 11442492	Open_13
-
 11443381	Open_Era_tennis_records_–_Men's_singles
-
 11445373	Open_Sud_de_France
-
 11469046	Orange_Bowl_(tennis)
-
 11515383	Oscar_Otte
-
 11615688	Pablo_Andújar
-
 11615862	Pablo_Carreño_Busta
-
 11615863	Pablo_Carreño_Busta_career_statistics
-
 11615947	Pablo_Cuevas
-
 11688193	Paola_Suárez
-
 11688942	Paolo_Lorenzi
-
 11703267	Paradorn_Srichaphan
-
 11722134	Paris_Masters
-
 11773796	Patricia_Maria_Țig
-
 11786325	Patty_Schnyder
-
 11786326	Patty_Schnyder_career_statistics
-
 11787540	Paul-Henri_Mathieu
-
 11791883	Paul_Davison
-
 11795065	Paul_Hanley_(tennis)
-
 11807266	Paula_Badosa
-
 11807268	Paula_Badosa_career_statistics
-
 11807873	Paula_Ormaechea
-
 11809728	Pauline_Parmentier
-
 11814680	Pavel_Vízner
-
 11837334	Pedro_Martínez_(tennis)
-
 11854743	Peng_Shuai
-
 11854744	Peng_Shuai_career_statistics
-
 11920420	Peter_Ebdon
-
 11922178	Peter_Gojowczyk
-
 11926845	Peter_Lines
-
 11927044	Peter_Luczak
-
 11930468	Peter_Polansky
-
 11941035	Petr_Pála
-
 11941389	Petra_Cetkovská
-
 11941567	Petra_Kvitová
-
 11941569	Petra_Kvitová_career_statistics
-
 11941616	Petra_Martić
-
 11977763	Philipp_Kohlschreiber
-
 11977826	Philipp_Marx
-
 11977881	Philipp_Oswald
-
 11977887	Philipp_Petzschner
-
 12026351	Pierre-Hugues_Herbert
-
 12098181	Players_Tour_Championship_2010/2011_–_Event_5
-
 12098182	Players_Tour_Championship_2010/2011_–_Event_6
-
 12098198	Players_Tour_Championship_2011/2012_–_Event_1
-
 12098199	Players_Tour_Championship_2011/2012_–_Event_10
-
 12098200	Players_Tour_Championship_2011/2012_–_Event_11
-
 12098201	Players_Tour_Championship_2011/2012_–_Event_12
-
 12098202	Players_Tour_Championship_2011/2012_–_Event_2
-
 12098203	Players_Tour_Championship_2011/2012_–_Event_3
-
 12098204	Players_Tour_Championship_2011/2012_–_Event_4
-
 12098205	Players_Tour_Championship_2011/2012_–_Event_5
-
 12098206	Players_Tour_Championship_2011/2012_–_Event_6
-
 12098207	Players_Tour_Championship_2011/2012_–_Event_7
-
 12098208	Players_Tour_Championship_2011/2012_–_Event_8
-
 12098209	Players_Tour_Championship_2011/2012_–_Event_9
-
 12098217	Players_Tour_Championship_2012/2013_–_Event_1
-
 12098218	Players_Tour_Championship_2012/2013_–_Event_2
-
 12098219	Players_Tour_Championship_2012/2013_–_Event_3
-
 12098220	Players_Tour_Championship_2012/2013_–_Event_4
-
 12154335	Polona_Hercog
-
 12201555	Portugal_Open
-
 12218165	Potito_Starace
-
 12299754	Priscilla_Hon
-
 12318090	Professional_snooker_career_of_Ronnie_O'Sullivan
-
 12405055	Purav_Raja
-
 12471297	Queen's_Club_Championships
-
 12479802	Quentin_Halys
-
 12544606	Radek_Štěpánek
-
 12555495	Radu_Albot
-
 12558947	Rafael_Nadal
-
 12558955	Rafael_Nadal_career_statistics
-
 12575042	Rainer_Schüttler
-
 12580706	Rajeev_Ram
-
 12591179	Raluca_Olaru
-
 12595731	Rameez_Junaid
-
 12622818	Raquel_Atawo
-
 12637470	Raven_Klaasen
-
 12665881	Rebecca_Marino
-
 12666066	Rebecca_Peterson
-
 12716183	Reilly_Opelka
-
 12732544	Renata_Voráčová
-
 12738844	Rennae_Stubbs
-
 12803761	Ricardo_Mello
-
 12815949	Richard_Gasquet
-
 12815950	Richard_Gasquet_career_statistics
-
 12839279	Ricky_Walden
-
 12850296	Rik_de_Voest
-
 12850326	Rika_Fujiwara
-
 12880017	Ričardas_Berankis
-
 12888473	Robbie_Williams_(snooker_player)
-
 12888822	Robby_Ginepri
-
 12900595	Robert_Farah_(tennis)
-
 12908365	Robert_Kendrick
-
 12910679	Robert_Lindstedt
-
 12913432	Robert_Milkins
-
 12927102	Roberta_Vinci
-
 12927103	Roberta_Vinci_career_statistics
-
 12927464	Roberto_Bautista_Agut
-
 12927639	Roberto_Carballés_Baena
-
 12931987	Robin_Haase
-
 12932349	Robin_Hull
-
 12933288	Robin_Söderling
-
 12933289	Robin_Söderling_career_statistics
-
 12950850	Rod_Lawler
-
 12960924	Roger_Federer
-
 12960928	Roger_Federer_career_statistics
-
 12965622	Rogier_Wassen
-
 12966948	Rohan_Bopanna
-
 12987000	Roman_Jebavý
-
 12996218	Romina_Oprandi
-
 13007805	Ronnie_O'Sullivan
-
 13013863	Rory_McLeod_(snooker_player)
-
 13027146	Rosmalen_Grass_Court_Championships
-
 13028497	Ross_Hutchins
-
 13028896	Ross_Muir
-
 13036578	Rotterdam_Open
-
 13075863	Ruben_Bemelmans
-
 13080433	Rubén_Ramírez_Hidalgo
-
 13094342	Rui_Machado
-
 13131157	Ryan_Day_(snooker_player)
-
 13131637	Ryan_Harrison
-
 13142525	Réka_Luca_Jani
-
 13231255	Sabine_Lisicki
-
 13231256	Sabine_Lisicki_career_statistics
-
 13233075	Sabrina_Santamaria
-
 13312479	Salvatore_Caruso
-
 13314771	Sam_Baird
-
 13315473	Sam_Craigie
-
 13316171	Sam_Groth
-
 13317961	Sam_Querrey
-
 13321237	Samantha_Stosur
-
 13321238	Samantha_Stosur_career_statistics
-
 13347838	San_Diego_Aviators
-
 13363618	Sanchai_Ratiwatana
-
 13367386	Sander_Gillé
-
 13378972	Sania_Mirza
-
 13378973	Sania_Mirza_career_statistics
-
 13395240	Santiago_Giraldo
-
 13395257	Santiago_González_(tennis)
-
 13401565	Saori_Obata
-
 13406251	Sara_Errani
-
 13406253	Sara_Errani_career_statistics
-
 13407319	Sara_Sorribes_Tormo
-
 13409153	Sarah_Borwell
-
 13503748	Scott_Donaldson
-
 13505093	Scott_Lipsky
-
 13531212	Sean_O'Sullivan_(snooker_player)
-
 13537656	Sebastian_Korda
-
 13539470	Sebastián_Prieto_(tennis)
-
 13608253	September_1
-
 13608258	September_10
-
 13608266	September_11
-
 13608452	September_12
-
 13608466	September_13
-
 13608472	September_14
-
 13608484	September_15
-
 13608500	September_16
-
 13608509	September_17
-
 13608519	September_18
-
 13608560	September_19
-
 13608581	September_1913_(month)
-
 13608584	September_1914
-
 13608586	September_1915
-
 13608587	September_1916
-
 13608588	September_1917
-
 13608589	September_1918
-
 13608590	September_1919
-
 13608739	September_2
-
 13608745	September_20
-
 13608815	September_2009_in_sports
-
 13608831	September_2010_in_sports
-
 13608839	September_2011_in_sports
-
 13608850	September_2012_in_sports
-
 13609025	September_21
-
 13609034	September_22
-
 13609041	September_23
-
 13609050	September_24
-
 13609059	September_25
-
 13609066	September_26
-
 13609073	September_27
-
 13609082	September_28
-
 13609089	September_29
-
 13609100	September_3
-
 13609103	September_30
-
 13609119	September_4
-
 13609126	September_5
-
 13609133	September_6
-
 13609142	September_7
-
 13609150	September_8
-
 13609159	September_9
-
 13615997	Serena_Williams
-
 13616000	Serena_Williams_career_statistics
-
 13624529	Sergio_Roitman
-
 13625302	Sergiy_Stakhovsky
-
 13635969	Sesil_Karatantcheva
-
 13667206	Shahar_Pe'er
-
 13667207	Shahar_Pe'er_career_statistics
-
 13691912	Sharon_Fichman
-
 13696690	Shaun_Murphy
-
 13710123	Shelby_Rogers
-
 13760312	Shortest_tennis_match_records
-
 13771993	Shuko_Aoyama
-
 13813664	Silicon_Valley_Classic
-
 13827755	Simon_Aspelin
-
 13829283	Simon_Greul
-
 13832663	Simona_Halep
-
 13832664	Simona_Halep_career_statistics
-
 13833001	Simone_Bolelli
-
 13920936	Sloane_Stephens
-
 13920937	Sloane_Stephens_career_statistics
-
 13922975	Slovak_Open
-
 13949646	Snooker_world_rankings_2011/2012
-
 13949647	Snooker_world_rankings_2012/2013
-
 13949648	Snooker_world_rankings_2013/2014
-
 13949649	Snooker_world_rankings_2014/2015
-
 13949650	Snooker_world_rankings_2015/2016
-
 13949651	Snooker_world_rankings_2016/2017
-
 13949652	Snooker_world_rankings_2017/2018
-
 13949657	Snooker_world_rankings_2022/2023
-
 13973092	Sofia_Arvidsson
-
 13973336	Sofia_Kenin
-
 13973337	Sofia_Kenin_career_statistics
-
 13998335	Somdev_Devvarman
-
 14025980	Sorana_Cîrstea
-
 14025981	Sorana_Cîrstea_career_statistics
-
 14062943	Southern_California_Open
-
 14182549	St._Petersburg_Open
-
 14220103	Stan_Wawrinka
-
 14220104	Stan_Wawrinka_career_statistics
-
 14289545	Stefan_Koubek
-
 14291469	Stefanie_Vögele
-
 14292109	Stefano_Travaglia
-
 14292271	Stefanos_Tsitsipas
-
 14292272	Stefanos_Tsitsipas_career_statistics
-
 14305507	Stephanie_Vogt
-
 14309722	Stephen_Huss_(tennis)
-
 14311152	Stephen_Maguire
-
 14321659	Steve_Darcis
-
 14323302	Steve_Johnson_(tennis)
-
 14357286	Storm_Sanders
-
 14389085	Stuart_Bingham
-
 14389201	Stuart_Carrington
-
 14397811	Stuttgart_Open
-
 14400879	Stéphane_Robert
-
 14401017	Stéphanie_Dubois
-
 14401023	Stéphanie_Foretz
-
 14453389	Sunny_Akani
-
 14477203	Surbiton_Trophy
-
 14505569	Svetlana_Kuznetsova
-
 14505573	Svetlana_Kuznetsova_career_statistics
-
 14515765	Swedish_Open
-
 14534426	Swiss_Indoors
-
 14534642	Swiss_Open_(tennis)
-
 14539378	Sybille_Bammer
-
 14542051	Sydney_International
-
 14575851	Sébastien_Grosjean
-
 14577252	Sílvia_Soler_Espinosa
-
 14620888	Table_of_years_in_music
-
 14666588	Tamara_Zidanšek
-
 14666838	Tamarine_Tanasugarn
-
 14670546	Tamira_Paszek
-
 14698320	Taro_Daniel
-
 14707215	Tathiana_Garbin
-
 14707517	Tatiana_Golovin
-
 14707729	Tatiana_Poutchek
-
 14708206	Tatjana_Maria
-
 14709066	Tatsuma_Ito
-
 14719282	Taylor_Dent
-
 14719370	Taylor_Fritz
-
 14719371	Taylor_Fritz_career_statistics
-
 14720042	Taylor_Townsend
-
 14772652	Tennis_Masters_Series_doubles_records_and_statistics
-
 14772654	Tennis_Masters_Series_singles_records_and_statistics
-
 14773141	Tennis_at_the_2008_Summer_Olympics
-
 14773155	Tennis_at_the_2008_Summer_Olympics_–_Qualification
-
 14773390	Tennis_at_the_2012_Summer_Olympics
-
 14773409	Tennis_at_the_2012_Summer_Olympics_–_Qualification
-
 14773617	Tennis_at_the_2016_Summer_Olympics
-
 14773635	Tennis_at_the_2016_Summer_Olympics_–_Qualification
-
 14773818	Tennis_at_the_2020_Summer_Olympics_–_Day-by-day_summaries
-
 14773825	Tennis_at_the_2020_Summer_Olympics_–_Qualification
-
 14773829	Tennis_at_the_2020_Summer_Olympics_–_Women's_singles
-
 14773932	Tennis_in_Australia
-
 14773938	Tennis_in_India
-
 14773996	Tennis_performance_timeline_comparison_(men)
-
 14773997	Tennis_performance_timeline_comparison_(women)
-
 14774183	Tennys_Sandgren
-
 14784664	Tereza_Martincová
-
 14816892	Teymuraz_Gabashvili
-
 14824914	Thanasi_Kokkinakis
-
 15132253	Thepchaiya_Un-Nooh
-
 15141002	Thiago_Monteiro_(tennis)
-
 15142414	Thiemo_de_Bakker
-
 15174757	Thomas_Johansson
-
 15190438	Thomaz_Bellucci
-
 15218230	Tian_Pengfei
-
 15237402	Tim_Henman
-
 15238830	Tim_Pütz
-
 15239289	Tim_Smyczek
-
 15245527	Timea_Bacsinszky
-
 15245528	Timea_Bacsinszky_career_statistics
-
 15249462	Timeline_of_musical_events
-
 15249797	Timeline_of_the_17th_century
-
 15249798	Timeline_of_the_18th_century
-
 15250502	Timeline_of_the_20th_century
-
 15250503	Timeline_of_the_21st_century
-
 15284616	Tobias_Kamke
-
 15289140	Todd_Woodbridge
-
 15304658	Tom_Ford_(snooker_player)
-
 15319591	Tommy_Haas
-
 15320514	Tommy_Paul_(tennis)
-
 15320662	Tommy_Robredo
-
 15320663	Tommy_Robredo_career_statistics
-
 15324653	Tomáš_Berdych
-
 15324654	Tomáš_Berdych_career_statistics
-
 15325079	Tomáš_Zíb
-
 15418207	Treat_Huey
-
 15494577	Tsvetana_Pironkova
-
 15494578	Tsvetana_Pironkova_career_statistics
-
 15564539	Tímea_Babos
-
 15564540	Tímea_Babos_career_statistics
-
 15579014	U.S._Men's_Clay_Court_Championships
-
 15579178	U.S._National_Indoor_Championships
-
 15659977	US_Open_Series
-
 15678950	Ugo_Humbert
-
 15812578	Urszula_Radwańska
-
 15888726	Vancouver_Open
-
 15892685	Vania_King
-
 15902509	Varvara_Gracheva
-
 15902514	Varvara_Lepchenko
-
 15904058	Vasek_Pospisil
-
 15904059	Vasek_Pospisil_career_statistics
-
 15933015	Venus_Williams
-
 15933016	Venus_Williams_career_statistics
-
 15934236	Vera_Dushevina
-
 15934943	Vera_Zvonareva
-
 15934944	Vera_Zvonareva_career_statistics
-
 15946445	Veronika_Kudermetova
-
 15946446	Veronika_Kudermetova_career_statistics
-
 15950831	Verónica_Cepede_Royg
-
 15951946	Vesna_Dolonc
-
 15968976	Victor_Hănescu
-
 15972539	Victoria_Azarenka
-
 15972540	Victoria_Azarenka_career_statistics
-
 15982133	Vienna_Open
-
 15992103	Viktor_Troicki
-
 15992685	Viktorija_Golubic
-
 15992821	Viktoriya_Tomova
-
 15992909	Viktória_Kužmová
-
 16005664	Vince_Spadea
-
 16023364	Virginia_Ruano_Pascual
-
 16041009	Virginie_Razzano
-
 16053248	Vitalia_Diatchenko
-
 16068337	Vladimíra_Uhlířová
-
 16106694	Víctor_Estrella_Burgos
-
 16150148	WTA_1000_Series_doubles_records_and_statistics
-
 16150149	WTA_1000_Series_singles_records_and_statistics
-
 16150156	WTA_125_tournaments
-
 16150162	WTA_250_tournaments
-
 16150165	WTA_500_tournaments
-
 16150174	WTA_Auckland_Open
-
 16150178	WTA_Awards
-
 16150205	WTA_Finals
-
 16150217	WTA_International_tournaments
-
 16150254	WTA_Premier_tournaments
-
 16150256	WTA_Qatar_Open
-
 16150304	WTA_Tour_records
-
 16150315	WTA_rankings
-
 16205981	Wang_Qiang_(tennis)
-
 16206722	Wang_Xiyu
-
 16206771	Wang_Yafan
-
 16231799	Washington_Open_(tennis)
-
 16253517	Wayne_Arthurs_(tennis)
-
 16254791	Wayne_Odesnik
-
 16295128	Wesley_Koolhof
-
 16295225	Wesley_Moodie
-
 16457395	Williams_sisters
-
 16468584	Wim_Fissette
-
 16468914	Wimbledon_Championships
-
 16484268	Winston-Salem_Open
-
 16515026	Women's_Stuttgart_Open
-
 16550475	World_number_1_ranked_male_tennis_players
-
 16596142	Xavier_Malisse
-
 16597893	Xenia_Knoll
-
 16603385	Xiao_Guodong
-
 16611611	Xu_Si
-
 16611786	Xu_Yifan
-
 16634208	Yan_Bingtao
-
 16634729	Yan_Zi_(tennis)
-
 16637820	Yang_Zhaoxuan
-
 16639381	Yanina_Wickmayer
-
 16639382	Yanina_Wickmayer_career_statistics
-
 16644830	Yaroslava_Shvedova
-
 16675107	Yevgeny_Kafelnikov
-
 16688751	Yonex
-
 16695420	Yoshihito_Nishioka
-
 16714063	Ysaline_Bonaventure
-
 16715679	Yu_Delu
-
 16716981	Yuan_Sijun
-
 16722707	Yuki_Bhambri
-
 16724664	Yulia_Putintseva
-
 16724665	Yulia_Putintseva_career_statistics
-
 16725022	Yuliya_Beygelzimer
-
 16738492	Yvonne_Meusburger_Garamszegi
-
 16740628	Yūichi_Sugita
-
 16766747	Zarina_Diyas
-
 16790485	Zhang_Anda
-
 16791681	Zhang_Shuai
-
 16791689	Zhang_Shuai_career_statistics
-
 16793586	Zhao_Xintong
-
 16794956	Zheng_Jie
-
 16794957	Zheng_Jie_career_statistics
-
 16795042	Zheng_Saisai
-
 16798429	Zhou_Yuelong
-
 16798963	Zhu_Lin_(tennis)
-
 16838883	Ágnes_Szávay
-
 16838884	Ágnes_Szávay_career_statistics
-
 16846431	Çağla_Büyükakçay
-
 16850579	Édouard_Roger-Vasselin
-
 16871356	Łukasz_Kubot
-

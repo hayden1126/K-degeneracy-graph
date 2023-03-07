@@ -159,7 +159,7 @@ function write_edges(outputfile::String, wglinks::Dict{Int32, Vector{Int32}})
     println("\nWriting edges...")
     open(outputfile, "w") do f
         for (prime, primelinks) in ProgressBar(wglinks)
-            for subnode in primelinks
+            for subnode in sort(primelinks)
                 println(f, "$(prime) $(subnode)")
             end
         end
@@ -197,12 +197,9 @@ function oneiteration!(degrees::Vector{Vector{Int32}}, wglinks::Dict{Int32, Vect
 end 
 
 function main()
+    (degrees, wglinks) = @time fetch_links(EDGESFILE)
+    
     iterations = 1
-    edgesfile = EDGESFILE
-    outputfile = "$(@__DIR__)/k_edges/$(K)_core_edges.txt"
-
-    (degrees, wglinks) = @time fetch_links(edgesfile)
-
     println("\n\nIteration: $iterations")
     while !oneiteration!(degrees, wglinks)
         iterations += 1
@@ -215,14 +212,19 @@ function main()
         # @time write_edges("$(@__DIR__)/logs/$(K)_core_itr_$iterations.txt", wglinks)
     end
     println("No more nodes to remove. Finished in $iterations iteration(s).")
-    @time write_edges(outputfile, wglinks)
+    @time write_edges(OUTPUTFILE, wglinks)
 end
 
-if length(ARGS) != 2 || !isfile(ARGS[1]) || !all(isnumeric, ARGS[2])
-    println("Usage: julia mapReduce.jl <edgesfile> <K>")
+if length(ARGS) < 2 || !isfile(ARGS[1]) || !all(isnumeric, ARGS[2])
+    println("Usage: julia mapReduce.jl <edgesfile> <K> <optional: outputfile>")
     exit(1)
 end
 const EDGESFILE = ARGS[1]
 const K = parse(Int32, ARGS[2])
+if length(ARGS) == 3
+    const OUTPUTFILE = ARGS[3]
+else
+    const OUTPUTFILE = "$(@__DIR__)/k_edges/$(K)_core_edges.txt"
+end
 
 main()

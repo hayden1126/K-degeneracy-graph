@@ -59,7 +59,7 @@ function write_titles(outfile::String, primes::Vector{Int32}, titles::Dict{Int32
                 println("Missing title for prime: $prime")
                 continue
             end
-            println(f, "$prime\t$(titles[prime])\n")
+            println(f, "$prime\t$(titles[prime])")
         end
     end
 end

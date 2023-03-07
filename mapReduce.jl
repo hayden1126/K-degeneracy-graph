@@ -192,13 +192,13 @@ end
 function main()
     iterations = 1
     edgesfile = EDGESFILE
-    outputfile = "$(@__DIR__)/logs/$K_core_itr_$iterations.txt"
+    outputfile = "$(@__DIR__)/logs/$(K)_core_itr_$iterations.txt"
 
     println("Iteration: $iterations")
     while !oneiteration(edgesfile, outputfile)
         edgesfile = outputfile
         iterations += 1
-        outputfile = "$(@__DIR__)/logs/$K_core_itr_$iterations.txt"
+        outputfile = "$(@__DIR__)/logs/$(K)_core_itr_$iterations.txt"
         println("\n\nIteration: $iterations")
     end
     println("No more nodes to remove. Finished in $iterations iteration(s).")

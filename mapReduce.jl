@@ -121,8 +121,9 @@ function degenerate(degrees::Vector{Vector{Int32}}, wglinks::Dict{Int32, Vector{
 
     # # Checking for errors of remove links' degrees
     # tmpcount = count(x->x[2] < 0, sorteddegrees)
-    # if tmpcount < 0
+    # if tmpcount > 0
     #     println("Error: Number of degree < 0 nodes: $tmpcount")
+    #     println("This may be due to duplicate pairs in the edges file.")
     # end
     return remove
 end
@@ -154,7 +155,7 @@ function remove_links!(remove::Vector{Int32}, wglinks::Dict{Int32, Vector{Int32}
 end
 
 # Writes the adjacency list to a new file
-function write_edges(wglinks::Dict{Int32, Vector{Int32}}, outputfile::String)
+function write_edges(outputfile::String, wglinks::Dict{Int32, Vector{Int32}})
     println("\nWriting edges...")
     open(outputfile, "w") do f
         for (prime, primelinks) in ProgressBar(wglinks)
@@ -165,9 +166,18 @@ function write_edges(wglinks::Dict{Int32, Vector{Int32}}, outputfile::String)
     end
 end
 
+# Gets the degrees of all nodes
+function get_degrees(wglinks::Dict{Int32, Vector{Int32}})
+    degrees = Vector{Vector{Int32}}()
+    for (prime, primelinks) in wglinks
+        push!(degrees, [prime, length(primelinks)])
+    end
+    return degrees
+end
+
 # Iterates entire process once
-function oneiteration(edgesfile::String, outputfile::String)::Bool
-    (degrees, wglinks) = @time fetch_links(edgesfile)
+function oneiteration!(degrees::Vector{Vector{Int32}}, wglinks::Dict{Int32, Vector{Int32}})::Bool
+    
     (inboundlinks, noOutboundlinks, noOutboundcount) = @time get_inboundlinks(wglinks)
     ogcount = length(wglinks)
     @time remove_noOutbound!(noOutboundlinks, wglinks, degrees, noOutboundcount)
@@ -181,9 +191,6 @@ function oneiteration(edgesfile::String, outputfile::String)::Bool
     @time remove_links!(remove, wglinks, inboundlinks)
     removecount = length(remove)
     println("Nodes Removed: $removecount out of $ogcount -> $(round(100*removecount/ogcount, digits=1))%")
-    # try to see how remove count differs
-
-    @time write_edges(wglinks, outputfile)
     println("Nodes left: $(length(wglinks))")
 
     return false
@@ -192,16 +199,23 @@ end
 function main()
     iterations = 1
     edgesfile = EDGESFILE
-    outputfile = "$(@__DIR__)/logs/$(K)_core_itr_$iterations.txt"
+    outputfile = "$(@__DIR__)/k_edges/$(K)_core_edges.txt"
 
-    println("Iteration: $iterations")
-    while !oneiteration(edgesfile, outputfile)
-        edgesfile = outputfile
+    (degrees, wglinks) = @time fetch_links(edgesfile)
+
+    println("\n\nIteration: $iterations")
+    while !oneiteration!(degrees, wglinks)
         iterations += 1
-        outputfile = "$(@__DIR__)/logs/$(K)_core_itr_$iterations.txt"
         println("\n\nIteration: $iterations")
+        degrees = get_degrees(wglinks)
+
+        # If you want to write the graph after each iteration,
+        # (which may extend the script's runtime by a lot, but you can use resume mapReduce with those logs files),
+        # Uncomment the following line:
+        # @time write_edges("$(@__DIR__)/logs/$(K)_core_itr_$iterations.txt", wglinks)
     end
     println("No more nodes to remove. Finished in $iterations iteration(s).")
+    @time write_edges(outputfile, wglinks)
 end
 
 if length(ARGS) != 2 || !isfile(ARGS[1]) || !all(isnumeric, ARGS[2])
@@ -212,4 +226,3 @@ const EDGESFILE = ARGS[1]
 const K = parse(Int32, ARGS[2])
 
 main()
-

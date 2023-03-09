@@ -175,18 +175,6 @@ function write_edges(outputfile::String, wglinks::Dict{Int32, Vector{Int32}})
     end
 end
 
-# Pops all the nodes with degrees == 0 in degrees array
-function clean_degrees(degrees::Vector{Vector{Int32}})
-    println("\nCleaning degrees...")
-    removeindex = Int32[]
-    for (index, node) in ProgressBar(enumerate(degrees))
-        if node[2] < 1
-            push!(removeindex, index)
-        end
-    end
-    deleteat!(degrees, reverse(removeindex))
-end
-
 # Gets the degrees of all nodes
 function get_degrees(wglinks::Dict{Int32, Vector{Int32}})
     degrees = Vector{Vector{Int32}}()

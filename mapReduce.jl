@@ -93,24 +93,27 @@ function remove_noOutbound!(noOutboundlinks::Set{Pair{Int32}}, wglinks::Dict{Int
 end
 
 # K-core decomposition: gets array of nodes to remove (or keep)
-function degenerate(degrees::Vector{Vector{Int32}}, wglinks::Dict{Int32, Vector{Int32}}, inboundlinks::Dict{Int32, Vector{Int32}})::Vector{Int32}
+function degenerate!(degrees::Vector{Vector{Int32}}, wglinks::Dict{Int32, Vector{Int32}}, inboundlinks::Dict{Int32, Vector{Int32}})::Vector{Int32}
     println("\nDegenerating graph...")
 
     # keep = Int32[]
     remove = Int32[]
-    sorteddegrees = sort(degrees, by=x->x[2])
-    indices = get_indices(sorteddegrees)
-    for node in ProgressBar(sorteddegrees)
+    sort!(degrees, by=x->x[2])
+    indices = get_indices(degrees)
+    for node in ProgressBar(degrees)
+        if !haskey(wglinks, node[1])
+            continue
+        end
         if node[2] < K
             push!(remove, node[1])
             for subnode in wglinks[node[1]]
                 if haskey(wglinks, subnode) && node[1] in wglinks[subnode]
-                    sorteddegrees[indices[subnode]][2] -= 1
+                    degrees[indices[subnode]][2] -= 1
                 end
             end
             if haskey(inboundlinks, node[1])
                 for prime in inboundlinks[node[1]]
-                    sorteddegrees[indices[prime]][2] -= 1
+                    degrees[indices[prime]][2] -= 1
                 end
             end
         # else
@@ -120,7 +123,7 @@ function degenerate(degrees::Vector{Vector{Int32}}, wglinks::Dict{Int32, Vector{
     # println(remove, keep)
 
     # # Checking for errors of remove links' degrees
-    # tmpcount = count(x->x[2] < 0, sorteddegrees)
+    # tmpcount = count(x->x[2] < 0, degrees)
     # if tmpcount > 0
     #     println("Error: Number of degree < 0 nodes: $tmpcount")
     #     println("This may be due to duplicate pairs in the edges file.")
@@ -132,6 +135,7 @@ end
 function remove_links!(remove::Vector{Int32}, wglinks::Dict{Int32, Vector{Int32}}, inboundlinks::Dict{Int32, Vector{Int32}})
     println("\nRemoving links...")
     for node in ProgressBar(remove)
+        
         # Remove links
         for subnode in wglinks[node]
             if haskey(wglinks, subnode) && node in wglinks[subnode]
@@ -156,14 +160,31 @@ end
 
 # Writes the adjacency list to a new file
 function write_edges(outputfile::String, wglinks::Dict{Int32, Vector{Int32}})
+    if isempty(wglinks)
+        println("Writing edges... No nodes left, skipping...")
+        return
+    end
     println("\nWriting edges...")
     open(outputfile, "w") do f
-        for (prime, primelinks) in ProgressBar(wglinks)
+        templinks = sort!(collect(wglinks), by=x->x[1])
+        for (prime, primelinks) in ProgressBar(templinks)
             for subnode in sort(primelinks)
                 println(f, "$(prime) $(subnode)")
             end
         end
     end
+end
+
+# Pops all the nodes with degrees == 0 in degrees array
+function clean_degrees(degrees::Vector{Vector{Int32}})
+    println("\nCleaning degrees...")
+    removeindex = Int32[]
+    for (index, node) in ProgressBar(enumerate(degrees))
+        if node[2] < 1
+            push!(removeindex, index)
+        end
+    end
+    deleteat!(degrees, reverse(removeindex))
 end
 
 # Gets the degrees of all nodes
@@ -180,8 +201,12 @@ function oneiteration!(degrees::Vector{Vector{Int32}}, wglinks::Dict{Int32, Vect
     
     (inboundlinks, noOutboundlinks, noOutboundcount) = @time get_inboundlinks(wglinks)
     ogcount = length(wglinks)
-    @time remove_noOutbound!(noOutboundlinks, wglinks, degrees, noOutboundcount)
-    remove = @time degenerate(degrees, wglinks, inboundlinks)
+    if noOutboundcount == 0
+        println("\nNo nodes with no outbound links to remove.")
+    else
+        @time remove_noOutbound!(noOutboundlinks, wglinks, degrees, noOutboundcount)
+    end
+    remove = @time degenerate!(degrees, wglinks, inboundlinks)
 
     if length(remove) == 0 && noOutboundcount == 0 
         println("\nNo. of Nodes in $K-core graph: $(length(wglinks))")
@@ -192,6 +217,10 @@ function oneiteration!(degrees::Vector{Vector{Int32}}, wglinks::Dict{Int32, Vect
     removecount = length(remove)
     println("Nodes Removed: $removecount out of $ogcount -> $(round(100*removecount/ogcount, digits=1))%")
     println("Nodes left: $(length(wglinks))")
+
+    if isempty(wglinks)
+        return true
+    end
 
     return false
 end 
@@ -227,4 +256,4 @@ else
     const OUTPUTFILE = "$(@__DIR__)/k_edges/$(K)_core_edges.txt"
 end
 
-main()
+@time main()

@@ -71,11 +71,7 @@ function oneiteration!(wglinks::Dict{Int32, Vector{Int32}}, degrees::Vector{Vect
     println("Nodes Removed: $removecount out of $ogcount -> $(round(100*removecount/ogcount, digits=1))%")
     println("Nodes left: $(length(wglinks))")
 
-    if isempty(wglinks)
-        return true
-    end
-
-    return false
+    return isempty(wglinks)
 end 
 
 function main()

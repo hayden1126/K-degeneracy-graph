@@ -1,39 +1,5 @@
-# Get dictionary of links
-function get_links(edgesfile::String)::Dict{Int32, Vector{Int32}}
-    println("\nFetching links from $edgesfile...")
-
-    wglinks = Dict{Int32, Vector{Int32}}()
-    filelines = countlines(edgesfile)
-
-    prime = parse(Int32, split(readline(edgesfile))[1])
-    wglinks[prime] = Vector{Int32}()
-
-    # For each line in edges file
-    print("Progress: [0.0%]\r")
-    for (index, line) = enumerate(eachline(edgesfile))
-
-        pair = split(line)
-        tmpprime = parse(Int32, pair[1])
-
-        if tmpprime == prime
-            push!(wglinks[prime], parse(Int32, pair[2]))
-        else
-            wglinks[tmpprime] = Int32[parse(Int32, pair[2])]
-
-            # Update to new prime node
-            prime = tmpprime
-        end
-
-        # Print progress
-        if index % 1000000 == 0
-            print("Progress: [$(round(index/filelines*100, digits=1))%]\r")
-        end
-    end
-
-    # Process the last prime node
-    println("Progress: [100%] !")    
-    return wglinks
-end
+include("EdgeUtils.jl")
+using .ReadUtils
 
 # Compare two dictionaries of links
 function compare(wglinks1::Dict{Int32, Vector{Int32}}, wglinks2::Dict{Int32, Vector{Int32}})::Bool
@@ -76,17 +42,18 @@ function main()
     wglinks1 = @time get_links(EDGESFILE_1)
     wglinks2 = @time get_links(EDGESFILE_2)
     if compare(wglinks1, wglinks2)
-        println("\nLinks are indentical.")
+        println("   Links are indentical.")
     else
         println("\nLinks are different.")
     end
 end
 
-if length(ARGS) != 2 || !isfile(ARGS[1]) || !isfile(ARGS[2])
-    println("Usage: julia edgesdiff.jl <edgesfile 1> <edgesfile 2>")
-    exit(1)
+if abspath(PROGRAM_FILE) == @__FILE__
+    if length(ARGS) != 2 || !isfile(ARGS[1]) || !isfile(ARGS[2])
+        println("Usage: julia compareEdges.jl <edgesfile 1> <edgesfile 2>")
+        exit(1)
+    end
+    const EDGESFILE_1 = ARGS[1]
+    const EDGESFILE_2 = ARGS[2]
+    main()
 end
-const EDGESFILE_1 = ARGS[1]
-const EDGESFILE_2 = ARGS[2]
-
-main()

@@ -1,13 +1,11 @@
-
-function convert2LGL(edgesfile::String, outputfile::String)
-    println("Converting to LGL format...")
+function write2LGL(edgesfile::String, outputfile::String)
+    print("Converting to LGL format... [0.0%]\r")
     filelines = countlines(edgesfile)
 
     prime = split(readline(edgesfile))[1]
     primelinks = String[]
 
     # For each line in edges file
-    print("Progress: [0.0%]\r")
     for (index, line) = enumerate(eachline(edgesfile))
 
         pair = split(line)
@@ -25,7 +23,7 @@ function convert2LGL(edgesfile::String, outputfile::String)
 
         # Print progress
         if index % 1000000 == 0
-            print("Progress: [$(round(index/filelines*100, digits=1))%]\r")
+            print("Converting to LGL format... [$(round(index/filelines*100, digits=1))%]\r")
         end
     end
 
@@ -33,11 +31,17 @@ function convert2LGL(edgesfile::String, outputfile::String)
     open(outputfile, "a") do f
         println(f, "# $prime\n$(join(primelinks, '\n'))")
     end
-    println("Progress: [100%] !")    
+    println("Converting to LGL format... [100%] !")    
 end
 
-if length(ARGS) != 2 || !isfile(ARGS[1])
-    println("Usage: julia edges2lgl.jl <edgesfile> <outputfile>")
-    exit(1)
+function main()
+    write2LGL(ARGS[1], ARGS[2])
 end
-convert2LGL(ARGS[1], ARGS[2])
+
+if abspath(PROGRAM_FILE) == @__FILE__
+    if length(ARGS) != 2 || !isfile(ARGS[1])
+        println("Usage: julia edges2lgl.jl <edgesfile> <outputfile>")
+        exit(1)
+    end
+    main()
+end

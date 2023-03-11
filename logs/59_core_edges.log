@@ -1,0 +1,286 @@
+
+Fetching links and degrees... [0.0%]Fetching links and degrees... [3.7%]Fetching links and degrees... [7.3%]Fetching links and degrees... [11.0%]Fetching links and degrees... [14.6%]Fetching links and degrees... [18.3%]Fetching links and degrees... [21.9%]Fetching links and degrees... [25.6%]Fetching links and degrees... [29.3%]Fetching links and degrees... [32.9%]Fetching links and degrees... [36.6%]Fetching links and degrees... [40.2%]Fetching links and degrees... [43.9%]Fetching links and degrees... [47.5%]Fetching links and degrees... [51.2%]Fetching links and degrees... [54.9%]Fetching links and degrees... [58.5%]Fetching links and degrees... [62.2%]Fetching links and degrees... [65.8%]Fetching links and degrees... [69.5%]Fetching links and degrees... [73.1%]Fetching links and degrees... [76.8%]Fetching links and degrees... [80.5%]Fetching links and degrees... [84.1%]Fetching links and degrees... [87.8%]Fetching links and degrees... [91.4%]Fetching links and degrees... [95.1%]Fetching links and degrees... [98.7%]Fetching links and degrees... [100%] !
+ 17.619121 seconds (83.41 M allocations: 8.207 GiB, 11.74% gc time)
+
+
+Iteration: 1
+
+Scanning for inbound links...
+ 36.354581 seconds (58.80 M allocations: 1.566 GiB, 1.86% gc time, 0.49% compilation time)
+
+No nodes with no outbound links to remove.
+
+Degenerating graph...
+  8.315240 seconds (8.98 M allocations: 152.064 MiB, 0.67% gc time, 0.27% compilation time)
+
+Removing links...
+  8.331573 seconds (5.57 M allocations: 88.841 MiB, 0.46% compilation time)
+Nodes Removed: 121242 out of 267566 -> 45.3%
+Nodes left: 146324
+
+
+Iteration: 2
+
+Fetching degrees... Fetching degrees... Done!
+
+Scanning for inbound links...
+ 21.830522 seconds (34.33 M allocations: 931.951 MiB, 1.22% gc time, 0.38% compilation time)
+
+Removing 1244 nodes with no outbound links...
+  0.082043 seconds (77.12 k allocations: 6.681 MiB, 87.79% compilation time)
+
+Degenerating graph...
+  1.584001 seconds (2.15 M allocations: 38.790 MiB)
+
+Removing links...
+  1.823385 seconds (1.26 M allocations: 19.700 MiB, 3.93% gc time)
+Nodes Removed: 24355 out of 146324 -> 16.6%
+Nodes left: 121969
+
+
+Iteration: 3
+
+Fetching degrees... Fetching degrees... Done!
+
+Scanning for inbound links...
+ 17.212805 seconds (28.89 M allocations: 782.809 MiB, 1.09% gc time)
+
+Removing 331 nodes with no outbound links...
+  0.006950 seconds (3.40 k allocations: 3.074 MiB)
+
+Degenerating graph...
+  0.646806 seconds (1.12 M allocations: 22.545 MiB)
+
+Removing links...
+  0.705740 seconds (527.06 k allocations: 8.233 MiB)
+Nodes Removed: 9927 out of 121969 -> 8.1%
+Nodes left: 112042
+
+
+Iteration: 4
+
+Fetching degrees... Fetching degrees... Done!
+
+Scanning for inbound links...
+ 16.299204 seconds (26.65 M allocations: 721.895 MiB, 1.28% gc time)
+
+Removing 149 nodes with no outbound links...
+  0.004164 seconds (1.40 k allocations: 3.035 MiB)
+
+Degenerating graph...
+  0.326096 seconds (747.43 k allocations: 16.624 MiB)
+
+Removing links...
+  0.331554 seconds (253.87 k allocations: 3.967 MiB)
+Nodes Removed: 4750 out of 112042 -> 4.2%
+Nodes left: 107292
+
+
+Iteration: 5
+
+Fetching degrees... Fetching degrees... Done!
+
+Scanning for inbound links...
+ 16.018621 seconds (25.57 M allocations: 693.083 MiB, 2.88% gc time)
+
+Removing 82 nodes with no outbound links...
+  0.003839 seconds (845 allocations: 3.024 MiB)
+
+Degenerating graph...
+  0.163338 seconds (589.96 k allocations: 14.088 MiB)
+
+Removing links...
+  0.156895 seconds (138.16 k allocations: 2.161 MiB)
+Nodes Removed: 2562 out of 107292 -> 2.4%
+Nodes left: 104730
+
+
+Iteration: 6
+
+Fetching degrees... Fetching degrees... Done!
+
+Scanning for inbound links...
+ 13.032459 seconds (24.98 M allocations: 677.199 MiB, 2.49% gc time)
+
+Removing 62 nodes with no outbound links...
+  0.003099 seconds (709 allocations: 3.021 MiB)
+
+Degenerating graph...
+  0.130304 seconds (516.72 k allocations: 12.906 MiB)
+
+Removing links...
+  0.107360 seconds (91.17 k allocations: 1.426 MiB)
+Nodes Removed: 1546 out of 104730 -> 1.5%
+Nodes left: 103184
+
+
+Iteration: 7
+
+Fetching degrees... Fetching degrees... Done!
+
+Scanning for inbound links...
+ 13.146178 seconds (24.62 M allocations: 667.201 MiB, 1.25% gc time)
+
+Removing 38 nodes with no outbound links...
+  0.003955 seconds (502 allocations: 3.017 MiB)
+
+Degenerating graph...
+  0.110710 seconds (497.37 k allocations: 12.579 MiB)
+
+Removing links...
+  0.084975 seconds (79.67 k allocations: 1.245 MiB)
+Nodes Removed: 1343 out of 103184 -> 1.3%
+Nodes left: 101841
+
+
+Iteration: 8
+
+Fetching degrees... Fetching degrees... Done!
+
+Scanning for inbound links...
+ 11.774768 seconds (24.29 M allocations: 658.429 MiB, 3.20% gc time)
+
+Removing 26 nodes with no outbound links...
+  0.004203 seconds (423 allocations: 3.015 MiB)
+
+Degenerating graph...
+  0.100561 seconds (484.22 k allocations: 12.352 MiB)
+
+Removing links...
+  0.078086 seconds (70.24 k allocations: 1.099 MiB)
+Nodes Removed: 1221 out of 101841 -> 1.2%
+Nodes left: 100620
+
+
+Iteration: 9
+
+Fetching degrees... Fetching degrees... Done!
+
+Scanning for inbound links...
+ 11.067833 seconds (24.00 M allocations: 650.668 MiB, 2.12% gc time)
+
+Removing 18 nodes with no outbound links...
+  0.002895 seconds (359 allocations: 3.014 MiB)
+
+Degenerating graph...
+  0.072537 seconds (444.64 k allocations: 11.718 MiB)
+
+Removing links...
+  0.053233 seconds (36.50 k allocations: 588.492 KiB)
+Nodes Removed: 677 out of 100620 -> 0.7%
+Nodes left: 99943
+
+
+Iteration: 10
+
+Fetching degrees... Fetching degrees... Done!
+
+Scanning for inbound links...
+ 10.801927 seconds (23.84 M allocations: 646.300 MiB, 1.40% gc time)
+
+Removing 15 nodes with no outbound links...
+  0.002981 seconds (318 allocations: 3.013 MiB)
+
+Degenerating graph...
+  0.062772 seconds (428.58 k allocations: 11.458 MiB)
+
+Removing links...
+  0.026669 seconds (23.19 k allocations: 375.211 KiB)
+Nodes Removed: 458 out of 99943 -> 0.5%
+Nodes left: 99485
+
+
+Iteration: 11
+
+Fetching degrees... Fetching degrees... Done!
+
+Scanning for inbound links...
+ 10.864826 seconds (23.74 M allocations: 643.558 MiB, 1.97% gc time)
+
+Removing 6 nodes with no outbound links...
+  0.003004 seconds (245 allocations: 3.011 MiB)
+
+Degenerating graph...
+  0.081390 seconds (421.25 k allocations: 11.340 MiB)
+
+Removing links...
+  0.016380 seconds (19.22 k allocations: 311.602 KiB)
+Nodes Removed: 357 out of 99485 -> 0.4%
+Nodes left: 99128
+
+
+Iteration: 12
+
+Fetching degrees... Fetching degrees... Done!
+
+Scanning for inbound links...
+ 11.055419 seconds (23.66 M allocations: 641.416 MiB, 3.48% gc time)
+
+Removing 8 nodes with no outbound links...
+  0.003204 seconds (261 allocations: 3.011 MiB)
+
+Degenerating graph...
+  0.049202 seconds (410.46 k allocations: 11.166 MiB)
+
+Removing links...
+  0.011978 seconds (11.42 k allocations: 187.727 KiB)
+Nodes Removed: 231 out of 99128 -> 0.2%
+Nodes left: 98897
+
+
+Iteration: 13
+
+Fetching degrees... Fetching degrees... Done!
+
+Scanning for inbound links...
+ 10.593568 seconds (23.61 M allocations: 640.080 MiB, 1.43% gc time)
+
+Removing 6 nodes with no outbound links...
+  0.003398 seconds (245 allocations: 3.011 MiB)
+
+Degenerating graph...
+  0.055375 seconds (403.21 k allocations: 11.048 MiB)
+
+Removing links...
+  0.008165 seconds (6.12 k allocations: 103.289 KiB)
+Nodes Removed: 127 out of 98897 -> 0.1%
+Nodes left: 98770
+
+
+Iteration: 14
+
+Fetching degrees... Fetching degrees... Done!
+
+Scanning for inbound links...
+ 10.513670 seconds (23.58 M allocations: 639.336 MiB, 1.62% gc time)
+
+Removing 4 nodes with no outbound links...
+  0.003338 seconds (229 allocations: 3.011 MiB)
+
+Degenerating graph...
+  0.044522 seconds (395.47 k allocations: 10.927 MiB)
+
+Removing links...
+  0.000846 seconds (408 allocations: 12.242 KiB)
+Nodes Removed: 11 out of 98770 -> 0.0%
+Nodes left: 98759
+
+
+Iteration: 15
+
+Fetching degrees... Fetching degrees... Done!
+
+Scanning for inbound links...
+ 10.483005 seconds (23.58 M allocations: 639.286 MiB, 1.26% gc time)
+
+No nodes with no outbound links to remove.
+
+Degenerating graph...
+  0.037450 seconds (394.72 k allocations: 10.915 MiB)
+
+No. of Nodes in 59-core graph: 98759
+No more nodes to remove. Finished in 15 iteration(s).
+
+Writing edges...
+  7.996958 seconds (101.58 M allocations: 4.209 GiB, 12.06% gc time, 1.70% compilation time)
+273.396477 seconds (637.80 M allocations: 24.492 GiB, 2.75% gc time, 0.89% compilation time)

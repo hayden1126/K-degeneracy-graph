@@ -1,0 +1,57 @@
+
+Fetching links and degrees... [0.0%]Fetching links and degrees... [100%] !
+  0.253883 seconds (610.73 k allocations: 60.736 MiB, 69.42% gc time)
+
+
+Iteration: 1
+
+Scanning for inbound links...
+  0.211397 seconds (687.76 k allocations: 25.198 MiB, 75.74% compilation time)
+
+No nodes with no outbound links to remove.
+
+Degenerating graph...
+  0.030480 seconds (62.68 k allocations: 2.140 MiB, 74.51% compilation time)
+
+Removing links...
+  0.054150 seconds (57.45 k allocations: 2.527 MiB, 12.02% gc time, 75.72% compilation time)
+Nodes Removed: 269 out of 1086 -> 24.8%
+Nodes left: 817
+
+
+Iteration: 2
+
+Fetching degrees... Fetching degrees... Done!
+
+Scanning for inbound links...
+  0.034835 seconds (329.10 k allocations: 8.140 MiB)
+
+No nodes with no outbound links to remove.
+
+Degenerating graph...
+  0.000753 seconds (3.96 k allocations: 132.969 KiB)
+
+Removing links...
+  0.000607 seconds (1.58 k allocations: 30.508 KiB)
+Nodes Removed: 12 out of 817 -> 1.5%
+Nodes left: 805
+
+
+Iteration: 3
+
+Fetching degrees... Fetching degrees... Done!
+
+Scanning for inbound links...
+  0.034226 seconds (323.23 k allocations: 7.996 MiB)
+
+No nodes with no outbound links to remove.
+
+Degenerating graph...
+  0.000415 seconds (2.38 k allocations: 107.750 KiB)
+
+No. of Nodes in 123-core graph: 805
+No more nodes to remove. Finished in 3 iteration(s).
+
+Writing edges...
+  0.267384 seconds (1.82 M allocations: 80.564 MiB, 8.71% gc time, 55.48% compilation time)
+  2.641765 seconds (8.92 M allocations: 439.868 MiB, 10.90% gc time, 80.25% compilation time)

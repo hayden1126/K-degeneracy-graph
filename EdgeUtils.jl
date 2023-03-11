@@ -183,7 +183,7 @@ using ProgressBars
     end
 
     # Writes the adjacency list to a new file
-    function write_edges(outputfile::String, wglinks::Dict{Int32, Any})
+    function write_edges(outputfile::String, wglinks::Dict{Int32, Vector{Int32}})
         if isempty(wglinks)
             println("Writing edges... No nodes to write, skipping...")
             return

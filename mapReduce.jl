@@ -85,9 +85,9 @@ function main()
         degrees = get_degrees(wglinks)
 
         # If you want to write the graph after each iteration,
-        # (which may extend the script's runtime by a lot, but you can use resume mapReduce with those logs files),
+        # (which may extend the script's runtime by a lot, but you can use resume mapReduce with those tmp files),
         # Uncomment the following line:
-        # @time write_edges("$(@__DIR__)/logs/$(K)_core_itr_$iterations.txt", wglinks)
+        # @time write_edges("$(@__DIR__)/tmp/$(K)_core_itr_$iterations.txt", wglinks)
     end
     println("No more nodes to remove. Finished in $iterations iteration(s).")
     @time write_edges(OUTPUTFILE, wglinks)

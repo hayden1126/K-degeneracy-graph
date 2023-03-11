@@ -1,8 +1,7 @@
 k_edges/*
 !k_edges/126_core_edges.txt
 !k_edges/100_core_edges.txt
-LGLfiles/50_core_edges.lgl
-LGLfiles/60_core_edges.lgl
+LGLfiles/*
 coords/old_*
 edges/edges*
 colorlabels/*

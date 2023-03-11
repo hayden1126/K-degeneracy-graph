@@ -18,7 +18,7 @@ cp ./colorlabels/${K}.labels $LGLPATH/${K}-core/
 cp ./colorlabels/${K}.colors $LGLPATH/${K}-core/
 
 if [ ! -f $LGLPATH/${K}-core/${K}_core_edges.lgl ]; then
-    cp ./lLGLfiles/${K}_core_edges.lgl $LGLPATH/${K}-core/
+    cp ./LGLfiles/${K}_core_edges.lgl $LGLPATH/${K}-core/
 fi
 
 echo "./bin/lglayout2D -t 4 -L -e -l ${K}_core_edges.lgl"

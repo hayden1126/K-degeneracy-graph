@@ -222,3 +222,42 @@ using ProgressBars
         end
     end
 end
+
+module TitleUtils
+using ProgressBars
+export get_titles, write_titles
+
+    function get_titles(titlesfile::String)::Dict{Int32, String}
+        print("Fetching titles... [0.0%]\r")
+
+        titles = Dict{Int32, String}()
+        filelines = countlines(titlesfile)
+
+        for (index, line) = enumerate(eachline(titlesfile))
+            pair = split(line, limit=2)
+            titles[parse(Int32, pair[1])] = pair[2]
+
+            # Print progress
+            if index % 100 == 0
+                print("Fetching titles... [$(round(index/filelines*100, digits=1))%]\r")
+            end
+        end
+        println("Fetching titles... [100%] !")
+
+        println("Titles provided: $(length(titles))")
+        return titles
+    end
+
+    function write_titles(outfile::String, primes::Vector{Int32}, titles::Dict{Int32, String})
+        println("Writing titles to file...")
+        open(outfile, "w") do f
+            for prime in ProgressBar(sort(primes))
+                if !haskey(titles, prime)
+                    println("Missing title for prime: $prime")
+                    continue
+                end
+                println(f, "$prime\t$(titles[prime])")
+            end
+        end
+    end
+end

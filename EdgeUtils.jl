@@ -164,6 +164,29 @@ module LinksUtils
     end
 end
 
+module DegreeUtils
+    export get_maxdegree, get_mindegree
+    function get_maxdegree(degrees::Vector{Vector{Int32}})::Vector{Int32}
+        maxdegree = Int32[0, 0]
+        for node in degrees
+            if node[2] > maxdegree[2]
+                maxdegree = node
+            end
+        end
+        return maxdegree
+    end
+
+    function get_mindegree(degrees::Vector{Vector{Int32}})::Vector{Int32}
+        mindegree = Int32[0, typemax(Int32)]
+        for node in degrees
+            if node[2] < mindegree[2]
+                mindegree = node
+            end
+        end
+        return mindegree
+    end
+end
+
 module WriteUtils
 using ProgressBars
     export write_degrees, write_edges

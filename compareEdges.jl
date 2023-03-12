@@ -39,8 +39,24 @@ function compare(wglinks1::Dict{Int32, Vector{Int32}}, wglinks2::Dict{Int32, Vec
 end
 
 function main()
-    wglinks1 = @time get_links(EDGESFILE_1)
-    wglinks2 = @time get_links(EDGESFILE_2)
+    if endswith(EDGESFILE_1, ".txt")
+        wglinks1 = @time get_links(EDGESFILE_1)
+    elseif endswith(EDGESFILE_1, ".lgl")
+        wglinks1 = @time get_lgllinks(EDGESFILE_1)
+    else
+        println("Only .lgl or .txt filetypes supported.")
+        exit(1)
+    end
+
+    if endswith(EDGESFILE_2, ".txt")
+        wglinks2 = @time get_links(EDGESFILE_2)
+    elseif endswith(EDGESFILE_2, ".lgl")
+        wglinks2 = @time get_lgllinks(EDGESFILE_2)
+    else
+        println("Only .lgl or .txt filetypes supported.")
+        exit(1)
+    end
+
     if compare(wglinks1, wglinks2)
         println("   Links are indentical.")
     else

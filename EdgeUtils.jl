@@ -1,6 +1,6 @@
 module ReadUtils
     # using ProgressBars
-    export get_links, get_degreeslinks
+    export get_links, get_degreeslinks, get_lgllinks
 
     # Gets dictionary of links
     function get_links(edgesfile::String)::Dict{Int32, Vector{Int32}}
@@ -81,6 +81,33 @@ module ReadUtils
         push!(degrees, [prime, degree])
         println("Fetching links and degrees... [100%] !")    
         return (wglinks, degrees)
+    end
+
+    # Gets dictionary of links from LGL file format
+    function get_lgllinks(edgesfile::String)::Dict{Int32, Vector{Int32}}
+        print("\nFetching links... [0.0%]\r")
+
+        wglinks = Dict{Int32, Vector{Int32}}()
+        filelines = countlines(edgesfile)
+        
+        prime = parse(Int32, split(readline(edgesfile))[2])
+        wglinks[prime] = Int32[]
+
+        # For each line in edges file
+        for (index, line) = enumerate(eachline(edgesfile))
+
+            if '#' in line
+                prime = parse(Int32, split(line)[2])
+                wglinks[prime] = Int32[]
+                continue
+            end
+            subnode = parse(Int32, line)
+            push!(wglinks[prime], subnode)
+            if index % 1000000 == 0
+                print("Fetching links... [$(round(index/filelines*100, digits=1))%]\r")
+            end
+        end
+        return wglinks
     end
 end
 
@@ -257,6 +284,121 @@ export get_titles, write_titles
                     continue
                 end
                 println(f, "$prime\t$(titles[prime])")
+            end
+        end
+    end
+end
+
+module StatUtils
+    using PyPlot, Statistics
+    export logHistogram, logHistogramScaled, scat, analyse
+
+    function logHistogram(
+            data, bins, fname, ttl; 
+            xlab="Number of links", ylab="Frequency density", dpi=1000, ysc="log"
+        )
+        hist(data, bins=bins)
+        yscale(ysc)
+        title(ttl)
+        xlabel(xlab)
+        ylabel(ylab)
+        savefig(fname, dpi=dpi)
+        cla()
+    end
+
+    function logHistogramScaled(
+            data, bins, fname, ttl; 
+            xlab="Number of links", ylab="Frequency density", dpi=1000, ysc="log",
+            yl=1e+7, xl=3e+5
+        )
+        hist(data, bins=bins)
+        yscale(ysc)
+        ylim(0, yl)
+        xlim(-2500, xl)
+        title(ttl)
+        xlabel(xlab)
+        ylabel(ylab)
+        savefig(fname, dpi=dpi)
+        cla()
+    end
+
+    function scat(
+            outdegrees, indegrees, fname, ttl;
+            xlab="Outdegree", ylab="Indegree", dpi=1000, sz=0.05, ysc="log", dims=(9, 12)
+        )
+        plt = scatter(outdegrees, indegrees, s=sz, marker=".")
+        plt.set_sizes(dims, dpi=dpi)
+        yscale(ysc)
+        title(ttl)
+        xlabel(xlab)
+        ylabel(ylab)
+        savefig(fname, dpi=dpi)
+        cla()
+    end
+
+    function analyse(arr, name)
+        println("> $(name) <")
+        println("| Length:\t$(length(arr))")
+        println("| 0-Count:\t$(count(i->(i==0), arr))")
+        println("| Sum:\t\t$(sum(arr))")
+        println("| Mean:\t\t$(mean(arr))")
+        println("| Median:\t$(median(arr))")
+        println("| Stddv:\t$(std(arr))")
+        println("| Variance:\t$(var(arr))")
+    end
+
+end
+
+module LglUtils
+    using ProgressBars
+    export write_edges2lgl
+
+    # Converts and writes edges txt file format to .lgl format
+    function write_edges2lgl(edgesfile::String, outputfile::String)
+        print("Converting and writing edges to LGL format... [0.0%]\r")
+        filelines = countlines(edgesfile)
+
+        prime = split(readline(edgesfile))[1]
+        primelinks = String[]
+
+        # For each line in edges file
+        for (index, line) = enumerate(eachline(edgesfile))
+
+            pair = split(line)
+
+            if pair[1] == prime
+                push!(primelinks, pair[2])
+            else
+                # Write to file
+                open(outputfile, "a") do f
+                    println(f, "# $prime\n$(join(primelinks, '\n'))")
+                end
+                prime = pair[1]
+                primelinks = String[pair[2]]
+            end
+
+            # Print progress
+            if index % 1000000 == 0
+                print("Converting and writing edges to LGL format... [$(round(index/filelines*100, digits=1))%]\r")
+            end
+        end
+
+        # Process the last prime node
+        open(outputfile, "a") do f
+            println(f, "# $prime\n$(join(primelinks, '\n'))")
+        end
+        println("Converting and writing edges to LGL format... [100%] !")    
+    end
+
+    # Writes links to a new .lgl file
+    function write_lgl(outputfile::String, wglinks::Dict{Int32, Vector{Int32}})
+        println("Writing LGL file...")
+        open(outputfile, "w") do f
+            for (prime, primelinks) in ProgressBar(sort!(collect(wglinks), by=x->x[1]))
+                println(f, "# $prime")
+                for subnode in sort(primelinks)
+                    println(f, subnode)
+                end
             end
         end
     end

@@ -53,11 +53,11 @@ if abspath(PROGRAM_FILE) == @__FILE__
     if length(ARGS) != 4
         println("Usage: julia subgraph.jl <edgesfile> <rootnode> <levels> <outputfile>")
         exit(1)
-    elseif !isfile(FILEARGS["edgesfile"])
-        println("Error: Edgesfile \'$(FILEARGS["edgesfile"])\' not found.")
+    elseif !isfile(ARGS[1])
+        println("Error: Edgesfile \'$(ARGS[1])\' not found.")
         exit(1)
-    elseif !all(isnumeric, FILEARGS["rootnode"])
-        println("Error: Rootnode \'$(FILEARGS["rootnode"])\' should be an integer.")
+    elseif !all(isnumeric, ARGS[2])
+        println("Error: Rootnode \'$(ARGS[2])\' should be an integer.")
         exit(1)
     end
     const EDGES_FILE = ARGS[1]

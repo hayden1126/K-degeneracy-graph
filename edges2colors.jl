@@ -24,7 +24,7 @@ function write_colorededges(outputfile::String, wglinks::Dict{Int32, Vector{Int3
         for (prime, primelinks) in ProgressBar(templinks)
             for subnode in primelinks
                 if !haskey(wglinks, subnode)
-                    color = get_edge_rgb(degrees[indices[prime]][2], 0, maxdegree, mindegree)
+                    color = get_edge_rgb(degrees[indices[prime]][2], mindegree, maxdegree, mindegree)
                 else
                     color = get_edge_rgb(degrees[indices[prime]][2], degrees[indices[subnode]][2], maxdegree, mindegree)
                 end

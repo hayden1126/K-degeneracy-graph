@@ -11,7 +11,9 @@ DIRPATH=./visualisation/$FILEPREFIX
 
 mkdir -p $DIRPATH
 julia edges2lgl.jl $EDGESFILE $DIRPATH/$FILEPREFIX.lgl
-julia edges2labels.jl $EDGESFILE ./id_titles/titles.txt 3 $DIRPATH/$FILEPREFIX.labels
+if [ ! -f $DIRPATH/$FILEPREFIX.labels ]; then
+    julia edges2labels.jl $EDGESFILE ./id_titles/titles.txt 3 $DIRPATH/$FILEPREFIX.labels
+fi
 julia edges2colors.jl $EDGESFILE $DIRPATH/$FILEPREFIX.colors
 
 $LGLPATH/bin/lglayout2D -t 4 -L -e -l $DIRPATH/$FILEPREFIX.lgl

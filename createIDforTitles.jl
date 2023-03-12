@@ -10,11 +10,13 @@ function main()
     end
 end
 
-if length(ARGS) != 2 || !isfile(ARGS[1])
-    println("Usage: julia createIDforTitles.jl <titlesfile> <outputfile>")
-    exit(1)
-end
-const TITLESFILE = ARGS[1]
-const OUTPUTFILE = ARGS[2]
+if abspath(PROGRAM_FILE) == @__FILE__
+    if length(ARGS) != 2 || !isfile(ARGS[1])
+        println("Usage: julia createIDforTitles.jl <titlesfile> <outputfile>")
+        exit(1)
+    end
+    const TITLESFILE = ARGS[1]
+    const OUTPUTFILE = ARGS[2]
 
-main()
+    main()
+end

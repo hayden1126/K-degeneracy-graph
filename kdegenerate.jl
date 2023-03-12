@@ -95,7 +95,7 @@ end
 
 if abspath(PROGRAM_FILE) == @__FILE__
     if length(ARGS) < 2 || !isfile(ARGS[1]) || !all(isnumeric, ARGS[2])
-        println("Usage: julia mapReduce.jl <edgesfile> <K> <optional: outputfile>")
+        println("Usage: julia kdegenerate.jl <edgesfile> <K> <optional: outputfile>")
         exit(1)
     end
     const EDGESFILE = ARGS[1]

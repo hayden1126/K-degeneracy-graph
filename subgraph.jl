@@ -1,5 +1,5 @@
 include("EdgeUtils.jl")
-using ArgParse, ProgressBars, .ReadUtils, .WriteUtils, .LinksUtils
+using ProgressBars, .ReadUtils, .WriteUtils, .LinksUtils
 
 # Recursive: gets sublinks of ndoes and updates sublinks, limitation: doesn't work for noOutbound links
 function get_sublinks!(sublinks::Dict{Int32, Vector{Int32}}, wglinks::Dict{Int32, Vector{Int32}}, nodes::Vector{Int32}, level::Int64)
@@ -45,44 +45,24 @@ function main()
         sublinks = Dict{Int32, Vector{Int32}}()
         println("Fetching sublinks...")
         @time get_sublinks!(sublinks, wglinks, Int32[ROOTNODE], LEVELS)
-        
-        # Write out new edges file
+        println("No. of nodes: $(length(sublinks))")
         @time write_edges(OUTPUT_FILE, sublinks)
 end
 
-function parse_commandline()
-    s = ArgParseSettings()
-    @add_arg_table s begin
-        "--levels"
-            help = "level of the edges around rootnode"
-            default = '3'
-        "edgesfile"
-            help = "the edgesfile to fetch links from"
-            required = true
-        "rootnode"
-            help = "the id of the rootnode"
-            required = true
-        "outputfile"
-            help = "the file to write the output to"
-            required = true
-    end
-
-    return parse_args(s)
-end
-
 if abspath(PROGRAM_FILE) == @__FILE__
-    FILEARGS = parse_commandline()
-    if !isfile(FILEARGS["edgesfile"])
+    if length(ARGS) != 4
+        println("Usage: julia subgraph.jl <edgesfile> <rootnode> <levels> <outputfile>")
+        exit(1)
+    elseif !isfile(FILEARGS["edgesfile"])
         println("Error: Edgesfile \'$(FILEARGS["edgesfile"])\' not found.")
         exit(1)
     elseif !all(isnumeric, FILEARGS["rootnode"])
         println("Error: Rootnode \'$(FILEARGS["rootnode"])\' should be an integer.")
         exit(1)
     end
-    const EDGES_FILE = FILEARGS["edgesfile"]
-    const ROOTNODE = parse(Int32, FILEARGS["rootnode"])
-    const OUTPUT_FILE = FILEARGS["outputfile"]
-    const LEVELS = parse(Int64, FILEARGS["levels"])
-
+    const EDGES_FILE = ARGS[1]
+    const ROOTNODE = parse(Int32, ARGS[2])
+    const LEVELS = parse(Int64, ARGS[3])
+    const OUTPUT_FILE = ARGS[4]
     main()
 end

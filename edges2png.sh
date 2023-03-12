@@ -17,4 +17,5 @@ julia edges2colors.jl $EDGESFILE $DIRPATH/$FILEPREFIX.colors
 $LGLPATH/bin/lglayout2D -t 4 -L -e -l $DIRPATH/$FILEPREFIX.lgl
 mv ./lgl.out* $DIRPATH/
 java -Djava.awt.headless=false -Xmx8G -Xms6G -cp $LGLPATH/Java/jar/LGLLib.jar ImageMaker.GenerateImages 10000 10000 $DIRPATH/$FILEPREFIX.lgl $DIRPATH/lgl.out -c $DIRPATH/$FILEPREFIX.colors -l $DIRPATH/$FILEPREFIX.labels -s 0.01
-# for f in $FILEPREFIX/lgl.out_10000x10000*.png; do mv "$f" "$(echo "$f" | sed s/lgl.out_10000x10000/${FILEPREFIX}_10k/)"; done
+cd $DIRPATH
+for f in lgl.out_10000x10000*.png; do mv "$f" "$(echo "$f" | sed s/lgl.out_10000x10000/$(FILEPREFIX)_10k/)"; done

@@ -26,6 +26,9 @@ function get_sublinks!(sublinks::Dict{Int32, Vector{Int32}}, wglinks::Dict{Int32
         if !haskey(sublinks, node)
             sublinks[node] = Int32[]
         end
+        if !haskey(wglinks, node)
+            continue
+        end
         union!(sublinks[node], wglinks[node])
         get_sublinks!(sublinks, wglinks, wglinks[node], level-1)
     end
@@ -83,22 +86,3 @@ if abspath(PROGRAM_FILE) == @__FILE__
 
     main()
 end
-
-
-# # BFS algorithm for nodes in a graph
-# function bfs(wglinks::Dict{Int32, Vector{Int32}}, start::Int32)::Vector{Int32}
-#     visited = Set{Int32}()
-#     queue = Vector{Int32}()
-#     push!(queue, start)
-#     while !isempty(queue)
-#         node = popfirst!(queue)
-#         if node in visited
-#             continue
-#         end
-#         push!(visited, node)
-#         for neighbor in wglinks[node]
-#             push!(queue, neighbor)
-#         end
-#     end
-#     return collect(visited)
-# end

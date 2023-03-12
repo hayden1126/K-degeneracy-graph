@@ -21,6 +21,8 @@ if [ ! -f $LGLPATH/${K}-core/${K}_core_edges.lgl ]; then
     cp ./LGLfiles/${K}_core_edges.lgl $LGLPATH/${K}-core/
 fi
 
-echo "./bin/lglayout2D -t 4 -L -e -l ${K}_core_edges.lgl"
-echo "mv lgl.out ${K}-core/"
-echo "java -Djava.awt.headless=false -Xmx8G -Xms6G -cp ./Java/jar/LGLLib.jar ImageMaker.GenerateImages 10000 10000 ./${K}-core/${K}_core_edges.lgl ./${K}-core/lgl.out -c ./${K}-core/${K}.colors -l ./${K}-core/${K}.labels -s 0.01"
+cd $LGLPATH
+./bin/lglayout2D -t 4 -L -e -l ${K}-core/${K}_core_edges.lgl
+mv lgl.out* ${K}-core/
+java -Djava.awt.headless=false -Xmx8G -Xms6G -cp ./Java/jar/LGLLib.jar ImageMaker.GenerateImages 10000 10000 ./${K}-core/${K}_core_edges.lgl ./${K}-core/lgl.out -c ./${K}-core/${K}.colors -l ./${K}-core/${K}.labels -s 0.01
+for f in ./${K}-core/lgl.out_10000x10000*.png; do mv "$f" "$(echo "$f" | sed s/lgl.out_10000x10000/${K}_core_10k/)"; done

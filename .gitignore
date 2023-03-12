@@ -5,10 +5,8 @@ LGLfiles/*
 coords/old_*
 edges/edges*
 colorlabels/*
-out*
 id_titles/50_core_titles.txt
 id_titles/titles.txt
 test*
 extra/*
-126color.txt
-myplot.pdf
+k_corenums_files/myplot.pdf

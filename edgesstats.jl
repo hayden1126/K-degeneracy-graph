@@ -5,8 +5,8 @@ function main()
     (wglinks, degrees) = get_degreeslinks(EDGESFILE)
     fwdCounts, fwdCountIDs = [degree[2] for degree in degrees], [degree[1] for degree in degrees]
 
-    logHistogram(fwdCounts, 1000, "output/outdegree.png", "Distribution of Outdegree")
-    logHistogramScaled(fwdCounts, 1000, "output/scaled_outdegree.png", "Distribution of Outdegree")
+    logHistogram(fwdCounts, 1000, "output/$OUTPUTFILE", "Distribution of Outdegrees")
+    logHistogramScaled(fwdCounts, 1000, "output/scaled_$OUTPUTFILE", "Distribution of Outdegrees")
     analyse(fwdCounts, "Outdegrees")
 
     E = sum(fwdCounts)
@@ -16,10 +16,11 @@ function main()
 end
 
 if abspath(PROGRAM_FILE) == @__FILE__
-    if length(ARGS) != 1 || !isfile(ARGS[1])
-        println("Usage: julia graphstats.jl <edgesfile>")
+    if length(ARGS) != 2 || !isfile(ARGS[1])
+        println("Usage: julia edgesstats.jl <edgesfile> <output image .png>")
         exit(1)
     end
-    EDGESFILE = ARGS[1]
+    const EDGESFILE = ARGS[1]
+    const OUTPUTFILE = ARGS[2]
     main()
 end

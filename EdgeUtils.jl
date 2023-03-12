@@ -324,11 +324,11 @@ module StatUtils
 
     function scat(
             outdegrees, indegrees, fname, ttl;
-            xlab="Outdegree", ylab="Indegree", dpi=1000, sz=0.05, ysc="log", dims=(9, 12)
+            xlab="x", ylab="y", dpi=1000, sz=0.05, dims=(9, 12)
         )
         plt = scatter(outdegrees, indegrees, s=sz, marker=".")
         plt.set_sizes(dims, dpi=dpi)
-        yscale(ysc)
+        # yscale(ysc)
         title(ttl)
         xlabel(xlab)
         ylabel(ylab)

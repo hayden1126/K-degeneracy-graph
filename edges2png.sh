@@ -1,7 +1,7 @@
 #!/bin/sh
 EDGESFILE=$1
-FILEPREFIX=${EDGESFILE%.*}
-LGLPATH=$2
+FILEPREFIX=$2
+LGLPATH=$3
 DIRPATH=./visualisation/$FILEPREFIX
 
 # if [ ! -f EDGESFILE ]; then

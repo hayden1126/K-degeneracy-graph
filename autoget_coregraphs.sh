@@ -1,4 +1,6 @@
-for K in {89..126}; do
+a=$1
+b=$2
+for K in {$a..$b}; do
     OUTFILE=k_edges/${K}_core_edges.txt
     EDGESFILE=k_edges/88_core_edges.txt
     if test -f $OUTFILE; then
@@ -6,5 +8,5 @@ for K in {89..126}; do
         echo "File $OUTFILE exists. Skipping."
         continue
     fi
-    julia mapReduce.jl $EDGESFILE $K $OUTFILE > logs/${K}_core_edges.log
+    julia kdegenerate.jl $EDGESFILE $K $OUTFILE > logs/${K}_core_edges.log
 done

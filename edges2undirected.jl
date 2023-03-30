@@ -41,7 +41,7 @@ function get_undirected(wglinks::Dict{Int32, Vector{Int32}}, inboundlinks::Set{P
 end
 
 function main()
-    wglinks = get_links(EDGESFILE)
+    wglinks = read_links(EDGESFILE)
     inboundlinks = get_inboundlinks(wglinks)
     undirectedlinks = get_undirected(wglinks, inboundlinks)
     write_edges(OUTPUTFILE, undirectedlinks)

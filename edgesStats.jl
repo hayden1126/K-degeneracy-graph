@@ -2,7 +2,7 @@ include("EdgeUtils.jl")
 using ProgressBars, .ReadUtils, .LinksUtils, .StatUtils
 
 function main()
-    (wglinks, degrees) = get_degreeslinks(EDGESFILE)
+    (wglinks, degrees) = read_degreeslinks(EDGESFILE)
     fwdCounts, fwdCountIDs = [degree[2] for degree in degrees], [degree[1] for degree in degrees]
 
     logHistogram(fwdCounts, 1000, "output/$OUTPUTFILE", "Distribution of Outdegrees")

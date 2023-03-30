@@ -40,7 +40,7 @@ end
 
 function main()
     if endswith(EDGESFILE_1, ".txt")
-        wglinks1 = @time get_links(EDGESFILE_1)
+        wglinks1 = @time read_links(EDGESFILE_1)
     elseif endswith(EDGESFILE_1, ".lgl")
         wglinks1 = @time get_lgllinks(EDGESFILE_1)
     else
@@ -49,7 +49,7 @@ function main()
     end
 
     if endswith(EDGESFILE_2, ".txt")
-        wglinks2 = @time get_links(EDGESFILE_2)
+        wglinks2 = @time read_links(EDGESFILE_2)
     elseif endswith(EDGESFILE_2, ".lgl")
         wglinks2 = @time get_lgllinks(EDGESFILE_2)
     else

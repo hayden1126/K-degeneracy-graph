@@ -21,7 +21,7 @@ function write_labels(outputfile::String, titles::Dict{Int32, String}, topdegree
 end
 
 function main()
-    (wglinks, degrees) = get_degreeslinks(EDGEFILE)
+    (wglinks, degrees) = read_degreeslinks(EDGEFILE)
     titles = get_titles(TITLEFILE)
     topdegrees = get_topdegrees(degrees, TOPN)
     write_labels(OUTPUTFILE, titles, topdegrees)

@@ -113,7 +113,7 @@ end
 
 module LinksUtils
     using ProgressBars
-    export get_degrees, get_indices, get_directedlinks, remove_links!
+    export get_degrees, get_directedlinks, remove_links!
 
     # Gets dictionary of degrees of all nodes from dictionary of links
     function get_degrees(wglinks::Dict{Int32, Vector{Int32}})
@@ -124,15 +124,6 @@ module LinksUtils
         end
         println("Fetching degrees... Done!")
         return degrees
-    end
-    
-    # Gets the dictionary of indices of a node in the degrees array
-    function get_indices(degrees::Vector{Vector{Int32}})::Dict{Int32, Int32}
-        indices = Dict{Int32, Int32}()
-        for (index, node) in enumerate(degrees)
-            indices[node[1]] = index
-        end
-        return indices
     end
 
     # Gets dictionary of inbound links and set of nodes with no outbound links from dictionary of links
@@ -192,7 +183,16 @@ module LinksUtils
 end
 
 module DegreeUtils
-    export get_maxdegree, get_mindegree
+    export get_indices, get_maxdegree, get_mindegree
+
+    # Gets the dictionary of indices of a node in the degrees array
+    function get_indices(degrees::Vector{Vector{Int32}})::Dict{Int32, Int32}
+        indices = Dict{Int32, Int32}()
+        for (index, node) in enumerate(degrees)
+            indices[node[1]] = index
+        end
+        return indices
+    end
 
     # Get the max degree from degrees array
     function get_maxdegree(degrees::Vector{Vector{Int32}})::Vector{Int32}

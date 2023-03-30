@@ -20,8 +20,7 @@ function write_colorededges(outputfile::String, wglinks::Dict{Int32, Vector{Int3
     mindegree = get_mindegree(degrees)[2]
     indices = get_indices(degrees)
     open(outputfile, "w") do f
-        templinks = sort!(collect(wglinks), by=x->x[1])
-        for (prime, primelinks) in ProgressBar(templinks)
+        for (prime, primelinks) in ProgressBar(wglinks)
             for subnode in primelinks
                 if !haskey(wglinks, subnode)
                     color = get_edge_rgb(degrees[indices[prime]][2], mindegree, maxdegree, mindegree)
@@ -35,7 +34,7 @@ function write_colorededges(outputfile::String, wglinks::Dict{Int32, Vector{Int3
 end
 
 function main()
-    (wglinks, degrees) = @time get_degreeslinks(EDGESFILE)
+    (wglinks, degrees) = @time read_degreeslinks(EDGESFILE)
     write_colorededges(OUTPUTFILE, wglinks, degrees)
 end
 

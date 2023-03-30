@@ -37,8 +37,8 @@ function write_labels(filename::String, path::Vector{Int32}, titles::Dict{Int32,
 end
 
 function main()
-    wglinks = @time get_links(EDGESFILE)
-    titles = @time get_titles("id_titles/50_core_titles.txt")
+    wglinks = @time read_links(EDGESFILE)
+    titles = @time read_titles("id_titles/50_core_titles.txt")
     path = @time bfs(wglinks, ROOTNODE, GOAL)
     for node in path
         println(titles[node])

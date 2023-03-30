@@ -1,5 +1,5 @@
 include("EdgeUtils.jl")
-using ProgressBars, .ReadUtils, .WriteUtils, .LinksUtils
+using ProgressBars, .ReadUtils, .WriteUtils, .LinksUtils, .DegreeUtils
 
 # Removes nodes with no outbound links
 function remove_noOutbound!(wglinks::Dict{Int32, Vector{Int32}}, noOutboundlinks::Set{Pair{Int32}}, degrees::Vector{Vector{Int32}}, noOutboundcount::Int32)

@@ -1,5 +1,5 @@
 include("EdgeUtils.jl")
-using ProgressBars, .ReadUtils, .WriteUtils, .LinksUtils, .DegreeUtils
+using ProgressBars, .ReadUtils, .DegreeUtils
 
 function get_edge_rgb(degree1::Int32, degree2::Int32, maxdegree::Int32, mindegree::Int32)::Vector{Float16}
     range = maxdegree - mindegree
@@ -18,7 +18,7 @@ function write_colorededges(outputfile::String, wglinks::Dict{Int32, Vector{Int3
     println("\nWriting colored edges...")
     maxdegree = get_maxdegree(degrees)[2]
     mindegree = get_mindegree(degrees)[2]
-    indices = get_indices(degrees)
+    indices = get_indices(degrees) #####
     open(outputfile, "w") do f
         for (prime, primelinks) in ProgressBar(wglinks)
             for subnode in primelinks

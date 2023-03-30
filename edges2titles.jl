@@ -1,7 +1,7 @@
 include("EdgeUtils.jl")
 using ProgressBars, .TitleUtils
 
-function get_primes(edgesfile::String)::Vector{Int32}
+function read_primes(edgesfile::String)::Vector{Int32}
     print("Fetching primes... [0.0%]\r")
 
     primes = Int32[]
@@ -30,8 +30,8 @@ function get_primes(edgesfile::String)::Vector{Int32}
 end
 
 function main()
-    primes = get_primes(EDGESFILE)
-    titles = get_titles(TITLESFILE)
+    primes = read_primes(EDGESFILE)
+    titles = read_titles(TITLESFILE)
     write_titles(OUTPUTFILE, primes, titles)
 end
 

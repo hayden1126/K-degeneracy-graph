@@ -23,7 +23,7 @@ function main()
     println("Min degree: $(mindegree)")
     println("Absolute difference: $(absdiff)")
 
-    titles = get_titles(TITLESFILE)
+    titles = read_titles(TITLESFILE)
     write_titles_degrees(OUTPUTFILE, sort(degrees, by=x->x[2], rev=true), titles)
 end
 

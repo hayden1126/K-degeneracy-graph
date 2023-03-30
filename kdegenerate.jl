@@ -75,7 +75,7 @@ function oneiteration!(wglinks::Dict{Int32, Vector{Int32}}, degrees::Vector{Vect
 end 
 
 function main()
-    (wglinks, degrees) = @time get_degreeslinks(EDGESFILE)
+    (wglinks, degrees) = @time read_degreeslinks(EDGESFILE)
     
     iterations = 1
     println("\n\nIteration: $iterations")
@@ -90,7 +90,7 @@ function main()
         # @time write_edges("$(@__DIR__)/tmp/$(K)_core_itr_$iterations.txt", wglinks)
     end
     println("No more nodes to remove. Finished in $iterations iteration(s).")
-    @time write_edges(OUTPUTFILE, wglinks)
+    @time write_edges(OUTPUTFILE, wglinks, sorted=false)
 end
 
 if abspath(PROGRAM_FILE) == @__FILE__

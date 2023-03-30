@@ -1,9 +1,9 @@
 module ReadUtils
     # using ProgressBars
-    export get_links, get_degreeslinks, get_lgllinks
+    export read_links, read_degreeslinks, read_lgllinks
 
-    # Gets dictionary of links
-    function get_links(edgesfile::String)::Dict{Int32, Vector{Int32}}
+    # Reads file of edges and returns dictionary of links
+    function read_links(edgesfile::String)::Dict{Int32, Vector{Int32}}
         print("\nFetching links... [0.0%]\r")
 
         wglinks = Dict{Int32, Vector{Int32}}()
@@ -39,8 +39,8 @@ module ReadUtils
         return wglinks
     end
 
-    # Gets array of degrees and dictionary of links
-    function get_degreeslinks(edgesfile::String)::Tuple{Dict{Int32, Vector{Int32}}, Vector{Vector{Int32}}}
+    # Reads file of edges and returns both array of degrees and dictionary of links
+    function read_degreeslinks(edgesfile::String)::Tuple{Dict{Int32, Vector{Int32}}, Vector{Vector{Int32}}}
         print("\nFetching links and degrees... [0.0%]\r")
 
         degrees = Vector{Vector{Int32}}()
@@ -83,8 +83,8 @@ module ReadUtils
         return (wglinks, degrees)
     end
 
-    # Gets dictionary of links from LGL file format
-    function get_lgllinks(edgesfile::String)::Dict{Int32, Vector{Int32}}
+    # Reads file of edges in LGL format and returns dictionary of links from LGL file format
+    function read_lgllinks(edgesfile::String)::Dict{Int32, Vector{Int32}}
         print("\nFetching links... [0.0%]\r")
 
         wglinks = Dict{Int32, Vector{Int32}}()
@@ -115,7 +115,7 @@ module LinksUtils
     using ProgressBars
     export get_degrees, get_indices, get_directedlinks, remove_links!
 
-    # Gets the degrees of all nodes
+    # Gets dictionary of degrees of all nodes from dictionary of links
     function get_degrees(wglinks::Dict{Int32, Vector{Int32}})
         print("\nFetching degrees... \r")
         degrees = Vector{Vector{Int32}}()
@@ -135,7 +135,7 @@ module LinksUtils
         return indices
     end
 
-    # Gets dictionary of inbound links and set of nodes with no outbound links
+    # Gets dictionary of inbound links and set of nodes with no outbound links from dictionary of links
     function get_directedlinks(wglinks::Dict{Int32, Vector{Int32}})::Tuple{Dict{Int32, Vector{Int32}}, Set{Pair{Int32}}, Int32}
         println("\nScanning for inbound links...")
         inboundlinks = Dict{Int32, Vector{Int32}}()
@@ -163,7 +163,7 @@ module LinksUtils
         return (inboundlinks, noOutboundlinks, length(noOutbound))
     end
 
-    # Removes links from the adjacency list based on the array of nodes to remove
+    # Removes links that contain nodes in the remove array from dictionary of links
     function remove_links!(wglinks::Dict{Int32, Vector{Int32}}, remove::Vector{Int32}, inboundlinks::Dict{Int32, Vector{Int32}})
         println("\nRemoving links...")
         for node in ProgressBar(remove)
@@ -193,6 +193,8 @@ end
 
 module DegreeUtils
     export get_maxdegree, get_mindegree
+
+    # Get the max degree from degrees array
     function get_maxdegree(degrees::Vector{Vector{Int32}})::Vector{Int32}
         maxdegree = Int32[0, 0]
         for node in degrees
@@ -203,6 +205,7 @@ module DegreeUtils
         return maxdegree
     end
 
+    # Get the min degree from degrees array
     function get_mindegree(degrees::Vector{Vector{Int32}})::Vector{Int32}
         mindegree = Int32[0, typemax(Int32)]
         for node in degrees
@@ -218,7 +221,7 @@ module WriteUtils
 using ProgressBars
     export write_degrees, write_edges
 
-    # Writes the degrees to a new file
+    # Writes degrees to new file
     function write_degrees(outputfile::String, degrees::Vector{Vector{Int32}})
         if all(isempty, degrees)
             println("\nWriting degrees... No nodes to write, skipping...")
@@ -232,17 +235,22 @@ using ProgressBars
         end
     end
 
-    # Writes the adjacency list to a new file
-    function write_edges(outputfile::String, wglinks::Dict{Int32, Vector{Int32}})
+    # Writes dictionary of links to new file
+    function write_edges(outputfile::String, wglinks::Dict{Int32, Vector{Int32}}; sorted::Bool=false)
         if isempty(wglinks)
             println("Writing edges... No nodes to write, skipping...")
             return
         end
         println("\nWriting edges...")
         open(outputfile, "w") do f
-            templinks = sort!(collect(wglinks), by=x->x[1])
+            if sorted
+                templinks = sort(collect(wglinks), by=x->x[1])
+            else
+                templinks = collect(wglinks)
+            end
             for (prime, primelinks) in ProgressBar(templinks)
-                for subnode in sort(primelinks)
+                if sorted sort!(primelinks) end
+                for subnode in primelinks
                     println(f, "$(prime) $(subnode)")
                 end
             end
@@ -252,9 +260,10 @@ end
 
 module TitleUtils
 using ProgressBars
-export get_titles, write_titles
+export read_titles, write_titles
 
-    function get_titles(titlesfile::String)::Dict{Int32, String}
+    # Read file of titles and return dictionary of titles
+    function read_titles(titlesfile::String)::Dict{Int32, String}
         print("Fetching titles... [0.0%]\r")
 
         titles = Dict{Int32, String}()
@@ -275,10 +284,11 @@ export get_titles, write_titles
         return titles
     end
 
-    function write_titles(outfile::String, primes::Vector{Int32}, titles::Dict{Int32, String})
+    # Write titles of all prime nodes into new file
+    function write_titles(outfile::String, primenodes::Vector{Int32}, titles::Dict{Int32, String})
         println("Writing titles to file...")
         open(outfile, "w") do f
-            for prime in ProgressBar(sort(primes))
+            for prime in ProgressBar(sort(primenodes))
                 if !haskey(titles, prime)
                     println("Missing title for prime: $prime")
                     continue
@@ -351,9 +361,9 @@ end
 
 module LglUtils
     using ProgressBars
-    export write_edges2lgl
+    export write_edges2lgl, write_lgl
 
-    # Converts and writes edges txt file format to .lgl format
+    # Converts and writes edges file format to .lgl format
     function write_edges2lgl(edgesfile::String, outputfile::String)
         print("Converting and writing edges to LGL format... [0.0%]\r")
         filelines = countlines(edgesfile)
@@ -390,12 +400,19 @@ module LglUtils
         println("Converting and writing edges to LGL format... [100%] !")    
     end
 
-    # Writes links to a new .lgl file
-    function write_lgl(outputfile::String, wglinks::Dict{Int32, Vector{Int32}})
+    # Writes links to new .lgl file
+    function write_lgl(outputfile::String, wglinks::Dict{Int32, Vector{Int32}}; sorted::Bool=false)
         println("Writing LGL file...")
         open(outputfile, "w") do f
-            for (prime, primelinks) in ProgressBar(sort!(collect(wglinks), by=x->x[1]))
+            
+            if sorted
+                templinks = sort(collect(wglinks), by=x->x[1])
+            else
+                templinks = collect(wglinks)
+            end
+            for (prime, primelinks) in ProgressBar(templinks)
                 println(f, "# $prime")
+                if sorted sort!(primelinks) end
                 for subnode in sort(primelinks)
                     println(f, subnode)
                 end

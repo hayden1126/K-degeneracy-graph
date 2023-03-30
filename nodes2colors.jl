@@ -54,7 +54,7 @@ function write_colorededges(outputfile::String, wglinks::Dict{Int32, Vector{Int3
 end
 
 function main()
-    (wglinks, degrees) = @time get_degreeslinks(EDGESFILE)
+    (wglinks, degrees) = @time read_degreeslinks(EDGESFILE)
     # write_colorednodes(OUTPUTFILE, degrees)
     write_colorededges(OUTPUTFILE, wglinks, degrees)
 end

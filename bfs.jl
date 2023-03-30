@@ -38,8 +38,8 @@ function lol(root::String, goal::String)
 end
 
 function main()
-    wglinks = @time get_links(EDGESFILE)
-    titles = @time get_titles("id_titles/50_core_titles.txt")
+    wglinks = @time read_links(EDGESFILE)
+    titles = @time read_titles("id_titles/50_core_titles.txt")
     ids = Dict{String, Int32}()
     for (id, title) in titles
         ids[title] = id

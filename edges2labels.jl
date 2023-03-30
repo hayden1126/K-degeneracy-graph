@@ -22,7 +22,7 @@ end
 
 function main()
     (wglinks, degrees) = read_degreeslinks(EDGEFILE)
-    titles = get_titles(TITLEFILE)
+    titles = read_titles(TITLEFILE)
     topdegrees = get_topdegrees(degrees, TOPN)
     write_labels(OUTPUTFILE, titles, topdegrees)
 end

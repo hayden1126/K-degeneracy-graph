@@ -1,4 +1,4 @@
-include("EdgeUtils.jl")
+include("$(@__DIR__)/scripts/EdgeUtils.jl")
 using ProgressBars, .ReadUtils, .WriteUtils, .LinksUtils, .DegreeUtils
 
 # Removes nodes with no outbound links
@@ -94,11 +94,11 @@ function main()
 end
 
 if abspath(PROGRAM_FILE) == @__FILE__
-    if length(ARGS) < 2 || !isfile(ARGS[1]) || !all(isnumeric, ARGS[2])
+    if !(length(ARGS) in [2, 3])  || !isfile(ARGS[1]) || !all(isnumeric, ARGS[2])
         println("Usage: julia kdegenerate.jl <edgesfile> <K> <optional: outputfile>")
         exit(1)
     end
-    const EDGESFILE = ARGS[1]
+    const EDGESFILE = abspath(ARGS[1])
     const K = parse(Int32, ARGS[2])
     if length(ARGS) == 3
         const OUTPUTFILE = ARGS[3]

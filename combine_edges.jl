@@ -1,4 +1,4 @@
-# include("EdgeUtils.jl")
+# include("$(@__DIR__)/scripts/EdgeUtils.jl")
 include("shortestpath.jl")
 # using .ReadUtils, .WriteUtils, .TitleUtils
 

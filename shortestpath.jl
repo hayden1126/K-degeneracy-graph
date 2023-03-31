@@ -1,4 +1,4 @@
-include("EdgeUtils.jl")
+include("$(@__DIR__)/scripts/EdgeUtils.jl")
 using .ReadUtils, .WriteUtils, .LinksUtils, .TitleUtils
 
 # Gets shortest path from one node to another using modified BFS algorithm

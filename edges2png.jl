@@ -1,4 +1,4 @@
-include("EdgeUtils.jl")
+include("$(@__DIR__)/scripts/EdgeUtils.jl")
 using ProgressBars, .LglUtils, .ReadUtils, .TitleUtils, .DegreeUtils
 
 function write_labels(outputfile::String, titlefile::String, degrees::Vector{Vector{Int32}})
@@ -82,10 +82,10 @@ if abspath(PROGRAM_FILE) == @__FILE__
         println("Usage: julia edges2png.jl <edgesfile> <fileprefix> <LGLpath> <titlesfile>")
         exit(1)
     end
-    EDGESFILE = ARGS[1]
+    EDGESFILE = abspath(ARGS[1])
     FILEPREFIX = ARGS[2]
     LGLPATH = abspath(ARGS[3])
-    TITLEFILE = ARGS[4]
+    TITLEFILE = abspath(ARGS[4])
     DIRPATH = "$(@__DIR__)/visualisation/$FILEPREFIX"
     NUMBEROFLABELS = 3
     THREADS = 4

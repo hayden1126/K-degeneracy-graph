@@ -15,8 +15,8 @@ if abspath(PROGRAM_FILE) == @__FILE__
         println("Usage: julia createIDforTitles.jl <titlesfile> <outputfile>")
         exit(1)
     end
-    const TITLESFILE = ARGS[1]
-    const OUTPUTFILE = ARGS[2]
+    const TITLESFILE = abspath(ARGS[1])
+    const OUTPUTFILE = abspath(ARGS[2])
 
     main()
 end

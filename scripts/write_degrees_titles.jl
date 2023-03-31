@@ -32,8 +32,8 @@ if abspath(PROGRAM_FILE) == @__FILE__
         println("Usage: julia write_degrees.jl <edgesfile> <outputfile>")
         exit(1)
     end
-    const EDGESFILE = ARGS[1]
-    const TITLESFILE = ARGS[2]
-    const OUTPUTFILE = ARGS[3]
+    const EDGESFILE = abspath(ARGS[1])
+    const TITLESFILE = abspath(ARGS[2])
+    const OUTPUTFILE = abspath(ARGS[3])
     main()
 end

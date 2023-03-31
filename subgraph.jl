@@ -1,4 +1,4 @@
-include("EdgeUtils.jl")
+include("$(@__DIR__)/scripts/EdgeUtils.jl")
 using ProgressBars, .ReadUtils, .WriteUtils, .LinksUtils
 
 # Recursive: gets sublinks of ndoes and updates sublinks, limitation: doesn't work for noOutbound links

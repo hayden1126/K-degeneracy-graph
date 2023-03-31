@@ -3,7 +3,7 @@ function get_core_numbers(lower::Int32, upper::Int32)::Dict{Int32, Int32}
     println("Getting core numbers...")
     cores = Dict{Int32, Int32}()
     for k in lower:upper
-        logfile = "./logs/$(k)_core_edges.log"
+        logfile = "$LOGDIRPATH/$(k)_core_edges.log"
         corenum = undef
         
         # Find line in file
@@ -39,6 +39,7 @@ if abspath(PROGRAM_FILE) == @__FILE__
     end
     const LOWERBOUND = parse(Int32, ARGS[1])
     const UPPERBOUND = parse(Int32, ARGS[2])
-    const OUTPUTFILE = ARGS[3]
+    const OUTPUTFILE = abspath(ARGS[3])
+    const LOGDIRPATH = "$(dirname(@__DIR__))/logs"
     main()
 end

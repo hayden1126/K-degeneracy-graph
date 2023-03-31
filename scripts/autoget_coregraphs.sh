@@ -8,5 +8,5 @@ for K in {$a..$b}; do
         echo "File $OUTFILE exists. Skipping."
         continue
     fi
-    julia kdegenerate.jl $EDGESFILE $K $OUTFILE > logs/${K}_core_edges.log
+    julia ../kdegenerate.jl $EDGESFILE $K $OUTFILE > ../logs/${K}_core_edges.log
 done

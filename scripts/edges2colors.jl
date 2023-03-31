@@ -18,7 +18,7 @@ function write_colorededges(outputfile::String, wglinks::Dict{Int32, Vector{Int3
     println("\nWriting colored edges...")
     maxdegree = get_maxdegree(degrees)[2]
     mindegree = get_mindegree(degrees)[2]
-    indices = get_indices(degrees) #####
+    indices = get_indices(degrees)
     open(outputfile, "w") do f
         for (prime, primelinks) in ProgressBar(wglinks)
             for subnode in primelinks
@@ -43,7 +43,7 @@ if abspath(PROGRAM_FILE) == @__FILE__
         println("Usage: julia edges2colors.jl <edgesfile> <outputfile>")
         exit(1)
     end
-    EDGESFILE = ARGS[1]
-    OUTPUTFILE = ARGS[2]
+    EDGESFILE = abspath(ARGS[1])
+    OUTPUTFILE = abspath(ARGS[2])
     main()
 end

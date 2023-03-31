@@ -1,6 +1,6 @@
 module ReadUtils
     # using ProgressBars
-    export read_links, read_degreeslinks, read_lgllinks
+    export read_links, read_degrees, read_degreeslinks, read_lgllinks
 
     # Reads file of edges and returns dictionary of links
     function read_links(edgesfile::String)::Dict{Int32, Vector{Int32}}
@@ -37,6 +37,46 @@ module ReadUtils
         # Process the last prime node
         println("Fetching links... [100%] !")    
         return wglinks
+    end
+
+    # Reads file of edges and returns array of node-degree pairs
+    function read_degrees(edgesfile::String)::Vector{Vector{Int32}}
+        print("\nFetching degrees... [0.0%]\r")
+
+        degrees = Vector{Vector{Int32}}()
+        filelines = countlines(edgesfile)
+
+        prime = parse(Int32, split(readline(edgesfile))[1])
+        degree::Int32 = 0
+
+        # For each line in edges file
+        for (index, line) = enumerate(eachline(edgesfile))
+
+            pair = split(line)
+            tmpprime = parse(Int32, pair[1])
+
+            # If it is the same prime node, add 1 to degree
+            if tmpprime == prime
+                degree += 1
+            # If it is a new prime node, update the degree of the old prime node, then update temp variables to new prime node
+            else
+                push!(degrees, [prime, degree])
+
+                # Update to new prime node
+                degree = 1
+                prime = tmpprime
+            end
+
+            # Print progress
+            if index % 1000000 == 0
+                print("Fetching degrees... [$(round(index/filelines*100, digits=1))%]\r")
+            end
+        end
+
+        # Process the last prime node
+        push!(degrees, [prime, degree])
+        println("Fetching degrees... [100%] !")    
+        return degrees
     end
 
     # Reads file of edges and returns both array of degrees and dictionary of links

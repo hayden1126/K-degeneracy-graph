@@ -10,7 +10,7 @@ if abspath(PROGRAM_FILE) == @__FILE__
         println("Usage: julia edges2lgl.jl <edgesfile> <outputfile>")
         exit(1)
     end
-    const EDGESFILE = ARGS[1]
-    const OUTPUTFILE = ARGS[2]
+    const EDGESFILE = abspath(ARGS[1])
+    const OUTPUTFILE = abspath(ARGS[2])
     main()
 end

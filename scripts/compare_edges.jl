@@ -69,7 +69,7 @@ if abspath(PROGRAM_FILE) == @__FILE__
         println("Usage: julia compareEdges.jl <edgesfile 1> <edgesfile 2>")
         exit(1)
     end
-    const EDGESFILE_1 = ARGS[1]
-    const EDGESFILE_2 = ARGS[2]
+    const EDGESFILE_1 = abspath(ARGS[1])
+    const EDGESFILE_2 = abspath(ARGS[2])
     main()
 end

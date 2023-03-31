@@ -52,7 +52,7 @@ if abspath(PROGRAM_FILE) == @__FILE__
         println("Usage: julia edges2undirected.jl <edgesfile> <outputfile>")
         exit()
     end
-    const EDGESFILE = ARGS[1]
-    const OUTPUTFILE = ARGS[2]
+    const EDGESFILE = abspath(ARGS[1])
+    const OUTPUTFILE = abspath(ARGS[2])
     main()
 end

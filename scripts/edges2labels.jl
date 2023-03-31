@@ -32,9 +32,9 @@ if abspath(PROGRAM_FILE) == @__FILE__
         println("Usage: julia edges2labels.jl <edgefile> <titlefile> <topn> <outputfile>")
         exit(1)
     end
-    const EDGEFILE = ARGS[1]
-    const TITLEFILE = ARGS[2]
+    const EDGEFILE = abspath(ARGS[1])
+    const TITLEFILE = abspath(ARGS[2])
     const TOPN = parse(Int32, ARGS[3])
-    const OUTPUTFILE = ARGS[4]
+    const OUTPUTFILE = abspath(ARGS[4])
     main()
 end

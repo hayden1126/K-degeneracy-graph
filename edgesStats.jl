@@ -18,8 +18,6 @@ end
 
 if abspath(PROGRAM_FILE) == @__FILE__
     if length(ARGS) != 2 || !isfile(ARGS[1])
-        println(ARGS[1])
-        println(isfile(ARGS[1]))
         println("Usage: julia edgesStats.jl <edgesfile> <imageprefix.png>")
         exit(1)
     end

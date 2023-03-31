@@ -1,8 +1,8 @@
-
-function get_core_numbers(smallcore::Int32, largecore::Int32)::Dict{Int32, Int32}
+# Fetch core numbers from all the log files and returns dictionary of core numbers 
+function get_core_numbers(lower::Int32, upper::Int32)::Dict{Int32, Int32}
     println("Getting core numbers...")
     cores = Dict{Int32, Int32}()
-    for k in smallcore:largecore
+    for k in lower:upper
         logfile = "./logs/$(k)_core_edges.log"
         corenum = undef
         
@@ -28,13 +28,17 @@ function write_core_numbers(outputfile::String, cores::Dict{Int32, Int32})
 end
 
 function main()
-    cores = @time get_core_numbers(SMALLCORE, LARGECORE)
+    cores = @time get_core_numbers(LOWERBOUND, UPPERBOUND)
     @time write_core_numbers(OUTPUTFILE, cores)
 end
 
 if abspath(PROGRAM_FILE) == @__FILE__
-    const SMALLCORE = parse(Int32, ARGS[1])
-    const LARGECORE = parse(Int32, ARGS[2])
+    if len(ARGS) != 3
+        println("Usage: julia get_core_stats.jl <K lowerbound> <K upperbound> <outputfile>")
+        exit(1)
+    end
+    const LOWERBOUND = parse(Int32, ARGS[1])
+    const UPPERBOUND = parse(Int32, ARGS[2])
     const OUTPUTFILE = ARGS[3]
     main()
 end

@@ -14,6 +14,7 @@ function read_kcorenums(filename::String)
     return kcores, degrees
 end
 
+# Reads kcorenums file and plots graph of Relationship between K-core number and number of nodes
 function main()
     kcores, degrees = read_kcorenums(EDGESFILE)
     scat(kcores, degrees, "output/k_corenums.png", "Relationship between K-core number and number of nodes"; xlab="K-core", ylab="Degree")

@@ -1,11 +1,19 @@
+# Local files
+test*
+tmp/*
+logs/*
+stats/*
+visualisation/*
+
+# Files too big
+edges/edges*
 k_edges/*
 !k_edges/126_core_edges.txt
 !k_edges/100_core_edges.txt
-edges/edges*
-colorlabels/*
+
 id_titles/50_core_titles.txt
 id_titles/titles.txt
-test*
-extra/*
-logs/*
+
+# Extra files
 k_corenums_files/myplot.pdf
+extra/*

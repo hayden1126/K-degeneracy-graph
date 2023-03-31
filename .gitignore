@@ -5,7 +5,7 @@ logs/*
 stats/*
 visualisation/*
 
-# Files too big
+# Large files
 edges/edges*
 k_edges/*
 !k_edges/126_core_edges.txt
@@ -15,5 +15,4 @@ id_titles/50_core_titles.txt
 id_titles/titles.txt
 
 # Extra files
-k_corenums_files/myplot.pdf
 extra/*

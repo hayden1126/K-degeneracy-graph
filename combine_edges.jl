@@ -1,8 +1,8 @@
 # include("EdgeUtils.jl")
-include("bfs.jl")
+include("shortestpath.jl")
 # using .ReadUtils, .WriteUtils, .TitleUtils
 
-# Get level 1 subgraph of each node in the path from bfs and combine them into a single graph
+# Get all nodes 1 distance away from each node in the path and combine them into a single graph
 function combine_edges(path::Vector{Int32}, wglinks::Dict{Int32, Vector{Int32}}, titles::Dict{Int32, String})
     nodes = Set(path)
     for node in path
@@ -39,7 +39,7 @@ end
 function main()
     wglinks = @time read_links(EDGESFILE)
     titles = @time read_titles("id_titles/50_core_titles.txt")
-    path = @time bfs(wglinks, ROOTNODE, GOAL)
+    path = @time get_shortestpath(wglinks, ROOTNODE, GOAL)
     for node in path
         println(titles[node])
     end
@@ -53,9 +53,9 @@ if abspath(PROGRAM_FILE) == @__FILE__
         println("Usage: julia combine_edges.jl <edgesfile> <startnode> <goal> <outputfile>")
         exit(1)
     end
-    const EDGESFILE = ARGS[1]
+    const EDGESFILE = abspath(ARGS[1])
     const ROOTNODE = parse(Int32, ARGS[2])
     const GOAL = parse(Int32, ARGS[3])
-    const OUTPUTFILE = ARGS[4]
+    const OUTPUTFILE = abspath(ARGS[4])
     main()
 end

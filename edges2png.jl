@@ -74,7 +74,7 @@ function main()
 
     println("Generating images:")
     run(`java -Djava.awt.headless=false -Xmx8G -Xms1G -cp $LGLPATH/Java/jar/LGLLib.jar ImageMaker.GenerateImages 6200 6200 $DIRPATH/$FILEPREFIX.lgl $DIRPATH/lgl.out -c $DIRPATH/$FILEPREFIX.colors -l $DIRPATH/$FILEPREFIX.labels -s 0.01`) 
-
+    # ^ edit parameters as needed
 end
 
 if abspath(PROGRAM_FILE) == @__FILE__

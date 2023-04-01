@@ -35,7 +35,7 @@ end
 
 function main()
     wglinks = @time read_links(EDGESFILE)
-    titles = @time read_titles("id_titles/50_core_titles.txt")
+    titles = @time read_titles(TITLEFILE)
     ids = Dict{String, Int32}()
     for (id, title) in titles
         ids[title] = id
@@ -67,6 +67,16 @@ function main()
             end
         end
     else
+        root = ARGS[3]
+        goal = ARGS[4]
+        while !haskey(ids, root)
+            print("-Invalid root node: $root- \nInput start node: ")
+            root = readline()
+        end
+        while !haskey(ids, goal)
+            print("-Invalid goal node: $goal- \nInput goal: ")
+            goal = readline()
+        end
         path = @time get_shortestpath(wglinks, ids[root], ids[goal])
         for node in path 
             println(titles[node]) 
@@ -75,16 +85,15 @@ function main()
 end
 
 if abspath(PROGRAM_FILE) == @__FILE__
-    if length(ARGS) == 3
+    if length(ARGS) == 4 && isfile(ARGS[1]) && isfile(ARGS[2])
         const INTERACTIVE = false
-        const ROOTNODE = ARGS[2]
-        const GOAL = ARGS[3]
-    elseif length(ARGS) == 1 || isfile(ARGS[1])
+    elseif length(ARGS) == 2 && isfile(ARGS[1]) && isfile(ARGS[2]) 
         const INTERACTIVE = true
     else
-        println("Usage: julia shortestpath.jl <edgesfile> <optional: startnode endnode>")
+        println("Usage: julia shortestpath.jl <edgesfile> <titlefile> <optional: startnode endnode>")
         exit(1)
     end
     const EDGESFILE = ARGS[1]
+    const TITLEFILE = ARGS[2]
     main()
 end

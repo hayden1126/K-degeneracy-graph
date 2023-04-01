@@ -1,10 +1,9 @@
 include("$(@__DIR__)/scripts/EdgeUtils.jl")
-using ProgressBars, .ReadUtils, .WriteUtils, .LinksUtils
+using ProgressBars, .ReadUtils, .WriteUtils
 
-# Recursive: gets sublinks of ndoes and updates sublinks, limitation: doesn't work for noOutbound links
+# Recursive: gets sublinks of nodes and updates sublinks, limitation: doesn't work for noOutbound links
 function get_sublinks!(sublinks::Dict{Int32, Vector{Int32}}, wglinks::Dict{Int32, Vector{Int32}}, nodes::Vector{Int32}, level::Int64)
     if level == 0
-        # for nodes in last level, if their links is in sublinks, add to sublinks, think here, separate function?
         for node in nodes
 
             if !haskey(sublinks, node)
@@ -34,9 +33,9 @@ function get_sublinks!(sublinks::Dict{Int32, Vector{Int32}}, wglinks::Dict{Int32
     end
 end
 
+# Gets edges file of subgraph of all nodes with distance <= LEVELS from ROOTNODE
 function main()
-        # Read in edges file
-        (wglinks, degrees) = @time get_degreeslinks(EDGES_FILE)
+        wglinks = @time get_links(EDGES_FILE)
         # Inbound links are ignored so no function is needed to get them
         if !haskey(wglinks, ROOTNODE)
             println("Error: Root node not found in edges file.")

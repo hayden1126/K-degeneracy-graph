@@ -35,7 +35,7 @@ end
 
 # Gets edges file of subgraph of all nodes with distance <= LEVELS from ROOTNODE
 function main()
-        wglinks = @time get_links(EDGES_FILE)
+        wglinks = @time read_links(EDGES_FILE)
         # Inbound links are ignored so no function is needed to get them
         if !haskey(wglinks, ROOTNODE)
             println("Error: Root node not found in edges file.")

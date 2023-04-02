@@ -3,14 +3,9 @@ test*
 tmp/*
 logs/*
 stats/*
+edges/*
 titles/*
 visualisation/*
-
-# Large files
-edges/edges*
-k_edges/*
-!k_edges/126_core_edges.txt
-!k_edges/100_core_edges.txt
 
 # Extra files
 extra/*

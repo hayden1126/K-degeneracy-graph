@@ -12,8 +12,5 @@ k_edges/*
 !k_edges/126_core_edges.txt
 !k_edges/100_core_edges.txt
 
-titles/50_core_titles.txt
-titles/titles.txt
-
 # Extra files
 extra/*

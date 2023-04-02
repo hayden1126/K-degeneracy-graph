@@ -1,21 +1,0 @@
-
-Fetching links and degrees... [0.0%]Fetching links and degrees... [3.7%]Fetching links and degrees... [7.3%]Fetching links and degrees... [11.0%]Fetching links and degrees... [14.6%]Fetching links and degrees... [18.3%]Fetching links and degrees... [21.9%]Fetching links and degrees... [25.6%]Fetching links and degrees... [29.3%]Fetching links and degrees... [32.9%]Fetching links and degrees... [36.6%]Fetching links and degrees... [40.2%]Fetching links and degrees... [43.9%]Fetching links and degrees... [47.5%]Fetching links and degrees... [51.2%]Fetching links and degrees... [54.9%]Fetching links and degrees... [58.5%]Fetching links and degrees... [62.2%]Fetching links and degrees... [65.8%]Fetching links and degrees... [69.5%]Fetching links and degrees... [73.1%]Fetching links and degrees... [76.8%]Fetching links and degrees... [80.5%]Fetching links and degrees... [84.1%]Fetching links and degrees... [87.8%]Fetching links and degrees... [91.4%]Fetching links and degrees... [95.1%]Fetching links and degrees... [98.7%]Fetching links and degrees... [100%] !
- 19.764744 seconds (83.41 M allocations: 8.207 GiB, 9.79% gc time)
-
-
-Iteration: 1
-
-Scanning for inbound links...
- 31.360697 seconds (58.79 M allocations: 1.566 GiB, 1.54% gc time, 0.62% compilation time)
-
-No nodes with no outbound links to remove.
-
-Degenerating graph...
-  0.226272 seconds (1.10 M allocations: 30.494 MiB, 11.41% compilation time)
-
-No. of Nodes in 50-core graph: 267566
-No more nodes to remove. Finished in 1 iteration(s).
-
-Writing edges...
- 19.771095 seconds (249.84 M allocations: 10.345 GiB, 6.87% gc time, 0.67% compilation time)
- 72.855503 seconds (398.15 M allocations: 20.393 GiB, 5.28% gc time, 2.85% compilation time)
